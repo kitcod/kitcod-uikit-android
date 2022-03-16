@@ -1,0 +1,32 @@
+package com.kitcod.android.fragments;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.databinding.DataBindingUtil;
+
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+import com.kitcod.android.KitCodUIKit;
+import com.kitcod.android.R;
+import com.kitcod.android.consts.StringSet;
+import com.kitcod.android.databinding.PostTypeBottomDialogBinding;
+
+import org.jetbrains.annotations.NotNull;
+
+public class KitCodDialogFragment extends BottomSheetDialogFragment {
+
+    PostTypeBottomDialogBinding binding;
+
+
+    @Nullable
+    @org.jetbrains.annotations.Nullable
+    @Override
+    public View onCreateView(@NonNull @NotNull LayoutInflater inflater, @Nullable @org.jetbrains.annotations.Nullable ViewGroup container, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
+        binding = DataBindingUtil.inflate(inflater, R.layout.post_type_bottom_dialog, container, false);
+        return binding.getRoot();
+    }
+}

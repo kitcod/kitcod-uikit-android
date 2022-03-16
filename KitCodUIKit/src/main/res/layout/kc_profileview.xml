@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="23dp"
+            android:src="#FF23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/KitcodDarkMed20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Mehdi Sunasara"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_profile" />
+
+        <com.kitcod.android.widgets.ButtonContainedView
+            android:id="@+id/btnFollow"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="@dimen/kitcod_padding_m1"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/kitcod_create_community"
+            android:textSize="@dimen/kitcod_text_size_body"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_label_city"
+            style="@style/KitcodLightReg14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="City"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnFollow" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            style="@style/KitcodDarkNormal16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Singapore"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_city"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_city" />
+
+        <TextView
+            android:id="@+id/tv_email_label"
+            style="@style/KitcodLightReg14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Email"
+            app:layout_constraintStart_toStartOf="@+id/tv_label_city"
+            app:layout_constraintTop_toBottomOf="@+id/tv_city" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            style="@style/KitcodDarkNormal16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="mehdi@kitcod.com"
+            app:layout_constraintStart_toStartOf="@+id/tv_email_label"
+            app:layout_constraintTop_toBottomOf="@+id/tv_email_label" />
+
+        <TextView
+            android:id="@+id/tv_about_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="About"
+            app:layout_constraintStart_toStartOf="@+id/tv_email"
+            app:layout_constraintTop_toBottomOf="@+id/tv_email" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            style="@style/KitcodDarkNormal16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Hey there!"
+            app:layout_constraintStart_toStartOf="@+id/tv_about_label"
+            app:layout_constraintTop_toBottomOf="@+id/tv_about_label" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

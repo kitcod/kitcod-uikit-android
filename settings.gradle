@@ -1,0 +1,3 @@
+rootProject.name = "KitCodUIKitSample"
+include ':app'
+include ':KitCodUIKit'

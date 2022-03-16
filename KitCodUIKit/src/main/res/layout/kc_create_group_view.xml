@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:tag="layout/amity_fragment_create_community_0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            tools:context=".ui.view.AmityCommunityCreatorActivity">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/ccAvatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <RelativeLayout
+                    android:id="@+id/icCamera"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:background="@drawable/kitcod_bg_avatar_overlay"
+                    app:layout_constraintStart_toStartOf="@id/ccAvatar"
+                    app:layout_constraintTop_toTopOf="@id/ccAvatar">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/kitcod_forty"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/kitcod_bg_transparent_button"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="@dimen/kitcod_padding_s">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/kitcod_ic_avatar_upload_camera" />
+
+                        <TextView
+                            style="@style/KitcodTextStyleBodyBold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/kitcod_padding_xs"
+                            android:text="@string/kitcod_upload_image"
+                            android:textColor="@color/kitcodColorBaseInverse" />
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvCommName"
+                style="@style/KitcodTextStyleTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/kitcod_padding_m1"
+                android:layout_marginTop="17dp"
+                android:text="@string/kitcod_community_name"
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lAvatar" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ccName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/KitcodEnterCommunityStyle"
+                android:layout_marginHorizontal="@dimen/kitcod_padding_m1"
+                android:layout_marginTop="@dimen/kitcod_padding_xs"
+                android:background="@android:color/transparent"
+                android:hint="@string/kitcod_cc_hint"
+                android:maxLength="30"
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCommName" />
+
+            <TextView
+                style="@style/KitcodTextStyleCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintEnd_toEndOf="@id/ccName"
+                app:layout_constraintTop_toTopOf="@id/tvCommName" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="@dimen/kitcod_padding_m1"
+                android:layout_marginTop="@dimen/kitcod_padding_s"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ccName" />
+
+            <TextView
+                style="@style/KitcodTextStyleCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/kitcod_padding_xxs"
+                android:text="@string/kitcod_error_name"
+                android:textColor="@color/kitcodColorAlert"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/divider2"
+                app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+            <TextView
+                android:id="@+id/tv_about"
+                style="@style/KitcodTextStyleTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/kitcod_thirty_eight"
+                android:text="@string/kitcod_about"
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintStart_toStartOf="@id/ccName"
+                app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+            <TextView
+                android:id="@+id/tv_count"
+                style="@style/KitcodTextStyleCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintEnd_toEndOf="@id/ccName"
+                app:layout_constraintTop_toTopOf="@id/tv_about" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDescription"
+                style="@style/KitcodEnterCommunityStyle"
+                android:layout_marginTop="@dimen/kitcod_padding_xs"
+                android:background="@android:color/transparent"
+                android:hint="@string/kitcod_enter_description"
+                android:maxLength="180"
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintEnd_toEndOf="@id/ccName"
+                app:layout_constraintStart_toStartOf="@id/ccName"
+                app:layout_constraintTop_toBottomOf="@id/tv_about" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/kitcod_padding_s"
+                app:layout_constraintEnd_toEndOf="@id/divider2"
+                app:layout_constraintStart_toStartOf="@id/divider2"
+                app:layout_constraintTop_toBottomOf="@id/etDescription" />
+
+
+
+            <TextView
+                android:id="@+id/tvAdmin"
+                style="@style/KitcodTextStyleTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/kitcod_padding_m1"
+                android:text="@string/kitcod_only_admin"
+                app:layout_constraintStart_toStartOf="@id/divider3"
+                app:layout_constraintTop_toBottomOf="@id/divider3" />
+
+            <TextView
+                android:id="@+id/tv_admin_description"
+                style="@style/KitcodPublicDescriptionTextStyle"
+                android:text="@string/kitcod_admin_description"
+                app:layout_constraintStart_toStartOf="@id/tvAdmin"
+                app:layout_constraintTop_toBottomOf="@id/tvAdmin" />
+
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="0dp"
+
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/kitcod_padding_m1"
+                app:layout_constraintEnd_toEndOf="@id/divider2"
+                app:layout_constraintStart_toStartOf="@id/divider2"
+                app:layout_constraintTop_toBottomOf="@id/tv_admin_description" />
+
+            <ImageView
+                android:id="@+id/iv_globe"
+
+                android:layout_width="@dimen/kitcod_forty"
+                android:layout_height="@dimen/kitcod_forty"
+                android:layout_marginStart="@dimen/kitcod_padding_m1"
+                android:layout_marginTop="@dimen/kitcod_padding_m1"
+                android:padding="@dimen/kitcod_ten"
+                android:src="@drawable/kitcod_ic_globe"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider5" />
+
+            <TextView
+                android:id="@+id/tv_public"
+                style="@style/KitcodTextStyleTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/kitcod_padding_m1"
+                android:text="@string/kitcod_tv_public"
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintStart_toEndOf="@id/iv_globe"
+                app:layout_constraintTop_toTopOf="@id/iv_globe" />
+
+            <TextView
+                android:id="@+id/tv_public_description"
+                style="@style/KitcodPublicDescriptionTextStyle"
+                android:text="@string/kitcod_public_description"
+                app:layout_constraintEnd_toStartOf="@id/rb_public"
+                app:layout_constraintStart_toStartOf="@id/tv_public"
+                app:layout_constraintTop_toBottomOf="@id/tv_public" />
+
+            <com.kitcod.android.widgets.RadioButtonView
+                android:id="@id/rb_public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_public_description"
+                app:layout_constraintTop_toTopOf="@id/tv_public" />
+
+            <View
+                android:id="@+id/divider6"
+
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/kitcod_padding_m1"
+                app:layout_constraintEnd_toEndOf="@id/divider2"
+                app:layout_constraintStart_toStartOf="@id/divider2"
+                app:layout_constraintTop_toBottomOf="@id/tv_public_description" />
+
+            <ImageView
+                android:id="@+id/iv_lock"
+
+                android:layout_width="@dimen/kitcod_forty"
+                android:layout_height="@dimen/kitcod_forty"
+                android:layout_marginTop="@dimen/kitcod_fifty"
+                android:padding="@dimen/kitcod_ten"
+                android:src="@drawable/kitcod_ic_lock1"
+                app:layout_constraintStart_toStartOf="@id/ccName"
+                app:layout_constraintTop_toBottomOf="@id/iv_globe" />
+
+            <TextView
+                android:id="@+id/tv_private"
+                style="@style/KitcodTextStyleTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/kitcod_padding_m1"
+                android:text="@string/kitcod_tv_private"
+                android:textColor="@color/kitcodColorBase"
+                app:layout_constraintStart_toEndOf="@id/iv_lock"
+                app:layout_constraintTop_toTopOf="@id/iv_lock" />
+
+            <TextView
+                android:id="@+id/tv_private_description"
+                style="@style/KitcodPublicDescriptionTextStyle"
+                android:text="@string/kitcod_private_description"
+                app:layout_constraintEnd_toStartOf="@id/rb_private"
+                app:layout_constraintStart_toStartOf="@id/tv_private"
+                app:layout_constraintTop_toBottomOf="@id/tv_private" />
+
+            <com.kitcod.android.widgets.RadioButtonView
+                android:id="@id/rb_private"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_private_description"
+                app:layout_constraintTop_toTopOf="@id/tv_private" />
+
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="0dp"
+
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/kitcod_padding_m1"
+                android:layout_marginBottom="@dimen/kitcod_padding_m1"
+                app:layout_constraintEnd_toEndOf="@id/divider2"
+                app:layout_constraintStart_toStartOf="@id/divider2"
+                app:layout_constraintTop_toBottomOf="@id/tv_private_description"
+                app:layout_goneMarginBottom="@dimen/kitcod_padding_m1" />
+
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="0dp"
+
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/kitcod_padding_m1"
+                android:layout_marginBottom="@dimen/kitcod_padding_xs"
+                app:layout_constraintBottom_toTopOf="@id/btnCreateCommunity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider7" />
+
+            <com.kitcod.android.widgets.ButtonContainedView
+                android:id="@+id/btnCreateCommunity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/kitcod_padding_m1"
+                android:layout_marginBottom="@dimen/kitcod_padding_xs"
+                android:gravity="center"
+                android:text="@string/kitcod_create_community"
+                android:textSize="@dimen/kitcod_text_size_body"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
+

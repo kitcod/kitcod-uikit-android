@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_private"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/kc_background_selector"
+                app:layout_constraintStart_toEndOf="@+id/cl_public"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <ImageView
+                    android:id="@+id/iv_pvt"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/kitcod_ic_lock1" />
+
+                <TextView
+                    android:id="@+id/tv_pvt"
+                    style="@style/KitcodEnterCommunityStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Private"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_pvt" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/editTextTextGroupName"
+                style="@style/KitcodEnterCommunityStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/bg_border_radius_5"
+                android:ems="10"
+                android:hint="Whats the name of your group?"
+                android:inputType="textPersonName"
+                android:padding="@dimen/kitcod_eight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/KitcodTextStyleTitleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Group Privacy"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextGroupName"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextGroupName" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_public"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/kc_background_selector"
+                app:layout_constraintStart_toStartOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <ImageView
+                    android:id="@+id/iv_pub"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/kitcod_ic_globe" />
+
+                <TextView
+                    android:id="@+id/tv_pub"
+                    style="@style/KitcodEnterCommunityStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Public"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_pub" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                style="@style/KitcodEnterCommunityStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_border_radius_5"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="About the group (optional)"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:padding="@dimen/kitcod_eight"
+                app:layout_constraintEnd_toEndOf="@+id/editTextTextGroupName"
+                app:layout_constraintStart_toStartOf="@+id/cl_public"
+                app:layout_constraintTop_toBottomOf="@+id/cl_public" />
+
+            <com.kitcod.android.widgets.ButtonContainedView
+                android:id="@+id/btnCreateCommunity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/kitcod_padding_m1"
+                android:layout_marginTop="@dimen/kitcod_twenty_four"
+                android:gravity="center"
+                android:text="@string/kitcod_create_community"
+                android:textSize="@dimen/kitcod_text_size_body"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextTextMultiLine"
+                app:layout_constraintVertical_bias="1"
+                tools:layout_editor_absoluteX="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitcod.android">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name=".activities.KcCreatePostActivity"></activity>
+        <activity android:name=".activities.KcUserProfileActivity" />
+        <activity android:name=".activities.KcCreateGroupActivity" />
+        <activity android:name=".activities.KcGroupHomeActivity" />
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

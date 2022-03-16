@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="KitcodButtonPrimary300">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/kitcodColorWhite</item>
+
+    </style>
+
+    <style name="KitcodCaption2OnLight02">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+        <item name="android:textColor">@color/light_02</item>
+    </style>
+
+    <style name="KitcodH2OnLight01">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/onlight_01</item>
+    </style>
+
+    <style name="KitcodDarkMed">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/onlight_01</item>
+    </style>
+
+    <style name="KitcodDarkReg18">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/onlight_01</item>
+    </style>
+
+
+    <style name="KitcodDarkMed20">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/onlight_01</item>
+    </style>
+
+    <style name="KitcodLightMed14">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_02</item>
+    </style>
+
+    <style name="KitcodLightReg14">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_02</item>
+    </style>
+
+    <style name="KitcodLightReg16">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_02</item>
+    </style>
+
+    <style name="KitcodDarkMed16">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/onlight_01</item>
+    </style>
+
+
+
+    <style name="KitcodBlueNormal14">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="KitcodDarkNormal16">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/onlight_01</item>
+    </style>
+
+
+</resources>

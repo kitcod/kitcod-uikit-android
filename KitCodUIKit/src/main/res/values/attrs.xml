@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KitCodTheme">
+        <attr name="kc_appbar_style" format="reference" />
+        <attr name="kc_create_group_style" format="reference" />
+        <attr name="kc_button_contained_style" format="reference" />
+        <attr name="kc_feedview_style" format="reference" />
+        <attr name="kc_feedview_preview_style" format="reference" />
+        <attr name="kc_userprofile_style" format="reference" />
+        <attr name="kc_createpost_style" format="reference" />
+        <attr name="kc_bottomsheetdialog_style" format="reference" />
+        <attr name="kc_group_home_style" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AppBarView">
+        <attr name="kc_appbar_title" format="string" />
+        <attr name="kc_appbar_title_appearance" format="reference" />
+        <attr name="kc_appbar_button_tint" format="reference" />
+        <attr name="kc_appbar_divider_color" format="reference" />
+        <attr name="kc_appbar_left_button_text" format="string" />
+        <attr name="kc_appbar_left_button_icon" format="reference" />
+        <attr name="kc_appbar_right_button_text" format="string" />
+        <attr name="kc_appbar_right_button_icon" format="reference" />
+        <attr name="kc_appbar_left_button_text_appearance" format="reference" />
+        <attr name="kc_appbar_left_button_text_color" format="reference" />
+        <attr name="kc_appbar_left_button_tint" format="reference" />
+        <attr name="kc_appbar_left_button_background" format="reference" />
+        <attr name="kc_appbar_right_button_text_appearance" format="reference" />
+        <attr name="kc_appbar_right_button_text_color" format="reference" />
+        <attr name="kc_appbar_right_button_tint" format="reference" />
+        <attr name="kc_appbar_right_button_background" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CreateGroupView">
+        <attr name="kc_creategroup_title_header_appearance" format="reference" />
+        <attr name="kc_creategroup_title_appearance" format="reference" />
+        <attr name="kc_creategroup_background" format="reference" />
+        <attr name="kc_creategroup_button_backgroundtint_appearance" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ButtonContainedView">
+        <attr name="kc_buttoncontained_button_text_color" format="reference" />
+        <attr name="kc_buttoncontained_button_text_appearance" format="reference" />
+        <attr name="kc_buttoncontained_button_background_appearance" format="reference" />
+        <attr name="kc_buttoncontained_button_backgroundtint_appearance" format="reference" />
+        <attr name="kc_buttoncontained_radio_appearence" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RadioButtonView">
+        <attr name="kc_radio_button_style" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="FeedsView">
+        <attr name="kc_feedsview_item_background" format="reference" />
+        <attr name="kc_feedsview_name_appearance" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="FeedsPreview">
+        <attr name="kc_member_preview_name_appearance" format="reference" />
+        <attr name="kc_member_preview_groupname_appearance" format="reference" />
+        <attr name="kc_member_preview_datetime_appearence" format="reference" />
+        <attr name="kc_member_preview_content_appearence" format="reference" />
+        <attr name="kc_member_preview_like_appearence" format="reference" />
+        <attr name="kc_member_preview_comment_appearence" format="reference" />
+        <attr name="kc_member_preview_share_appearence" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CreatePostView">
+        <attr name="kc_post_view_selected_label_appearence" format="reference" />
+        <attr name="kc_post_view_selected_type_icon_tint" format="reference" />
+        <attr name="kc_post_view_selected_type_background_tint" format="reference" />
+        <attr name="kc_post_view_selected_desc_appearence" format="reference" />
+        <attr name="kc_post_view_selected_more_icon_tint" format="reference" />
+        <attr name="kc_post_view_name_appearance" format="reference" />
+        <attr name="kc_post_view_name_id_appearance" format="reference" />
+        <attr name="kc_post_view_groupname_appearance" format="reference" />
+        <attr name="kc_post_view_headline_appearance" format="reference" />
+        <attr name="kc_post_view_postcontent_appearance" format="reference" />
+        <attr name="kc_post_view_more_appearance" format="reference" />
+        <attr name="kc_post_view_more_desc_appearance" format="reference" />
+        <attr name="kc_post_view_more_icon_tint" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="UserProfileView">
+        <attr name="kc_userprofile_name_appearance" format="reference" />
+        <attr name="kc_userprofile_label_appearance" format="reference" />
+        <attr name="kc_userprofile_text_appearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PostTypeDialogView">
+        <attr name="kc_post_type_dialog_title_appearence" format="reference" />
+        <attr name="kc_post_type_dialog_icon_tint" format="reference" />
+        <attr name="kc_post_type_dialog_background_tint" format="reference" />
+        <attr name="kc_post_type_dialog_desc_appearence" format="reference" />
+        <attr name="kc_post_type_dialog_name_appearence" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MoreOptionDialogView">
+        <attr name="kc_more_option_dialog_title_appearence" format="reference" />
+        <attr name="kc_more_option_dialog_icon_tint" format="reference" />
+        <attr name="kc_more_option_dialog_background_tint" format="reference" />
+        <attr name="kc_more_option_dialog_desc_appearence" format="reference" />
+        <attr name="kc_more_option_dialog_name_appearence" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GroupHomeView">
+        <attr name="kc_group_home_title_appearence" format="reference" />
+        <attr name="kc_group_home_type_appearence" format="reference" />
+        <attr name="kc_group_home_membercount_appearence" format="reference" />
+        <attr name="kc_group_home_memberlabel_appearence" format="reference" />
+        <attr name="kc_group_home_aboutlabel_appearence" format="reference" />
+        <attr name="kc_group_home_aboutdesc_appearence" format="reference" />
+        <attr name="kc_group_home_createpostlabel_appearence" format="reference" />
+    </declare-styleable>
+
+
+</resources>

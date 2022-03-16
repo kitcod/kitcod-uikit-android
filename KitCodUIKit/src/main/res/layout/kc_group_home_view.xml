@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_createpost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_blue_stroke_20"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+                <TextView
+                    android:id="@+id/tv_create_label"
+                    style="@style/KitcodH2OnLight01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Create a Post..."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/icon_camera" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <com.kitcod.android.widgets.ButtonContainedView
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="Join"
+                app:cornerRadius="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_memberLabel" />
+
+            <TextView
+                android:id="@+id/tv_memberLabel"
+                style="@style/KitcodLightReg16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:text="Members"
+                app:layout_constraintStart_toEndOf="@+id/tv_membercount"
+                app:layout_constraintTop_toBottomOf="@+id/tv_groupname" />
+
+            <TextView
+                android:id="@+id/tv_groupname"
+                style="@style/KitcodDarkMed20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Brothers of mirzapur"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_coverImage" />
+
+            <TextView
+                android:id="@+id/tv_membercount"
+                style="@style/KitcodDarkMed16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="12k"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_memberLabel"
+                app:layout_constraintStart_toEndOf="@+id/tv_grouptype"
+                app:layout_constraintTop_toTopOf="@+id/tv_memberLabel" />
+
+            <TextView
+                android:id="@+id/tv_aboutLabel"
+                style="@style/KitcodDarkMed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="About"
+                app:layout_constraintStart_toStartOf="@+id/button3"
+                app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+            <ImageView
+                android:id="@+id/iv_coverImage"
+                android:layout_width="0dp"
+                android:layout_height="259dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@color/kitcodColorRed" />
+
+            <TextView
+                android:id="@+id/tv_grouptype"
+                style="@style/KitcodLightReg16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open Group"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_membercount"
+                app:layout_constraintStart_toStartOf="@+id/tv_groupname"
+                app:layout_constraintTop_toTopOf="@+id/tv_membercount" />
+
+            <TextView
+                android:id="@+id/tv_aboutDesc"
+                style="@style/KitcodDarkNormal16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:lineSpacingExtra="3sp"
+                android:text="This has enabled our product teams to ship new\n products faster and feel more."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_aboutLabel"
+                app:layout_constraintTop_toBottomOf="@+id/tv_aboutLabel" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="24dp"
+                android:background="#F2f3f5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_aboutDesc">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cl_createpost"
+                tools:listitem="@layout/kc_row_feeds" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

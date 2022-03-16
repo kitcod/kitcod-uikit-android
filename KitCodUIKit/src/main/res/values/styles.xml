@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="KitCod" parent="AppTheme">
+        <!-- Common components -->
+        <item name="kc_appbar_style">@style/Widget.KitCod.AppBar</item>
+        <item name="kc_create_group_style">@style/Widget.KitCod.CreateGroup</item>
+        <item name="kc_button_contained_style">@style/Widget.KitCod.Button</item>
+        <item name="kc_radio_button_style">@style/Widget.KitCod.radio</item>
+        <item name="kc_feedview_style">@style/Widget.KitCod.Feedsview</item>
+        <item name="kc_feedview_preview_style">@style/Widget.KitCod.FeedsPreview</item>
+        <item name="kc_userprofile_style">@style/Widget.KitCod.UserProfile</item>
+        <item name="kc_createpost_style">@style/Widget.KitCod.CreatePost</item>
+        <item name="kc_bottomsheetdialog_style">@style/Widget.KitCod.PostTypeDialog</item>
+        <item name="kc_group_home_style">@style/Widget.KitCod.GroupHome</item>
+    </style>
+
+    <style name="Widget.KitCod.GroupHome">
+        <item name="kc_group_home_title_appearence">@style/KitcodDarkMed20</item>
+        <item name="kc_group_home_type_appearence">@style/KitcodLightReg16</item>
+        <item name="kc_group_home_membercount_appearence">@style/KitcodDarkMed16</item>
+        <item name="kc_group_home_memberlabel_appearence">@style/KitcodLightReg16</item>
+        <item name="kc_group_home_aboutlabel_appearence">@style/KitcodDarkMed16</item>
+        <item name="kc_group_home_aboutdesc_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_group_home_createpostlabel_appearence">@style/KitcodH2OnLight01</item>
+    </style>
+
+    <style name="Widget.KitCod.PostTypeDialog">
+        <item name="kc_post_type_dialog_title_appearence">@style/KitcodDarkMed20</item>
+        <item name="kc_post_type_dialog_icon_tint">@color/kitcodColorBlack</item>
+        <item name="kc_post_type_dialog_background_tint">@color/information</item>
+        <item name="kc_post_type_dialog_desc_appearence">@style/KitcodLightReg14</item>
+        <item name="kc_post_type_dialog_name_appearence">@style/KitcodDarkMed16</item>
+    </style>
+
+    <style name="Widget.KitCod.CreatePost">
+        <item name="kc_post_view_selected_label_appearence">@style/KitcodDarkMed16</item>
+        <item name="kc_post_view_selected_desc_appearence">@style/KitcodLightReg14</item>
+        <item name="kc_post_view_selected_more_icon_tint">@color/kitcodColorBlack</item>
+        <item name="kc_post_view_name_appearance">@style/KitcodDarkMed16</item>
+        <item name="kc_post_view_name_id_appearance">@style/KitcodLightReg16</item>
+        <item name="kc_post_view_groupname_appearance">@style/KitcodBlueNormal14</item>
+        <item name="kc_post_view_headline_appearance">@style/KitcodDarkMed20</item>
+        <item name="kc_post_view_postcontent_appearance">@style/KitcodDarkReg18</item>
+        <item name="kc_post_view_more_appearance">@style/KitcodDarkMed16</item>
+        <item name="kc_post_view_more_desc_appearance">@style/KitcodLightReg14</item>
+        <item name="kc_post_view_more_icon_tint">@color/kitcodColorBlack</item>
+        <item name="kc_post_view_selected_type_background_tint">@color/information</item>
+        <item name="kc_post_view_selected_type_icon_tint">@color/kitcodColorBlack</item>
+    </style>
+
+
+    <style name="Widget.KitCod.UserProfile">
+        <item name="kc_userprofile_name_appearance">@style/KitcodDarkMed20</item>
+        <item name="kc_userprofile_label_appearance">@style/KitcodLightReg14</item>
+        <item name="kc_userprofile_text_appearance">@style/KitcodDarkNormal16</item>
+    </style>
+
+    <style name="Widget.KitCod.FeedsPreview">
+        <item name="kc_member_preview_name_appearance">@style/KitcodDarkMed16</item>
+        <item name="kc_member_preview_groupname_appearance">@style/KitcodBlueNormal14</item>
+        <item name="kc_member_preview_datetime_appearence">@style/KitcodCaption2OnLight02</item>
+        <item name="kc_member_preview_content_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_member_preview_like_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_member_preview_comment_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_member_preview_share_appearence">@style/KitcodDarkNormal16</item>
+    </style>
+
+    <style name="Widget.KitCod.Feedsview">
+        <item name="kc_feedsview_item_background">@drawable/bg_blue_stroke_20</item>
+        <item name="kc_feedsview_name_appearance">@style/KitcodH2OnLight01</item>
+    </style>
+
+    <style name="Widget.KitCod.Button">
+        <item name="kc_buttoncontained_button_text_appearance">@style/KitcodButtonPrimary300</item>
+        <item name="kc_buttoncontained_button_background_appearance">
+            @drawable/kc_button_contained_primary300
+        </item>
+        <item name="kc_buttoncontained_button_backgroundtint_appearance">@color/primary_300</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_300</item>
+        <item name="colorPrimaryDark">@color/primary_500</item>
+        <item name="colorAccent">@color/secondary_300</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_dialog</item>
+    </style>
+
+    <style name="Widget.KitCod" parent="android:Widget" />
+
+    <style name="Widget.KitCod.CreateGroup">
+        <item name="kc_creategroup_title_header_appearance">@style/KitcodTextStyleTitleBold</item>
+        <item name="kc_creategroup_title_appearance">@style/KitcodH2OnLight01</item>
+        <item name="kc_creategroup_button_backgroundtint_appearance">@color/error_500</item>
+        <item name="kc_creategroup_background">@drawable/kc_background_selector</item>
+    </style>
+
+    <style name="KitcodTextStyleBodyBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/kitcod_text_size_body</item>
+    </style>
+
+    <style name="Widget.KitCod.AppBar">
+        <item name="android:background">@color/kitcodColorWhite</item>
+        <item name="kc_appbar_title_appearance">@style/KitcodH2OnLight01</item>
+        <item name="kc_appbar_button_tint">@color/onlight_01</item>
+        <item name="kc_appbar_left_button_text_appearance">@style/KitcodButtonPrimary300</item>
+        <item name="kc_appbar_left_button_text_color">
+            @color/kc_button_uncontained_text_color_light
+        </item>
+        <item name="kc_appbar_left_button_tint">@color/primary_300</item>
+        <item name="kc_appbar_left_button_background">
+            @drawable/kc_button_uncontained_background_light
+        </item>
+        <item name="kc_appbar_right_button_text_appearance">@style/KitcodButtonPrimary300</item>
+        <item name="kc_appbar_right_button_text_color">
+            @color/kc_button_uncontained_text_color_light
+        </item>
+        <item name="kc_appbar_right_button_tint">@color/primary_300</item>
+        <item name="kc_appbar_right_button_background">
+            @drawable/kc_button_uncontained_background_light
+        </item>
+    </style>
+
+    <style name="KitcodTextStyleTitleBold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/kitcod_text_size_title</item>
+        <item name="android:textColor">@color/kitcodColorBlack</item>
+    </style>
+
+    <style name="KitcodTextStyleCaption">
+        <item name="android:textSize">@dimen/kitcod_text_size_caption</item>
+    </style>
+
+    <style name="KitcodEnterCommunityStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/kitcod_text_size_title</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="KitcodPublicDescriptionTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/kitcod_text_size_body</item>
+        <item name="android:textColor">@color/kitcodColorBase</item>
+    </style>
+
+    <style name="KitcodSwitchButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/kitcod_thirty_eight</item>
+    </style>
+
+    <style name="KitcodRadioButtonStyle" parent="Widget.KitCod.radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">22dp</item>
+    </style>
+
+    <style name="Widget.KitCod.radio" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@drawable/radio_btn_bg_selector</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.CompoundButton.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="enforceMaterialTheme">true</item>
+        <item name="useMaterialThemeColors">true</item>
+        <item name="android:minWidth">10dp</item>
+        <item name="android:minHeight">10dp</item>
+    </style>
+
+    <style name="KitcodMaterialButtonStyle" parent="android:Widget.Button">
+        <item name="android:background">@color/primary_300</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/kitcodColorWhite</item>
+    </style>
+
+
+</resources>

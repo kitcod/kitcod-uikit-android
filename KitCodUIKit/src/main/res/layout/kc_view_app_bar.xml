@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="layout/sb_view_app_bar_0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/kitcod_fifty_six"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/kitcod_sixteen"
+            android:paddingRight="@dimen/kitcod_sixteen">
+
+
+            <LinearLayout
+                android:id="@+id/titlePanel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/flRightPanel"
+                app:layout_constraintStart_toEndOf="@id/flLeftPanel"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvAppBarTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/kitcodColorBlack"/>
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/flLeftPanel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/kitcod_twenty"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/titlePanel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibtnLeft"
+                    android:layout_width="@dimen/kitcod_forty"
+                    android:layout_height="@dimen/kitcod_forty"
+                    android:layout_gravity="center"
+                    android:background="#0000ffff"
+                    android:padding="@dimen/kitcod_eight"
+                    android:scaleType="centerCrop" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btnLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/kitcod_forty"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:paddingLeft="@dimen/kitcod_four"
+                    android:paddingRight="@dimen/kitcod_four" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flRightPanel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/titlePanel"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/ibtnRight"
+                    android:layout_width="@dimen/kitcod_forty"
+                    android:layout_height="@dimen/kitcod_forty"
+                    android:layout_gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/btnRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/kitcod_forty"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/kitcod_four"
+                    android:paddingRight="@dimen/kitcod_four" />
+
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/elevationView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/kitcod_one"
+            android:background="@color/kitcodColorGrey"/>
+
+    </LinearLayout>
+</layout>
+

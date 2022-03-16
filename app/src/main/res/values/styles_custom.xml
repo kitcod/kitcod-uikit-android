@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeCustom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_300</item>
+        <item name="colorPrimaryDark">@color/primary_500</item>
+        <item name="colorAccent">@color/secondary_300</item>
+    </style>
+
+    <style name="KitCod.Custom" parent="AppThemeCustom">
+        <item name="kc_appbar_style">@style/Widget.KitCod.AppBar.Custom</item>
+        <item name="kc_button_contained_style">@style/Widget.KitCod.Button.Custom</item>
+        <item name="kc_radio_button_style">@style/Widget.KitCod.radio.Custom</item>
+        <item name="kc_feedview_style">@style/Widget.KitCod.Feedsview.Custom</item>
+        <item name="kc_bottomsheetdialog_style">@style/Widget.KitCod.PostTypeDialog.Custom</item>
+    </style>
+
+    <style name="Widget.KitCod.PostTypeDialog.Custom">
+        <item name="kc_post_type_dialog_icon_tint">@color/colorPrimary</item>
+        <!--<item name="kc_feedsview_item_background">@drawable/bg_blue_stroke_20</item>
+        <item name="kc_feedsview_name_appearance">@style/KitcodH2OnLight01</item>-->
+    </style>
+
+
+    <style name="Widget.KitCod.Feedsview.Custom">
+        <!--<item name="kc_feedsview_item_background">@drawable/bg_blue_stroke_20</item>
+        <item name="kc_feedsview_name_appearance">@style/KitcodH2OnLight01</item>-->
+    </style>
+
+    <style name="Widget.KitCod.radio.Custom" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@drawable/radio_btn_bg</item>
+    </style>
+
+
+    <style name="Widget.KitCod.Button.Custom">
+        <item name="kc_buttoncontained_button_text_appearance">@style/KitcodButtonPrimary300</item>
+        <item name="kc_buttoncontained_button_background_appearance">
+            @drawable/kc_button_contained_primary300
+        </item>
+        <item name="kc_buttoncontained_button_backgroundtint_appearance">@color/colorPrimary</item>
+
+    </style>
+
+
+    <style name="Widget.KitCod.AppBar.Custom">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="kc_appbar_title_appearance">@style/KitcodH2OnLight01</item>
+        <item name="kc_appbar_button_tint">@color/kitcodColorPrimary</item>
+        <item name="kc_appbar_divider_color">@color/kitcodColorGrey</item>
+        <item name="kc_appbar_left_button_text_color">
+            @color/kc_button_uncontained_text_color_light
+        </item>
+        <item name="kc_appbar_left_button_tint">@color/kitcodColorWhite</item>
+        <item name="kc_appbar_left_button_background">
+            @drawable/kc_button_uncontained_background_light
+        </item>
+        <item name="kc_appbar_right_button_text_color">
+            @color/kc_button_uncontained_text_color_light
+        </item>
+        <item name="kc_appbar_right_button_tint">@color/primary_300</item>
+        <item name="kc_appbar_right_button_background">
+            @drawable/kc_button_uncontained_background_light
+        </item>
+    </style>
+
+
+    <!--
+        <style name="Widget.KitCod.CreateGroup.Custom">
+            <item name="kc_creategroup_title_header_appearance">@style/KitcodTextStyleTitleBold</item>
+            <item name="kc_creategroup_title_appearance">@style/KitcodH2OnLight01</item>
+            <item name="kc_creategroup_button_text_appearance">@style/KitcodButtonPrimary300</item>
+            <item name="kc_creategroup_button_backgroundtint_appearance">@color/colorPrimary</item>
+        </style>
+    -->
+
+
+</resources>
