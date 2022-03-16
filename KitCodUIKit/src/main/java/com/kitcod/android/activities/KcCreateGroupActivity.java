@@ -12,6 +12,7 @@ import com.kitcod.android.R;
 import com.kitcod.android.fragments.CreateGroupFragment;
 
 public class KcCreateGroupActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
