@@ -14,7 +14,7 @@ If You comply with this agreement, You have the rights below.
 
 (4) EXPORT RESTRICTIONS. THE SDK IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE SDK.
 
-(5) FEEDBACK. By submitting feedback to Kitcod, either via email at support@kitcod.com or by any other means: You automatically grant to Kitcod a perpetual, irrevocable, transferable, royalty-free license to use Your feedback for any and all purposes without any compensation to You.
+(5) FEEDBACK. By submitting feedback to Kitcod, either via email at developer@kitcod.com or by any other means: You automatically grant to Kitcod a perpetual, irrevocable, transferable, royalty-free license to use Your feedback for any and all purposes without any compensation to You.
 
 (6) TERMINATION. Kitcod reserves the right to discontinue offering the SDK or Services or to modify the SDK or Services at any time in its sole discretion. This Section and Sections 3, 4, 5, 8, 9, 10, 11, and 12 will survive termination of this agreement or any discontinuation of the offering of the SDK or Services along with any other provisions that would reasonably be deemed to survive such events.
 
@@ -24,7 +24,7 @@ If You comply with this agreement, You have the rights below.
 
 (9) ENTIRE AGREEMENT. This agreement, and any applicable TOS or contract for Services, are the entire agreement with respect to the SDK or Services.
 
-(10) APPLICABLE LAW AND VENUE. California state law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles. The laws of the state where You live govern all other claims, including claims under state consumer protection laws, unfair competition laws, and in tort. You agree that any action brought under this agreement will be subject to exclusive jurisdiction and venue in the state and federal courts located in San Francisco, California.
+(10) APPLICABLE LAW AND VENUE. Singapore law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles. You agree that any action brought under this agreement will be subject to exclusive jurisdiction and venue in the courts located in Singapore.
 
 (11) DISCLAIMER OF WARRANTY. The SDK is licensed "as-is." You bear the risk of using it. Kitcod gives no express or implied warranties, guarantees or conditions. You may have additional consumer rights under Your local laws which this agreement cannot change. To the extent permitted under Your local laws, Kitcod excludes the implied warranties of merchantability, fitness for a particular purpose and non-infringement. Kitcod does not represent or warrant that the SDK or the Services will always be available, uninterrupted, secure, or error free.
 
