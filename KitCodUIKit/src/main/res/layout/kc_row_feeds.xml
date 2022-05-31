@@ -7,181 +7,445 @@
 
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:background="@color/kitcodColorWhite"
+        android:orientation="vertical">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/iv_profile"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:src="#FF23"
+        <com.kitcod.android.widgets.AppBarView
+            android:id="@+id/chvChannelHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:kc_appbar_left_button_icon="@drawable/icon_arrow_left"
+            app:kc_appbar_right_button_text="@string/kitcod_cc_hint"
+            app:kc_appbar_title="@string/kitcod_create_community"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tv_name"
-            style="@style/KitcodDarkMed16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:text="Mehdi"
-            app:layout_constraintStart_toEndOf="@+id/iv_profile"
-            app:layout_constraintTop_toTopOf="@+id/iv_profile" />
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tv_group"
-            style="@style/KitcodBlueNormal14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="#Brothers of Kanodar"
-            app:layout_constraintStart_toStartOf="@+id/tv_name"
-            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
-
-        <TextView
-            android:id="@+id/tv_time"
-            style="@style/KitcodCaption2OnLight02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="2m ago"
-            app:layout_constraintStart_toStartOf="@+id/tv_group"
-            app:layout_constraintTop_toBottomOf="@+id/tv_group" />
-
-        <TextView
-            android:id="@+id/tv_content"
-            style="@style/KitcodDarkNormal16"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="@string/feed_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/tv_time"
-            app:layout_constraintTop_toBottomOf="@+id/tv_time" />
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:elevation="@dimen/kitcod_ten"
-            app:cardCornerRadius="@dimen/kitcod_twenty_four"
-            android:layout_marginTop="@dimen/kitcod_eight"
-            app:layout_constraintEnd_toEndOf="@+id/tv_content"
-            app:layout_constraintStart_toStartOf="@+id/tv_content"
-            app:layout_constraintTop_toBottomOf="@+id/tv_content">
-
-            <ImageView
-                android:id="@+id/imageView3"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cv_layout"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:scaleType="fitXY"
-                tools:layout_editor_absoluteX="-152dp"
-                tools:layout_editor_absoluteY="-71dp"
-                tools:srcCompat="@drawable/feed_img" />
-        </androidx.cardview.widget.CardView>
+                android:layout_height="wrap_content">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/cl_like"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="@+id/cardView"
-            app:layout_constraintTop_toBottomOf="@+id/cardView"
-            app:layout_constraintWidth_percent="0.2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@color/primary_300"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/ic_like_icon" />
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/KitcodDarkMed16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Mehdi"
+                    app:layout_constraintStart_toEndOf="@+id/iv_profile"
+                    app:layout_constraintTop_toTopOf="@+id/iv_profile" />
 
-            <TextView
-                android:id="@+id/tv_like"
-                style="@style/KitcodDarkNormal16"
-                android:layout_width="0dp"
-                android:layout_height="25dp"
-                android:includeFontPadding="false"
-                android:layout_marginStart="8dp"
-                android:layout_marginBottom="8dp"
-                android:text="12"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView4"
-                app:layout_constraintTop_toTopOf="@+id/imageView4" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/tv_group"
+                    style="@style/KitcodBlueNormal14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#Brothers of Kanodar"
+                    app:layout_constraintStart_toStartOf="@+id/tv_name"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_name" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/cl_comment"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@+id/cl_like"
-            app:layout_constraintTop_toBottomOf="@+id/cardView"
-            app:layout_constraintWidth_percent="0.2">
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/KitcodCaption2OnLight02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="2m ago"
+                    app:layout_constraintStart_toStartOf="@+id/tv_group"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_group" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/ic_comment_icon" />
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/KitcodDarkMed16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Title1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/iv_profile"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_time" />
 
-            <TextView
-                android:id="@+id/tv_comment"
-                style="@style/KitcodDarkNormal16"
-                android:layout_width="0dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginBottom="8dp"
-                android:includeFontPadding="false"
-                android:text="12"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView5"
-                app:layout_constraintTop_toTopOf="@+id/imageView5" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/tv_content"
+                    style="@style/KitcodDarkNormal16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/feed_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/iv_profile"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/cl_share"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@+id/cl_comment"
-            app:layout_constraintTop_toBottomOf="@+id/cardView"
-            app:layout_constraintWidth_percent="0.2">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/kitcod_eight"
+                    android:elevation="@dimen/kitcod_ten"
+                    app:cardCornerRadius="@dimen/kitcod_twenty_four"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_content"
+                    app:layout_constraintStart_toStartOf="@+id/tv_content"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_content">
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/ic_share_icon" />
+                    <ImageView
+                        android:id="@+id/post_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true" />
+                </androidx.cardview.widget.CardView>
 
-            <TextView
-                android:id="@+id/tv_share"
-                style="@style/KitcodDarkNormal16"
-                android:layout_width="0dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="8dp"
-                android:includeFontPadding="false"
-                android:layout_marginBottom="8dp"
-                android:text="12"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView6"
-                app:layout_constraintTop_toTopOf="@+id/imageView6" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <RelativeLayout
+                    android:id="@+id/layout_doc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:background="@drawable/doc_bg"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_16sdp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView"
+                    app:layout_constraintStart_toStartOf="@+id/cardView"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                    <ImageView
+                        android:id="@+id/iv_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pdf_icon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:layout_toRightOf="@id/iv_img"
+                        android:orientation="vertical">
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                        <LinearLayout
+                            android:id="@+id/name_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_name_doc"
+                                style="@style/KitcodDarkMed16"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_weight="0.8"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="How to sele" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_size_doc"
+                            style="@style/KitcodLightReg14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/audio_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:elevation="@dimen/_2sdp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="@+id/layout_doc"
+                    app:layout_constraintStart_toStartOf="@+id/layout_doc"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_doc"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_16sdp"
+                        android:visibility="visible">
+
+                        <ProgressBar
+                            android:id="@+id/progress_audio"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:progressDrawable="@drawable/progress_bar_audio" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_audio_start"
+                                style="@style/KitcodCaption2OnLight02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_8sdp"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="0.00" />
+
+
+                            <TextView
+                                android:id="@+id/tv_audio_timer"
+                                style="@style/KitcodCaption2OnLight02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/_8sdp"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="0.00" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+
+                            <ImageView
+                                android:id="@+id/btnPlay"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/play_audio_btn" />
+
+                            <TextView
+                                android:id="@+id/tv_move_back"
+                                style="@style/KitcodLightReg14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/_16sdp"
+                                android:layout_toLeftOf="@id/btnPlay"
+                                android:background="@drawable/backward_icon"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:text="15" />
+
+                            <TextView
+                                android:id="@+id/tv_move_forward"
+                                style="@style/KitcodLightReg14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="@dimen/_16sdp"
+                                android:layout_toRightOf="@id/btnPlay"
+                                android:background="@drawable/forward_icon"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:text="15"
+                                android:textSize="12dp" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_polls"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="@+id/audio_layout"
+                    app:layout_constraintStart_toStartOf="@+id/audio_layout"
+                    app:layout_constraintTop_toBottomOf="@+id/audio_layout">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_poll_options"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_pollleft"
+                            android:layout_width="0dp"
+                            android:layout_height="21dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.8"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/_16sdp" />
+
+                        <TextView
+                            android:id="@+id/tv_total_votes"
+                            android:layout_width="0dp"
+                            android:layout_height="21dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.2"
+                            android:gravity="center_vertical|end"
+                            android:paddingRight="@dimen/_16sdp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_like"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@+id/tv_content"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_polls"
+                    app:layout_constraintWidth_percent="0.2">
+
+                    <ImageView
+                        android:id="@+id/iv_like"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_like_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_like"
+                        style="@style/KitcodDarkNormal16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:layout_marginBottom="8dp"
+                        android:includeFontPadding="false"
+                        android:text="12"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/iv_like"
+                        app:layout_constraintTop_toTopOf="@+id/iv_like" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cl_like"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_polls"
+                    app:layout_constraintWidth_percent="0.2">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_comment_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_comment"
+                        style="@style/KitcodDarkNormal16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:layout_marginBottom="8dp"
+                        android:includeFontPadding="false"
+                        android:text="12"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView5"
+                        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_share"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/cl_comment"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_polls"
+                    app:layout_constraintWidth_percent="0.2">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_share_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_share"
+                        style="@style/KitcodDarkNormal16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:layout_marginBottom="8dp"
+                        android:includeFontPadding="false"
+                        android:text="12"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView6"
+                        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/kitcodColorGrey"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cl_share" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cl_comment"
+                    tools:listitem="@layout/kc_row_comment" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
 </layout>

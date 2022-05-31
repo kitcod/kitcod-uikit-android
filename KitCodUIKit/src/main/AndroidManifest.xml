@@ -3,15 +3,24 @@
     package="com.kitcod.android">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application>
         <activity android:name=".activities.KcCreatePostActivity"></activity>
         <activity android:name=".activities.KcUserProfileActivity" />
+        <activity android:name=".activities.KcSinglePostActivity" />
         <activity android:name=".activities.KcCreateGroupActivity" />
         <activity android:name=".activities.KcGroupHomeActivity" />
         <activity
             android:name="com.canhub.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
+
+        <service android:name=".services.BackgroundNotificationService" />
+        <service android:name=".player.RadioService" />
     </application>
 
 </manifest>

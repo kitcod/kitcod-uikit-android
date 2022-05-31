@@ -1,36 +1,82 @@
 package com.kitcod.android.fragments;
 
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.kitcod.android.KitCodUIKit;
 import com.kitcod.android.R;
+import com.kitcod.android.activities.KcCreateGroupActivity;
+import com.kitcod.android.activities.KcCreatePostActivity;
+import com.kitcod.android.activities.KcGroupHomeActivity;
+import com.kitcod.android.activities.KcSinglePostActivity;
+import com.kitcod.android.activities.KcUserProfileActivity;
+import com.kitcod.android.adapters.FeedsViewAdapter;
+import com.kitcod.android.adapters.GroupListFeedAdapter;
 import com.kitcod.android.consts.StringSet;
 import com.kitcod.android.databinding.FeedsViewFragmentBinding;
+import com.kitcod.android.interfaces.OnItemClickListener;
+import com.kitcod.android.model.ExoplayerModel;
+import com.kitcod.android.model.FeedsView;
+import com.kitcod.android.model.KcGroup;
+import com.kitcod.android.model.KcGroupsBulk;
+import com.kitcod.android.model.Post;
+import com.kitcod.android.player.PlaybackStatus;
+import com.kitcod.android.player.RadioManager;
+import com.kitcod.android.services.BackgroundNotificationService;
+import com.kitcod.android.utils.Util;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 import org.jetbrains.annotations.NotNull;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FeedsViewFragment extends BaseFragment {
 
     private FeedsViewViewModel mViewModel;
     private FeedsViewFragmentBinding binding;
     private String headerTitle = null;
+    FeedsViewAdapter adapter;
+    GroupListFeedAdapter adapter1;
+    private static final int PERMISSION_REQUEST_CODE = 1;
+    ArrayList<KcGroup> groupArrayList = new ArrayList<>();
 
     public static FeedsViewFragment newInstance() {
         return new FeedsViewFragment();
     }
 
+    RadioManager radioManager;
     private View.OnClickListener headerLeftButtonListener;
     private View.OnClickListener headerRightButtonListener;
+    private OnItemClickListener createGroupListener;
+    ArrayList<Post> postArrayList = new ArrayList<>();
+    ArrayList<Post> newPostArrayList = new ArrayList<>();
+    private OnItemClickListener<Post> itemClickListener;
+    private OnItemClickListener<String> userClickListener;
+    private OnItemClickListener<KcGroup> feedGroupClickListener;
+    private OnItemClickListener createPostListener;
+    ArrayList<KcGroupsBulk> groupsBulksList;
+    private OnItemClickListener<KcGroup> groupOnItemClickListener;
 
     @Override
     public void onCreate(@Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
@@ -56,6 +102,222 @@ public class FeedsViewFragment extends BaseFragment {
     public void onViewCreated(@NonNull @NotNull View view, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         initHeaderOnCreated();
+        init();
+        setAdapter();
+        setData();
+    }
+
+    private void init() {
+        radioManager = RadioManager.with(getActivity());
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        radioManager.bind();
+    }
+
+    @Override
+    public void onStop() {
+        EventBus.getDefault().unregister(this);
+        super.onStop();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+    private void setData() {
+        FeedsView feedsView = new Gson().fromJson(loadJSONFromAsset(), FeedsView.class);
+        if (feedsView.embedded.postList != null && feedsView.embedded.postList.size() > 0) {
+            postArrayList.addAll(feedsView.embedded.postList);
+
+        }
+
+        groupsBulksList = new Gson().fromJson(Util.loadJSONFromAsset("communitybulkresponse.json", getActivity()), new TypeToken<List<KcGroupsBulk>>() {
+        }.getType());
+        for (int i = 0; i < postArrayList.size(); i++) {
+            for (int j = 0; j < groupsBulksList.size(); j++) {
+                if (postArrayList.get(i).communityId.equalsIgnoreCase(groupsBulksList.get(j).id)) {
+                    postArrayList.get(i).group = groupsBulksList.get(j).body;
+                }
+            }
+        }
+        adapter.notifyDataSetChanged();
+
+        FeedsView feedsView1 = new Gson().fromJson(Util.loadJSONFromAsset("travelgroups.json", getActivity()), FeedsView.class);
+        if (feedsView1.embedded.groupList != null && feedsView1.embedded.groupList.size() > 0) {
+            groupArrayList.addAll(feedsView1.embedded.groupList);
+            KcGroup kcGroup = new KcGroup();
+            kcGroup.name = "Create new group";
+            groupArrayList.add(0, kcGroup);
+            adapter1.notifyDataSetChanged();
+        }
+    }
+
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getActivity().getAssets().open("TravelBlog.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
+
+    int position;
+
+    private void setAdapter() {
+        if (groupOnItemClickListener == null) {
+            groupOnItemClickListener = (view, position, post) -> {
+                Intent intent = new Intent(getActivity(), KcGroupHomeActivity.class);
+                intent.putExtra(Util.GROUP, new Gson().toJson(post));
+                startActivity(intent);
+            };
+        }
+
+        if (itemClickListener == null) {
+            itemClickListener = (view, position, post) -> {
+                Intent intent = new Intent(getActivity(), KcSinglePostActivity.class);
+                intent.putExtra(Util.POST, new Gson().toJson(post));
+                startActivity(intent);
+            };
+        }
+
+        if (feedGroupClickListener == null) {
+            feedGroupClickListener = (view, position, group) -> {
+                Intent intent = new Intent(getActivity(), KcGroupHomeActivity.class);
+                intent.putExtra(Util.GROUP, new Gson().toJson(group));
+                startActivity(intent);
+            };
+        }
+
+        if (userClickListener == null) {
+            userClickListener = (view, position, group) -> {
+                Intent intent = new Intent(getActivity(), KcUserProfileActivity.class);
+                intent.putExtra(Util.USERID, group);
+                startActivity(intent);
+            };
+
+        }
+
+        if (createGroupListener == null) {
+            createGroupListener = (view, position, post) -> {
+                Intent intent = new Intent(getActivity(), KcCreateGroupActivity.class);
+                startActivity(intent);
+            };
+
+        }
+
+        adapter1 = new GroupListFeedAdapter(getActivity(), groupArrayList);
+        adapter1.setOnItemClickListener(groupOnItemClickListener);
+        adapter1.setOnCreateGroupListener(createGroupListener);
+//        binding.feedsView.getGroupsView().setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
+        binding.feedsView.getGroupsView().setAdapter(adapter1);
+
+        adapter = new FeedsViewAdapter(getActivity(), postArrayList, new FeedsViewAdapter.FeedListener() {
+            @Override
+            public void onDocClick(String url) {
+                if (checkPermission()) {
+                    Intent intent = new Intent(getActivity(), BackgroundNotificationService.class);
+                    intent.putExtra("TEST", url);
+                    getActivity().startService(intent);
+                } else {
+                    requestPermission();
+                }
+
+            }
+
+            @Override
+            public void onAudPlayClick(int mposition) {
+                position = mposition;
+                radioManager.playOrPause(postArrayList.get(mposition).media.auds.get(0).mediaUrl);
+
+            }
+
+            @Override
+            public void onLayoutListener(Post post) {
+
+
+               /* GroupPostFragment fragment = new GroupPostFragment();
+                fragment.setArguments(bundle);
+                new Handler().post(new Runnable() {
+                    public void run() {
+                        getActivity().getSupportFragmentManager().beginTransaction().add(R.id.sb_fragment_container, fragment).commit();
+                    }
+                });*/
+            }
+        });
+        adapter.setOnUserClickListener(userClickListener);
+        adapter.setOnItemClickListener(itemClickListener);
+        adapter.setOnFeedGroupClickListener(feedGroupClickListener);
+        binding.feedsView.getFeedsView().setAdapter(adapter);
+    }
+
+    @Subscribe
+    public void onEvent(ExoplayerModel exoplayerModel) {
+        if (exoplayerModel.getExoPlayer().getDuration() > 0) {
+            postArrayList.get(position).setExoplayerModel(exoplayerModel);
+            adapter.notifyItemChanged(position);
+        }
+        switch (exoplayerModel.status) {
+
+            case PlaybackStatus.LOADING:
+
+                // loading
+
+                break;
+
+            case PlaybackStatus.ERROR:
+
+//                Toast.makeText(this, R.string.no_stream, Toast.LENGTH_SHORT).show();
+
+                break;
+            case PlaybackStatus.PLAYING:
+                ArrayList<Post> newPostArrayList = new ArrayList<>();
+                for (int i = 0; i < postArrayList.size(); i++) {
+                    newPostArrayList.add(postArrayList.get(i).clone());
+                }
+
+                newPostArrayList.get(position).isPlaying = true;
+                Toast.makeText(getActivity(), "PLAYING", Toast.LENGTH_SHORT).show();
+                adapter.setData(newPostArrayList);
+                break;
+            case PlaybackStatus.PAUSED:
+                ArrayList<Post> newPostArrayList1 = new ArrayList<>();
+                for (int i = 0; i < postArrayList.size(); i++) {
+                    newPostArrayList1.add(postArrayList.get(i).clone());
+                }
+
+                newPostArrayList1.get(position).isPlaying = false;
+//                newPostArrayList.get(position).media.auds.get(0).isPlaying = false;
+//                Toast.makeText(getActivity(), "PAUSED", Toast.LENGTH_SHORT).show();
+                adapter.setData(newPostArrayList1);
+                break;
+            case PlaybackStatus.STOPPED:
+                Toast.makeText(getActivity(), "STOPPED", Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
+
+
+    private void requestPermission() {
+        ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSION_REQUEST_CODE);
+    }
+
+
+    private boolean checkPermission() {
+        int result = ContextCompat.checkSelfPermission(getActivity(),
+                Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        return result == PackageManager.PERMISSION_GRANTED;
     }
 
     private void initHeaderOnCreated() {
@@ -71,7 +333,7 @@ public class FeedsViewFragment extends BaseFragment {
         ColorStateList headerRightButtonIconTint = null;
         if (args != null) {
             useGroupsView = args.getBoolean(StringSet.KEY_USE_GROUPS_FEEDS, true);
-            useCreatePostView = args.getBoolean(StringSet.KEY_USE_CREATEPOST_FEEDS,true);
+            useCreatePostView = args.getBoolean(StringSet.KEY_USE_CREATEPOST_FEEDS, true);
             useHeader = args.getBoolean(StringSet.KEY_USE_HEADER, false);
             useHeaderLeftButton = args.getBoolean(StringSet.KEY_USE_HEADER_LEFT_BUTTON, true);
             useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, true);
@@ -84,7 +346,18 @@ public class FeedsViewFragment extends BaseFragment {
         binding.chvChannelHeader.setVisibility(useHeader ? View.VISIBLE : View.GONE);
         binding.feedsView.getCreatePostView().setVisibility(useCreatePostView ? View.VISIBLE : View.GONE);
         binding.feedsView.getGroupsView().setVisibility(useGroupsView ? View.VISIBLE : View.GONE);
-
+        if (createPostListener == null) {
+            createPostListener = (view, position, group) -> {
+                Intent intent = new Intent(getActivity(), KcCreatePostActivity.class);
+                startActivity(intent);
+            };
+        }
+        binding.feedsView.getCreatePostView().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                createPostListener.onItemClick(view, 0, "");
+            }
+        });
         binding.chvChannelHeader.setUseLeftImageButton(useHeaderLeftButton);
         binding.chvChannelHeader.setUseRightButton(useHeaderRightButton);
         if (headerTitle != null) {
@@ -106,7 +379,14 @@ public class FeedsViewFragment extends BaseFragment {
         private FeedsViewFragment customFragment;
         private View.OnClickListener headerLeftButtonListener;
         private View.OnClickListener headerRightButtonListener;
+        private View.OnClickListener contentListener;
         private View.OnClickListener inputLeftButtonListener;
+        private OnItemClickListener<Post> itemClickListener;
+        private OnItemClickListener<KcGroup> feedGroupClickListener;
+        private OnItemClickListener<String> userClickListener;
+        OnItemClickListener<KcGroup> groupOnItemClickListener;
+        private OnItemClickListener createPostListener;
+        private OnItemClickListener createGroupListener;
 
         /**
          * Constructor
@@ -176,6 +456,7 @@ public class FeedsViewFragment extends BaseFragment {
             bundle.putBoolean(StringSet.KEY_USE_CREATEPOST_FEEDS, useHeader);
             return this;
         }
+
         /**
          * Sets whether the left button of the header is used.
          *
@@ -292,6 +573,7 @@ public class FeedsViewFragment extends BaseFragment {
             return this;
         }
 
+
         /**
          * Sets the click listener on the right button of the header.
          *
@@ -300,6 +582,37 @@ public class FeedsViewFragment extends BaseFragment {
          */
         public FeedsViewFragment.Builder setHeaderRightButtonListener(View.OnClickListener listener) {
             this.headerRightButtonListener = listener;
+            return this;
+        }
+
+        public FeedsViewFragment.Builder setCreateGroupListener(OnItemClickListener createGroupListener) {
+            this.createGroupListener = createGroupListener;
+            return this;
+        }
+
+
+        public Builder setItemClickListener(OnItemClickListener<Post> itemClickListener) {
+            this.itemClickListener = itemClickListener;
+            return this;
+        }
+
+        public Builder setUserClickListener(OnItemClickListener<String> userClickListener) {
+            this.userClickListener = userClickListener;
+            return this;
+        }
+
+        public Builder setFeedGroupClickListener(OnItemClickListener<KcGroup> feedGroupClickListener) {
+            this.feedGroupClickListener = feedGroupClickListener;
+            return this;
+        }
+
+        public Builder setGroupOnItemClickListener(OnItemClickListener<KcGroup> groupOnItemClickListener) {
+            this.groupOnItemClickListener = groupOnItemClickListener;
+            return this;
+        }
+
+        public Builder setCreatePostItemClickListener(OnItemClickListener createPostListener) {
+            this.createPostListener = createPostListener;
             return this;
         }
 
@@ -326,10 +639,44 @@ public class FeedsViewFragment extends BaseFragment {
             fragment.setArguments(bundle);
             fragment.setHeaderLeftButtonListener(headerLeftButtonListener);
             fragment.setHeaderRightButtonListener(headerRightButtonListener);
+            fragment.setItemClickListener(itemClickListener);
+            fragment.setFeedGroupClickListener(feedGroupClickListener);
+            fragment.setUserClickListener(userClickListener);
+            fragment.setGroupOnItemClickListener(groupOnItemClickListener);
+            fragment.setCreatePostItemClickListener(createPostListener);
+            fragment.setCreateGroupListener(createGroupListener);
             return fragment;
         }
 
     }
+
+    private void setCreateGroupListener(OnItemClickListener createGroupListener) {
+        this.createGroupListener = createGroupListener;
+    }
+
+    private void setCreatePostItemClickListener(OnItemClickListener createPostListener) {
+        this.createPostListener = createPostListener;
+    }
+
+
+    private void setGroupOnItemClickListener(OnItemClickListener<KcGroup> groupOnItemClickListener) {
+        this.groupOnItemClickListener = groupOnItemClickListener;
+    }
+
+
+    private void setFeedGroupClickListener(OnItemClickListener<KcGroup> feedGroupClickListener) {
+        this.feedGroupClickListener = feedGroupClickListener;
+    }
+
+
+    private void setItemClickListener(OnItemClickListener<Post> itemClickListener) {
+        this.itemClickListener = itemClickListener;
+    }
+
+    private void setUserClickListener(OnItemClickListener<String> userClickListener) {
+        this.userClickListener = userClickListener;
+    }
+
 
     private void setHeaderLeftButtonListener(View.OnClickListener listener) {
         this.headerLeftButtonListener = listener;
@@ -340,13 +687,18 @@ public class FeedsViewFragment extends BaseFragment {
     }
 
 
-/*
     @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(FeedsViewViewModel.class);
-        // TODO: Use the ViewModel
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+//                    startImageDownload();
+                } else {
+                }
+                break;
+        }
     }
-*/
+
 
 }

@@ -1,0 +1,3986 @@
+[
+  {
+    "uuid": "430fc381-8ff7-48a2-803f-d60ea8dd3047",
+    "id": "5bc447519f247b5778b024ec",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "19a6a535-5d46-4be8-8acd-25f89923068b",
+      "createdTS": "2018-10-15T07:52:49.875+0000",
+      "updatedTS": "2020-11-06T15:36:49.565+0000",
+      "createdBy": "5bc443e19f247b587e26954e",
+      "updatedBy": "5c39442f9f247b54dc21aae6",
+      "version": 8,
+      "id": "5bc447519f247b5778b024ec",
+      "accountId": 1512141,
+      "name": "Testing Team",
+      "description": "Small team with a Big Dream. This is internal Testing Team of CollabDeen, so unless you work for CollabDeen your Join Request will not be accepted.",
+      "sect": "Digital Islamic Technology",
+      "handle": "collabdeen-testing-team-2018-10",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "24c3460c-a2ca-40db-8eae-0fa9a94acb29",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.63586328125005,
+            12.91226250000002
+          ],
+          "latitude": "12.91226250000002",
+          "longitude": "77.63586328125005"
+        },
+        "address": {
+          "uuid": "49e39870-13de-4023-ba8b-d98bc2f40df1",
+          "addressLine1": "16, 2nd Floor, 9th Main Road, Opposite to Cold Stone Ice Cream, 17th Cross Road, Sector 7, HSR Layout, Bengaluru, Karnataka 560102, India",
+          "displayAddressLine": "16, 2nd Floor, 9th Main Road, Opposite to Cold Stone Ice Cream, 17th Cross Road, Sector 7, HSR Layout, Bengaluru, Karnataka 560102, India",
+          "city": "Bengaluru",
+          "country": "Singapore",
+          "zipcode": "560102",
+          "active": true
+        },
+        "gplaceId": "A",
+        "active": true
+      },
+      "webSiteUrl": "www.collabdeen.com",
+      "links": {
+        "invite": "https://api.collabdeen.com/community-api/communities/i/CollabDeen2018-10-15T07:52:49:873Z"
+      },
+      "operatingSchedule": {
+        "weeklyOperations": {
+          "startDayOfWeek": "TUESDAY",
+          "endDayOfWeek": "THURSDAY",
+          "operatingShifts": [
+            {
+              "name": "Time",
+              "opens": "04:32 PM",
+              "closes": "05:32 PM"
+            }
+          ]
+        },
+        "daywiseOperations": null
+      },
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "collabdeen@c.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+91 8089347452"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "f3c9f1a6-9989-4471-a0b6-ce40ffc71fad",
+          "description": "Information Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "contentVisibilityType": "PRIVATE",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "6c30bf66-7942-4ce2-9ae6-15ea74a40eeb",
+          "createdTS": "2020-10-07T19:11:44.015+0000",
+          "updatedTS": "2020-10-07T19:11:44.015+0000",
+          "createdBy": "5c39442f9f247b54dc21aae6",
+          "updatedBy": "5c39442f9f247b54dc21aae6",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "97d0dffe-dd4e-4522-aa70-a0ae2f58201e",
+          "id": "5dedf8b7cf53f56a6105d538",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5bc447519f247b5778b024ec",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:56295ccd-0082-40e7-9eb5-937378d0e91c/09d39e07-2c90-4414-a25c-18d2c8032ed9.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:56295ccd-0082-40e7-9eb5-937378d0e91c/09d39e07-2c90-4414-a25c-18d2c8032ed9.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "ba60b4d5-28d7-4be9-b30c-76ae657c159d",
+          "id": "5bc44772dd3fa3bb166ff4d9",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5bc447519f247b5778b024ec",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpeg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:960c9f4c-6be0-46c1-9b31-fb0a6f680f5e/083caf10-9b1d-404c-9db7-bc892d678ce2.jpeg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:960c9f4c-6be0-46c1-9b31-fb0a6f680f5e/083caf10-9b1d-404c-9db7-bc892d678ce2.jpeg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "verified": true,
+      "business": false,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "7c6c0188-a44a-4b33-9743-efefffa299ac",
+    "id": "5ca453199f247b541d611e2a",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "fe9148dc-2cc1-4e42-b6fb-d9a891f6d39a",
+      "createdTS": "2019-04-03T06:30:49.801+0000",
+      "updatedTS": "2021-02-13T19:38:43.737+0000",
+      "createdBy": "5bf39dec9f247b2e587c573b",
+      "updatedBy": "5bf39dec9f247b2e587c573b",
+      "version": 6,
+      "id": "5ca453199f247b541d611e2a",
+      "accountId": 1512140,
+      "name": "CollabDeen",
+      "description": "CollabDeen is the #1 platform to engage with your community\n\n\nFor Communities, Brands, Businesses and Influencers engaging with Muslim audience. The All-in-One AI and AR Powered Technology Platform\n\nOur Deep-tech, AI-Powered, Mobile Platform helps \n1) Faith-based communities and 2) Business communities to build their audience. We are the world’s first to marry \"Faith & Lifestyle\" on 1 SaaS platform, for 2 billion Muslims, specially the Muslim Millennials.\n\nAfter 6 years of R&D and patenting,we’ve created the smart technology platform that mimics the very complex human collaboration, to empower Muslim communities and promote people to use technology in the responsible and positive way.\n\nOn one side, Muslims Around the World Centralize, Collaborate and Connect with their favorite Mosques, and Community Centers Anywhere, Anytime - Safely & Easily!\n\nOn the other, (Businesses), Brands and Influencers will use CollabDeen to build their Community of Niche followers with our Halal specific business tools to gain deep targeted insights to make brighter business decisions.\n\nSo innovators, investors, entrepreneurs, governments, community builders. This is your chance not just to profit but to make communities safer, better and more dignified for billions all over the world. The new era of communities is here. \n\nBe part of the communities of the future.\n\nWebsite: https://collabdeen.com\nDownload: https//deen.app\n\n#collabdeen #globalization #technologyplatforms #ai #startup #artificialintelligence #hellofuture",
+      "handle": "CollabDeenBrand",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "da837ff6-8959-4072-aa6e-51a71fc12f2a",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.8500521,
+            1.2828462
+          ],
+          "latitude": "1.2828462",
+          "longitude": "103.8500521"
+        },
+        "address": {
+          "uuid": "f31f9125-618b-4114-a344-f17301e3c387",
+          "addressLine1": "30 Cecil St, Singapore 049712",
+          "displayAddressLine": "30 Cecil St, Singapore 049712",
+          "city": "Singapore",
+          "country": "Singapore",
+          "zipcode": "049712",
+          "active": true
+        },
+        "gplaceId": "ChIJTdOMnXQZ2jERPdlHMIAuJg8",
+        "active": true
+      },
+      "webSiteUrl": "https://collabdeen.com/",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "support@collabdeen.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+65-82021972"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "8ad58893-ce79-4fb5-81e4-e6dd8faeddc1",
+          "description": "Business support services",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Technology",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "48917a7e-e0d2-4b74-90b5-708459321fd9",
+          "createdTS": "2020-08-01T16:19:38.172+0000",
+          "updatedTS": "2020-08-01T16:19:38.172+0000",
+          "createdBy": "5bf39dec9f247b2e587c573b",
+          "updatedBy": "5bf39dec9f247b2e587c573b",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "d6b1192b-de1c-4abf-b76c-7138f36bdf50",
+          "id": "5ca460ef96658adb0b94e5eb",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca453199f247b541d611e2a",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8056286206521028366.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8056286206521028366.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "62034963-1688-4950-a86f-8a1c75389a2f",
+          "id": "5ca4626396658adb0b95002d",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca453199f247b541d611e2a",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/b2c3d9c1-0310-4826-8c5d-92a2d4fbab10.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/b2c3d9c1-0310-4826-8c5d-92a2d4fbab10.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "244d0c7f-d6f5-4bec-977a-e6e729296251",
+          "name": "CD Managed",
+          "slug": "pf-mg",
+          "auto": true,
+          "replicate": false,
+          "active": true
+        },
+        {
+          "uuid": "1c270405-8d21-417f-b6fc-124ad9a37b89",
+          "name": "iHalalExpo",
+          "slug": "ihe-2020",
+          "auto": true,
+          "replicate": true,
+          "active": true
+        },
+        {
+          "uuid": "cb63c135-a714-40da-a335-3aec75b0076c",
+          "name": "Halal in Asia",
+          "slug": "hia-2020",
+          "auto": false,
+          "replicate": true,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "c685f184-4a40-40f4-b926-616a51b66cbc",
+    "id": "5ca5a2fb9f247b078f26e1d0",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "ef315a88-4c67-40d9-8d7a-c6594cf6275e",
+      "createdTS": "2019-04-04T06:23:55.184+0000",
+      "updatedTS": "2019-05-23T01:09:07.562+0000",
+      "createdBy": "5bc443e19f247b587e26954e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 1,
+      "id": "5ca5a2fb9f247b078f26e1d0",
+      "accountId": 1512204,
+      "name": "Bangalore Shi'a Community",
+      "sect": "Shia",
+      "handle": "BangaloreShiaCommunity",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "f19ce948-a76e-444b-b35b-9c0280cf7331",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.605817,
+            12.9594328
+          ],
+          "latitude": "12.9594328",
+          "longitude": "77.605817"
+        },
+        "address": {
+          "uuid": "9020159c-1282-48b4-add8-c59e4875da37",
+          "addressLine1": "Hosur Rd, Richmond Town, Bengaluru, Karnataka 560025, India",
+          "displayAddressLine": "Hosur Rd, Richmond Town, Bengaluru, Karnataka 560025, India",
+          "city": "Bengaluru",
+          "country": "India",
+          "zipcode": "560025",
+          "active": true
+        },
+        "gplaceId": "ChIJ6RirA9MVrjsRWsFebNvzZXE",
+        "active": true
+      },
+      "contactPoints": [],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 10000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "ade96126-24b2-42de-a831-5a733bb19cd2",
+          "id": "5ca77c0b96658adb0bcb72bd",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca5a2fb9f247b078f26e1d0",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped2332008812634625737.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped2332008812634625737.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "6723f0da-6ca2-471e-95ae-b1fdeab60f4f",
+          "id": "5ca77a4d96658adb0bcb5474",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca5a2fb9f247b078f26e1d0",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8669681484265179853.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8669681484265179853.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "6b278a9e-2a19-4e68-a99a-caa479f4e45c",
+    "id": "5ca48a0b9f247b078f26e1cc",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "d439ff77-1350-41bf-a70e-1fd7e189e264",
+      "createdTS": "2019-04-03T10:25:15.199+0000",
+      "updatedTS": "2020-08-03T07:04:32.649+0000",
+      "createdBy": "5bc443e19f247b587e26954e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 2,
+      "id": "5ca48a0b9f247b078f26e1cc",
+      "accountId": 1512202,
+      "name": "Halal Deli",
+      "description": "Halal Deli",
+      "handle": "HalaDeli",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "1e1e67b2-7b59-48e6-acfb-da4a2367494d",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.79302299999999,
+            1.4043485
+          ],
+          "latitude": "1.4043485",
+          "longitude": "103.79302299999999"
+        },
+        "address": {
+          "uuid": "94ce8aad-b3f0-418d-a623-d5a6bdc25748",
+          "addressLine1": "80 Mandai Lake Rd, Singapore 729826",
+          "displayAddressLine": "Kuala Lampur",
+          "city": "Singapore",
+          "country": "Singapore",
+          "active": true
+        },
+        "gplaceId": "ChIJr9wqENkT2jERkRs7pMj6FLQ",
+        "active": true
+      },
+      "webSiteUrl": "",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "halal@halaldeli.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+609001100"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Halal - Restaurant",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "3c6c1431-edb9-4cb6-8622-497bc0670400",
+          "createdTS": "2020-08-03T07:04:32.649+0000",
+          "updatedTS": "2020-08-03T07:04:32.649+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "a6a2b594-acef-4ce7-8b15-b9cf43c759ee",
+          "id": "5ca4c2c196658adb0b9ba372",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca48a0b9f247b078f26e1cc",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped4516489218080428377.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped4516489218080428377.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "64159a50-2c20-4dd3-80c2-30c26f35cd8a",
+          "id": "5ca4c32496658adb0b9baa6f",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca48a0b9f247b078f26e1cc",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/ae9c5403-6b6f-40df-a868-194581fbbe13.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/ae9c5403-6b6f-40df-a868-194581fbbe13.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "244d0c7f-d6f5-4bec-977a-e6e729296251",
+          "name": "CD Managed",
+          "slug": "pf-mg",
+          "auto": true,
+          "replicate": false,
+          "active": true
+        },
+        {
+          "uuid": "d7d284fb-e76c-44e6-bcf1-09084d3d1765",
+          "name": "iHalalExpo",
+          "slug": "ihe-2020",
+          "auto": true,
+          "replicate": true,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "4f383ab3-ab1b-40cd-9591-8ef45283e567",
+    "id": "5ca4887c9f247b078f26e1ca",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "5d393f0a-8c88-4998-9a03-82ab544733c7",
+      "createdTS": "2019-04-03T10:18:36.205+0000",
+      "updatedTS": "2020-11-27T11:31:23.409+0000",
+      "createdBy": "5bc443e19f247b587e26954e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 6,
+      "id": "5ca4887c9f247b078f26e1ca",
+      "accountId": 1512200,
+      "name": "Travelogue",
+      "description": "Travelogue: The first and only Halal marketplace in Asia.\n\nWelcome to No 1 Travel Flash Sales Site in Malaysia. At Travelogue, we negotiate exclusive rates for hand-picked hotels and holidays in Singapore, Indonesia, Malaysia and abroad, at up to 70% off the price you'd pay by booking anywhere else. How have we done it? Well, even the most hotels out there don't like having empty rooms.\nFor access to our members-only rates, all you have to do is sign up to Travelog on CollabDeen and nothing else. It doesn't cost a penny, and never will. In return, we'll give you access to rates for hotels and holidays you won't be able to find anywhere else - that's a guarantee",
+      "handle": "Travelogue",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "0b33bda6-bc8a-4591-8b47-a25b5efb3769",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.8497909,
+            1.2804208000000001
+          ],
+          "latitude": "1.2804208000000001",
+          "longitude": "103.8497909"
+        },
+        "address": {
+          "uuid": "b81e5588-c47e-4351-891b-774e2f7f7162",
+          "addressLine1": "Robinson Rd, Singapore",
+          "displayAddressLine": "Robinson Rd, Singapore",
+          "city": "Singapore",
+          "country": "Singapore",
+          "active": true
+        },
+        "gplaceId": "EhhSb2JpbnNvbiBSb2FkLCBTaW5nYXBvcmUiLiosChQKEglvsnAKEhnaMRHMoBVl0NP3RxIUChIJdZOLiiMR2jERxPWrUs9peIg",
+        "active": true
+      },
+      "contactPoints": [],
+      "facilities": [
+        {
+          "uuid": "03e79e69-28a1-4a3b-a22c-a4ded54779d4",
+          "description": "Business support services",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "84f741c2-de7a-4575-843f-f1532cf1505d",
+          "description": "Online booking",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "ff9beb7f-0c8a-495f-aee4-6e131630b261",
+          "description": "Wifi Available",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "6afba500-c20a-4e66-a272-e5cda99819cb",
+          "description": "Parking",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "63cbb83c-bb46-4875-a3d5-1a7d25b45cef",
+          "description": " Concierge",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "e2d350ea-0521-4537-903f-e3168ce30970",
+          "description": "Wheelchair Accessible",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Halal Travel & Tourism",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "c29fba39-5239-43f0-9263-35ff35ac80eb",
+          "createdTS": "2020-08-03T07:08:03.561+0000",
+          "updatedTS": "2020-08-03T07:08:03.561+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "d88e7db1-adc9-4919-bc2e-58d2dc117256",
+          "id": "5ca48cde96658adb0b97f05f",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca4887c9f247b078f26e1ca",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d8e6db60-dbfa-494f-bffd-157f519aa232.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d8e6db60-dbfa-494f-bffd-157f519aa232.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "e8ec7508-7718-46bd-8ff2-cc09b3aaedc8",
+          "id": "5ca48caa96658adb0b97ece7",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca4887c9f247b078f26e1ca",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/c5e2e769-cef9-4e82-a437-d3c34bbef599.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/c5e2e769-cef9-4e82-a437-d3c34bbef599.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "244d0c7f-d6f5-4bec-977a-e6e729296251",
+          "name": "CD Managed",
+          "slug": "pf-mg",
+          "auto": true,
+          "replicate": false,
+          "active": true
+        },
+        {
+          "uuid": "2e84fe7d-c7c5-4ea6-a4c3-fcbe7794a0fe",
+          "name": "iHalalExpo",
+          "slug": "ihe-2020",
+          "auto": true,
+          "replicate": true,
+          "active": true
+        },
+        {
+          "uuid": "5564ed07-0de7-4398-bdc4-173e3f67f5f3",
+          "name": "Halal in Asia",
+          "slug": "hia-2020",
+          "auto": false,
+          "replicate": true,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "58ce44e6-f266-4b0f-b982-fc98a0351376",
+    "id": "5ca489a79f247b078f26e1cb",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "53583cd8-d766-4fdd-b03a-2ade3ad74a54",
+      "createdTS": "2019-04-03T10:23:35.907+0000",
+      "updatedTS": "2020-08-14T15:38:03.915+0000",
+      "createdBy": "5bc443e19f247b587e26954e",
+      "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+      "version": 3,
+      "id": "5ca489a79f247b078f26e1cb",
+      "accountId": 1512201,
+      "name": "Zaaraa Collection",
+      "handle": "ZaaraaCollection",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "4f9c839c-1630-4439-b781-4ebbab869f84",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.8149268,
+            1.3223117
+          ],
+          "latitude": "1.3223117",
+          "longitude": "103.8149268"
+        },
+        "address": {
+          "uuid": "771c8d78-4d70-4b8d-8782-47c7c6eb5451",
+          "addressLine1": "Singapore",
+          "displayAddressLine": "Singapore",
+          "city": "Singapore",
+          "country": "Singapore",
+          "active": true
+        },
+        "gplaceId": "ChIJT1y8pwYa2jER8oi7FaUgAus",
+        "active": true
+      },
+      "contactPoints": [],
+      "facilities": [
+        {
+          "uuid": "96a39baa-8c7a-4a93-a52b-9c06b0f679cf",
+          "description": "Business support services",
+          "type": "PRAYER_HALL",
+          "active": false
+        },
+        {
+          "uuid": "7c8cf4fd-1bf2-424a-b8a0-91ab1eaacbc1",
+          "description": "Online booking",
+          "type": "PRAYER_HALL",
+          "active": false
+        },
+        {
+          "uuid": "5ee4cace-05de-496c-b2d3-56db5fc838e2",
+          "description": "Wifi Available",
+          "type": "PRAYER_HALL",
+          "active": false
+        },
+        {
+          "uuid": "6277891c-a3b2-497a-b4ac-d19cf3b9521b",
+          "description": "Parking",
+          "type": "PRAYER_HALL",
+          "active": false
+        },
+        {
+          "uuid": "78806cbc-3911-413f-b446-492e7334e78f",
+          "description": " Concierge",
+          "type": "PRAYER_HALL",
+          "active": false
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Fashion",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "be6749ac-f64c-4537-84d3-afabd5ff007f",
+          "createdTS": "2020-08-03T07:17:43.383+0000",
+          "updatedTS": "2020-08-03T07:17:43.383+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "dd8a8044-404e-4b19-8e84-8b6455f40abd",
+          "id": "5ca4c03496658adb0b9b7691",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca489a79f247b078f26e1cb",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8825776836588310855.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8825776836588310855.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "18818445-6eea-4e3d-b98e-170c06145a04",
+          "id": "5ca4c09496658adb0b9b7d9b",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca489a79f247b078f26e1cb",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/1f77223b-bd6f-4e99-a113-ff5446f3f933.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/1f77223b-bd6f-4e99-a113-ff5446f3f933.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "cf6c32dd-2d05-4707-abd4-d117a12a37ab",
+    "id": "5cb025439f247b078f26e1e9",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "98e197c0-f3c6-452c-b70d-aae98de8602e",
+      "createdTS": "2019-04-12T05:42:27.285+0000",
+      "updatedTS": "2021-06-11T17:05:54.078+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 3,
+      "id": "5cb025439f247b078f26e1e9",
+      "accountId": 1512207,
+      "name": "Minimal Muslim Design",
+      "description": "Minimal Muslim Design is..",
+      "handle": "MinimalMuslimDesign-2",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "0a01650f-e5f7-4030-8eb1-f4cda0fe1e0b",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.2217831,
+            28.686273800000006
+          ],
+          "latitude": "28.686273800000006",
+          "longitude": "77.2217831"
+        },
+        "address": {
+          "uuid": "76b2f5bf-4579-4eb9-92f0-4ce288c8ebe0",
+          "addressLine1": "Delhi, India",
+          "displayAddressLine": "Delhi, India",
+          "city": "Delhi",
+          "country": "India",
+          "zipcode": "110054",
+          "active": true
+        },
+        "gplaceId": "ChIJL_P_CXMEDTkRw0ZdG-0GVvw",
+        "active": true
+      },
+      "webSiteUrl": "www.minimalmuslim.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "contact@minimalmuslim.com"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "f0f976fe-690e-41bf-bbf6-be3783a5b27b",
+          "description": "Wifi Available",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "66bea0fe-ccc3-4624-8dcf-ac23cb190094",
+          "description": "Parking",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "d07bdccb-cbbe-45f0-b06e-ab970b2e968b",
+          "description": "Wheelchair Accessible",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Design and Art",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "eb0321be-ffde-49b6-8d6f-183397da92e5",
+          "createdTS": "2020-08-03T09:35:14.542+0000",
+          "updatedTS": "2020-08-03T09:35:14.542+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "15f2cb9e-ce4d-499f-b262-faad6c0c6f7d",
+          "id": "5cb025b2642c416abd873118",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cb025439f247b078f26e1e9",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped5557995489535742860.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped5557995489535742860.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "cf6f781c-09fe-4b48-a50c-8a5f79289528",
+          "id": "5cb025d6642c416abd8733d6",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cb025439f247b078f26e1e9",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped5479004119047296360.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped5479004119047296360.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "244d0c7f-d6f5-4bec-977a-e6e729296251",
+          "name": "CD Managed",
+          "slug": "pf-mg",
+          "auto": true,
+          "replicate": false,
+          "active": true
+        },
+        {
+          "uuid": "068e1eba-ec46-4ae6-a05c-af88d0961e8c",
+          "name": "iHalalExpo",
+          "slug": "ihe-2020",
+          "auto": true,
+          "replicate": true,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "dbfee68f-fd6e-424e-a546-2413effce23c",
+    "id": "5cca8ba29f247b6c387534d9",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "8e89bd9e-6a89-4558-9be7-50442cac7346",
+      "createdTS": "2019-05-02T06:18:10.527+0000",
+      "updatedTS": "2019-05-06T16:11:03.869+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 1,
+      "id": "5cca8ba29f247b6c387534d9",
+      "accountId": 1512231,
+      "name": "LaunchGood",
+      "description": "LaunchGood is a global crowdfunding platform to support Muslims launching good all across the world by helping them raise funds for their campaigns. \n\nThere are nearly 2 billion Muslims in the world - as in 2 million people a thousand times over. That's a lot of people!\n\nYet if you look at the most popular businesses, movies, books, etc., how many come from Muslims? Sadly few to none.\n\nIs it possible that Muslims just aren't capable of being creative & entrepreneurial? Our history as the founders of algebra, chemistry, coffee, shampoo and much more plainly reject that idea.\n\nLaunchGood was started as a community and ecosystem to revive that spirit of creativity and entrepreneurism that elevated Muslims globally for centuries.\n\nIt is a place to support great ideas in the community and also challenge ourselves to think bigger. It is a network that insists the ummah is still alive in our hearts, that we are connected no matter where we are. It is our showroom to the world of all the great things Muslims are capable of.\n\nCould a Muslim write the next Harry Potter novel, create the next Lord of the Rings trilogy, or discover the next great vaccine? We firmly believe so, that's why we're here.\n\nWe invite you to be part of our global community to launch great campaigns, both as a supporter and as a campaign creator. Together, we can change our communities, our countries and the world - one campaign at a time!",
+      "handle": "LaunchGood",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "afcb19c9-10be-45f0-bfa3-aac23742648c",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            -83.17631449999999,
+            42.3222599
+          ],
+          "latitude": "42.3222599",
+          "longitude": "-83.17631449999999"
+        },
+        "address": {
+          "uuid": "310cf1f0-08fc-4c7b-8f9c-1d310d2231e9",
+          "addressLine1": "Dearborn, MI, USA",
+          "displayAddressLine": "Dearborn, MI, USA",
+          "city": "Dearborn",
+          "country": "United States",
+          "zipcode": "48126",
+          "active": true
+        },
+        "active": true
+      },
+      "webSiteUrl": "https://launchgood.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "support@launchgood.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+9118559991947"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "77c0f8af-7c30-4461-aa8a-ef6be5b650bf",
+          "description": "Business support services",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "f50226f5-cddf-4522-95b7-747890935c7e",
+          "description": "Online booking",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "37757ef7-7258-4d62-b3bf-d612419c8200",
+          "description": "Wifi Available",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Money and Finance Services",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "d1813e1b-78f9-41b0-bfb9-75376caf8427",
+          "id": "5cca981b08d8cd6a6573fc4b",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cca8ba29f247b6c387534d9",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped6727121215001731111.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped6727121215001731111.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "05d2b693-35eb-485d-9c72-9cf1951ef55f",
+          "id": "5cca979208d8cd6a6573f2ca",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cca8ba29f247b6c387534d9",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8533592173002470023.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8533592173002470023.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "828af8ca-daf8-4201-b8e2-965d147c1dfc",
+    "id": "5cce65e79f247b6c387534f3",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "b84cdc80-514d-4847-bea6-56a99d9a1a01",
+      "createdTS": "2019-05-05T04:26:15.726+0000",
+      "updatedTS": "2019-05-06T16:15:58.949+0000",
+      "createdBy": "5cce65169f247b6bf80fc03f",
+      "updatedBy": "5cce65169f247b6bf80fc03f",
+      "version": 1,
+      "id": "5cce65e79f247b6c387534f3",
+      "accountId": 1512244,
+      "name": "Halal Incorp",
+      "description": "Digital Services Provider, Marketing, PR & Consultancy",
+      "handle": "HalalIncorp",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "53296215-8b56-46bb-986c-6d7d49d3930b",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            -2.2426304999999997,
+            53.480759299999995
+          ],
+          "latitude": "53.480759299999995",
+          "longitude": "-2.2426304999999997"
+        },
+        "address": {
+          "uuid": "78d4343b-90e9-4306-a2df-e0989621943d",
+          "addressLine1": "Manchester, UK",
+          "displayAddressLine": "Manchester, UK",
+          "country": "United Kingdom",
+          "zipcode": "M2",
+          "active": true
+        },
+        "gplaceId": "ChIJ2_UmUkxNekgRqmv-BDgUvtk",
+        "active": true
+      },
+      "webSiteUrl": "www.halalincorp.co.uk",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "info@halalincorp.co.uk"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "94a0d1d5-7a6b-4814-bb60-bbf32f6f5a39",
+          "description": "Business support services",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "59c5da2a-34b4-4055-8ab6-e9b531bd9eb7",
+          "description": "Wifi Available",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "07679189-9e97-4931-9658-ce30b474fb78",
+          "description": "Wheelchair Accessible",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Islamic Economy Knowledge Infrastructure",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "7858df93-5c5d-468f-b7e8-a303e4644283",
+          "id": "5cce665b08d8cd6a65b6c348",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cce65e79f247b6c387534f3",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped5668635732368040877.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped5668635732368040877.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "dbec0e60-968e-4071-9e29-909a23ce9691",
+          "id": "5cce66fb08d8cd6a65b6ce6c",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cce65e79f247b6c387534f3",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped594205396051253099.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped594205396051253099.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "569d4a36-af2f-4b19-9558-e0b60c06337d",
+    "id": "5cbea64c9f247b078f26e200",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "cea3f535-d9c0-42b8-95a5-06eec75ec79b",
+      "createdTS": "2019-04-23T05:44:44.716+0000",
+      "updatedTS": "2019-04-23T06:54:00.420+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5cbea28b9f247b076c6751d8",
+      "version": 1,
+      "id": "5cbea64c9f247b078f26e200",
+      "accountId": 1512214,
+      "name": "Idara E Faizul Islam",
+      "description": "\n**IDARA E FAIZUL ISLAM®** situated in South Cross Street, Neelasandra Bangalore is a registered, non-profitable organization which is rendering Islamic & social services to the society of Neelasandra, Rose Garden, Austin Town, Yelgunda Palya, Vivekanagar & Ejipura.\n\nIDARA-E-FAIZUL ISLAM® is one of the prominent & oldest organization in Neelasandra, which is driving Islamic and Social services like \n\n(i). Providing free Islamic education to the children at **MADRASA-E-FAIZUL ISLAM**.\n\n(ii). Maintenance & Management of **Masjid-E- Al Qaim (A.T.F.S), Asthana-E- Hussainy and Darul Islam (Babe-Ali A.S)**\n\n(iii). Helping the needy school and college students with scholarship (with the help of donars).\n\n(iv). Providing financial assistance to orphans and widows and guiding them to get necessary financial assistance from government sources as well.\n\n (v). Conducting general medical health camp to all the society people.\n\n (vi). Distributing ration to the needy people during the month of Ramazan & various other free Islamic services.\n\nThe committee is working towards development & betterment of community, Inshallah.🤲\n\nFor any queries or feedback please contact\n\nHon'ble President - E Anees Akthar\n+91-9980164272\n\nHon'ble Secretary - Syed Shabbbir Ali\n+91-9901979866\n\nReligious Chairman - Syed Hakim Raza\n+91-9945777448\n",
+      "sect": "Shia",
+      "handle": "IdaraEFaizulIslam",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "47717b2c-19dc-46b6-876d-7ac1dbb7a706",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.61061360000001,
+            12.950313699999999
+          ],
+          "latitude": "12.950313699999999",
+          "longitude": "77.61061360000001"
+        },
+        "address": {
+          "uuid": "22e0a724-6850-4b14-a601-de4116c84907",
+          "addressLine1": "4th Cross Road, Anepalya, Neelasandra, Bengaluru, Karnataka 560027, India",
+          "displayAddressLine": "Masjid e Al Qaem,4th Cross, Anepalya Bangalore -30",
+          "city": "Bengaluru",
+          "country": "India",
+          "zipcode": "560027",
+          "active": true
+        },
+        "gplaceId": "Ej00dGggQ3Jvc3MsIEFuZXBhbHlhLCBOZWVsYXNhbmRyYSwgQmVuZ2FsdXJ1LCBLYXJuYXRha2EsIEluZGlhIi4qLAoUChIJIYXegjMUrjsRQdRSd2msD8oSFAoSCTWyfHk0FK47EVU_klvh7Q0x",
+        "active": true
+      },
+      "webSiteUrl": "",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "ifiblr14@gmail.com"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "9d8a4492-9e5e-412a-8b6f-ff73d812646d",
+          "description": "Separate women's corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "1f713541-2620-42c3-bddf-032d680c3413",
+          "description": " Offers Jamaat Prayers",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "00ecf0b5-0a4b-4bf3-9033-2ba01d23852b",
+          "description": "Offers Jumu'ah",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "baab3cbf-a843-40eb-a23e-bd6caf14544f",
+          "description": "Parking",
+          "type": "PARKING",
+          "active": true
+        },
+        {
+          "uuid": "39c58be4-f85c-4253-beb9-e73f1b45c643",
+          "description": " Information Corner",
+          "type": "LIBRARY",
+          "active": true
+        },
+        {
+          "uuid": "794a9849-db86-4f70-9bfb-16c41dde6837",
+          "description": "Rest & Relax Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "7fef2a8f-4fbc-4051-8918-c9b512d808c1",
+          "description": "Imam Guest Room",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "b268e87d-372d-40a7-a6d4-85c75b773217",
+          "description": "Meeting Room",
+          "type": "SEMINAR_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 10000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "24f54a49-adfb-49c9-a43e-6deec5ce9156",
+          "id": "5cbea72608d8cd6a65a37bc0",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cbea64c9f247b078f26e200",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped1816990080425180850.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped1816990080425180850.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "dc90f4b8-3914-49d6-b9c6-7d9b0d67ae35",
+          "id": "5cbea74808d8cd6a65a37dde",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cbea64c9f247b078f26e200",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped3901451975858633895.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped3901451975858633895.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "df41f38a-af93-4d07-b768-9634afdc5996",
+    "id": "5cdb4f589f247b6c38753555",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "d3993d9d-f3b6-4419-9527-4dd534fef448",
+      "createdTS": "2019-05-14T23:29:28.365+0000",
+      "updatedTS": "2019-05-23T01:39:41.104+0000",
+      "createdBy": "5cc44ace9f247b6bf80fbf5b",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 1,
+      "id": "5cdb4f589f247b6c38753555",
+      "accountId": 1512318,
+      "name": "Kanodar Shi'a Community",
+      "description": "Shia Community - Kanodar",
+      "sect": "Shia",
+      "handle": "KanodarShiaCommunity",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "b0480c9a-54b8-4327-a35c-6ec1db934f56",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.39474419999999,
+            24.090629099999997
+          ],
+          "latitude": "24.090629099999997",
+          "longitude": "72.39474419999999"
+        },
+        "address": {
+          "uuid": "a153cbf5-3a8c-4aeb-aab7-3c22ab954999",
+          "addressLine1": "Kanoodar, Gujarat 385520, India",
+          "displayAddressLine": "Kanodar, Gujarat 385520, India",
+          "city": "Kanoodar",
+          "country": "India",
+          "active": true
+        },
+        "gplaceId": "ChIJoQcehLDtXDkRAwtlEyRAnJk",
+        "active": true
+      },
+      "webSiteUrl": "",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "aliraza@live.in"
+        },
+        {
+          "type": "MOBILE",
+          "value": "9898559668"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "f4d2de12-b1d7-45ab-a792-a12ce6a1082c",
+          "description": "Separate women's corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "488afcab-f880-4f11-b112-d637aa5495ec",
+          "description": " Offers Jamaat Prayers",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "24d4598b-f48a-4ffa-9333-ff4900e312ca",
+          "description": "Offers Jumu'ah",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "a5e8e454-6d74-4411-9238-0b85b5978337",
+          "description": "Parking",
+          "type": "PARKING",
+          "active": true
+        },
+        {
+          "uuid": "6e5c81b6-332d-4bce-8bc5-70a910f9f563",
+          "description": "Imam Guest Room",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 25000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "4137f2fc-814e-4952-b943-3cb3f5df0173",
+          "id": "5cde95c708d8cd6a659a4824",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cdb4f589f247b6c38753555",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped4444509971463721250.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped4444509971463721250.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "e0cd7850-8bd9-41da-b928-8125664b07da",
+          "id": "5cdd4a6508d8cd6a658a7c35",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cdb4f589f247b6c38753555",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped1445545948505548127.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped1445545948505548127.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "d3ed0dd3-f8a6-4639-8bce-20826d8cbaa1",
+    "id": "5cdd5a2c9f247b6c38753564",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "65a43fbd-9847-45cc-a8f0-b656ea668c0d",
+      "createdTS": "2019-05-16T12:40:12.027+0000",
+      "updatedTS": "2019-08-15T03:36:42.743+0000",
+      "createdBy": "5cdd40d09f247b6bf80fc3fa",
+      "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+      "version": 1,
+      "id": "5cdd5a2c9f247b6c38753564",
+      "accountId": 1512328,
+      "name": "KANODAR GROUP ALL SMS",
+      "description": "YAVAR ABBAS A.  SUNASARA\n",
+      "sect": "Shia",
+      "handle": "KANODARSHIAGROUPALLSMS",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "1395ed95-a3aa-4056-a0f4-929342735988",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.3931187,
+            24.088052599999997
+          ],
+          "latitude": "24.088052599999997",
+          "longitude": "72.3931187"
+        },
+        "address": {
+          "uuid": "8566c283-0390-4ec5-b4bd-67b3e0abb22d",
+          "addressLine1": "Kanoodar, Gujarat 385520, India",
+          "displayAddressLine": "Kanoodar, Gujarat 385520, India",
+          "city": "Kanoodar",
+          "country": "India",
+          "zipcode": "385520",
+          "active": true
+        },
+        "gplaceId": "ChIJT2r_YrrtXDkRcCuorHMqmRM",
+        "active": true
+      },
+      "webSiteUrl": "",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "yavarsunasara@gmail.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "9035503627 \n"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "44518511-ad0e-4544-a4a5-066266418ce8",
+          "description": "Separate women's corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "06c12b44-12a4-4ea6-856b-8c4cc159dc50",
+          "description": " Offers Jamaat Prayers",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "69a458e2-3382-4851-9bef-964dc2a1e3f0",
+          "description": "Offers Jumu'ah",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "4d9e7080-34d4-4f69-846d-92f30b1b580b",
+          "description": "Parking",
+          "type": "PARKING",
+          "active": true
+        },
+        {
+          "uuid": "22677e28-2cdd-453f-ada5-ebfe97972049",
+          "description": " Information Corner",
+          "type": "LIBRARY",
+          "active": true
+        },
+        {
+          "uuid": "ef7f4dc0-c9f8-4452-826a-b4a882da34c9",
+          "description": "Rest & Relax Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "33b9be69-28ca-4c44-9a98-fc8f388bb962",
+          "description": "Imam Guest Room",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "2a1c4cd2-5a79-4055-8ab1-d5faabecc557",
+          "description": "Meeting Room",
+          "type": "SEMINAR_HALL",
+          "active": true
+        },
+        {
+          "uuid": "2066957d-a447-47ad-8294-a8bbc5925c5a",
+          "description": "Kitchen Area",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 25000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "86f5d164-edea-4ca7-b972-989fb988909b",
+          "id": "5cdd5a9b08d8cd6a658b4605",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cdd5a2c9f247b6c38753564",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped7301842668704363847.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped7301842668704363847.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "b0a1450d-3fc2-472e-84ea-f28e458ef27d",
+          "id": "5cdd5ac208d8cd6a658b4834",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cdd5a2c9f247b6c38753564",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped2314255472693743805.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped2314255472693743805.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "a7f899b5-d178-4d6d-8a83-0bb6667ab313",
+    "id": "5cde16c19f247b6c38753568",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "4ad5ac3b-15b6-4414-a637-48a1d0705dc1",
+      "createdTS": "2019-05-17T02:04:49.059+0000",
+      "updatedTS": "2020-03-20T12:44:54.406+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b751a849f247b0f9ef3757c",
+      "version": 3,
+      "id": "5cde16c19f247b6c38753568",
+      "accountId": 1512332,
+      "name": "Global Mosque Community",
+      "description": "Global Mosque Inspiration. About us:\n\nThis is an inspiration community to all global users on CollabDeen to understand and learn how communities work, and how beautifully we've built this technology platform which you can use now for your community, as your own community App. \n\nYou can now create your local community page here and get started engaging with your community members in a minute.\n\nKeep your community PRIVATE or PUBLIC. Only administrators can post so there is no spamming by people with unwanted messages. This is for all sects and types of communities, whether a Mosque, Islamic Centre, Organisation or Society, even you can create for your Madressa students or a smaller family community.\n\nadditionally, businesses and brands can create a community catering to Muslim audiences.",
+      "sect": "Islam ",
+      "handle": "GlobalMosqueInspiration",
+      "communityType": "MOSQUE",
+      "location": {
+        "uuid": "230d0963-8b00-44d2-b790-b2f57bc7e8b4",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.85,
+            1.3006
+          ],
+          "latitude": "1.3006",
+          "longitude": "103.85"
+        },
+        "address": {
+          "uuid": "42f1576a-5111-4ffe-8f60-7ad8099eb2f1",
+          "addressLine1": "Mohammedia, Morocco",
+          "displayAddressLine": "Singapore",
+          "city": "Singapore",
+          "country": "Singapore",
+          "zipcode": "188867",
+          "active": true
+        },
+        "gplaceId": "ChIJj7TW9LoZ2jERQgNlXkKhASQ",
+        "active": true
+      },
+      "webSiteUrl": "globalmosqueinspiration.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "gmiadmin@gmail.com"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "a7757145-7e15-40e3-a31d-aea6e87a2b1f",
+          "description": "Separate women's corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "0b200896-6daa-4428-9c53-48b00bda37ff",
+          "description": " Offers Jamaat Prayers",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "4138bc1a-f40d-4ca8-a1a9-f42c5884f4a2",
+          "description": "Offers Jumu'ah",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "7d59f272-55b5-47bf-a906-2578d1929f42",
+          "description": "Parking",
+          "type": "PARKING",
+          "active": true
+        },
+        {
+          "uuid": "b3800ed2-ace4-4273-9205-d3f17cc4e5a2",
+          "description": " Information Corner",
+          "type": "LIBRARY",
+          "active": true
+        },
+        {
+          "uuid": "8d8baa08-1f37-458f-bcb6-2a45eb0255d4",
+          "description": "Rest & Relax Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "036f17c8-a3c1-4a6d-a9e1-0c4683810393",
+          "description": "Imam Guest Room",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "306e1daa-7cf5-4708-bb53-ee23370e5fbb",
+          "description": "Meeting Room",
+          "type": "SEMINAR_HALL",
+          "active": true
+        },
+        {
+          "uuid": "0a257b76-1f25-409e-9d63-b041e77ea0f5",
+          "description": "Kitchen Area",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 10000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "0daed61a-ef77-4c67-87b1-31fd43fec2a4",
+          "version": 1,
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": false
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "e7cdc6cd-c89e-43e6-b1d3-c29a2aa616f5",
+          "id": "5cde180308d8cd6a659456bc",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cde16c19f247b6c38753568",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8352528050245242009.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8352528050245242009.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "a7fef065-98bd-4f5d-ae2c-86697c73bc30",
+          "id": "5cde181208d8cd6a65945754",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cde16c19f247b6c38753568",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8569444131205656039.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped8569444131205656039.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "693e906f-c354-4476-bb08-a381238ee1b7",
+    "id": "5ce4167a9f247b6c38753591",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "cbe20473-8ad9-4903-9752-9fd420de8f57",
+      "createdTS": "2019-05-21T15:17:14.552+0000",
+      "updatedTS": "2019-05-21T15:17:14.552+0000",
+      "createdBy": "5cd7c2609f247b6bf80fc30d",
+      "updatedBy": "5cd7c2609f247b6bf80fc30d",
+      "version": 1,
+      "id": "5ce4167a9f247b6c38753591",
+      "accountId": 1512352,
+      "name": "The Good Vibes",
+      "handle": "TheGoodVibes",
+      "communityType": "INFLUENCER",
+      "location": {
+        "uuid": "7fd5d8f3-659e-43ae-bfba-24c862e18428",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.408628,
+            24.090316
+          ],
+          "latitude": "24.090316",
+          "longitude": "72.408628"
+        },
+        "address": {
+          "uuid": "b767f15b-d5e8-49c3-932c-67481403a0fe",
+          "addressLine1": "Banaskantha",
+          "country": "India",
+          "zipcode": "385520",
+          "active": true
+        },
+        "gplaceId": "ChIJ635U-sXtXDkRjtpv7stXs9Y",
+        "active": true
+      },
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Islamic Knowledge",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {},
+      "eligibility": {},
+      "business": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "1a6546ec-091b-4b65-9161-2ad398e8e7d2",
+    "id": "5cdbc0ce9f247b6c38753557",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "b033b78c-1f2b-4428-a4ed-a6318124b0c9",
+      "createdTS": "2019-05-15T07:33:34.232+0000",
+      "updatedTS": "2019-05-24T14:31:21.780+0000",
+      "createdBy": "5cdbbfef9f247b6bf80fc3a8",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 1,
+      "id": "5cdbc0ce9f247b6c38753557",
+      "accountId": 1512320,
+      "name": "Momin Jamat Meta Gujarat",
+      "sect": "Shia",
+      "handle": "ShiaMominJamatMetaGujarat",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "a1c10a9f-e1fa-450e-b191-1195dfc2db89",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.3399927,
+            24.0453612
+          ],
+          "latitude": "24.0453612",
+          "longitude": "72.3399927"
+        },
+        "address": {
+          "uuid": "77fb2bc2-b822-4f6e-815d-bc027da5c747",
+          "addressLine1": "Meta, Gujarat, India",
+          "displayAddressLine": "Shia Momin Jamat Jama Masjid",
+          "city": "Meta",
+          "country": "India",
+          "zipcode": "385520",
+          "active": true
+        },
+        "gplaceId": "ChIJ24qY1afyXDkRI4lZl7RcyhI",
+        "active": true
+      },
+      "contactPoints": [],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 5000,
+      "contentVisibilityType": "PRIVATE",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "eacef507-7226-4086-a356-03b181a3bb50",
+          "id": "5cdbc68608d8cd6a6577f059",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cdbc0ce9f247b6c38753557",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped3427282247798694332.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped3427282247798694332.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "5cbc6a5f-f683-4107-917c-f31f662dfe47",
+          "id": "5cdbc6ae08d8cd6a6577f25f",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cdbc0ce9f247b6c38753557",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped7466072240147009056.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped7466072240147009056.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "3db292cc-db7d-4edd-b3f6-6c06fea4ef24",
+    "id": "5cfcde0a9f247b7262075679",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "5cf97089-b56a-4ff4-9545-9c364bf1bcc6",
+      "createdTS": "2019-06-09T10:23:06.993+0000",
+      "updatedTS": "2020-08-03T09:45:41.158+0000",
+      "createdBy": "5cfcd8ae9f247b729c3d1444",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 4,
+      "id": "5cfcde0a9f247b7262075679",
+      "accountId": 1512379,
+      "name": "TAKVA",
+      "handle": "TAKVA",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "39aef15a-a72a-4ed9-a548-7ecabebdc0ca",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            139.702912,
+            35.530832
+          ],
+          "latitude": "35.530832",
+          "longitude": "139.702912"
+        },
+        "address": {
+          "uuid": "c5ca7376-5406-4eb9-91b6-e41124162933",
+          "addressLine1": "Kawasaki, Kanagawa, Japan",
+          "displayAddressLine": "Kawasaki, Kanagawa, Japan",
+          "city": "Kawasaki",
+          "state": "Kanagawa",
+          "country": "Japan",
+          "active": true
+        },
+        "gplaceId": "ChIJV1C9AXtfGGARy9PPyhfzyYg",
+        "active": true
+      },
+      "contactPoints": [],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Consumer Goods - Clothing and Accesories",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "5135da0d-1403-4e2e-96cf-dd866310ae76",
+          "createdTS": "2020-08-03T09:45:08.760+0000",
+          "updatedTS": "2020-08-03T09:45:08.760+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "6bc9b0c7-d905-42fc-89af-856bebd8fe29",
+          "id": "5cfcdf7605c61649648c892f",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cfcde0a9f247b7262075679",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/D969AD2A-D9A1-4B61-AAF1-3C3F9CBB0B06-566-00000021D69ECA3D.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/D969AD2A-D9A1-4B61-AAF1-3C3F9CBB0B06-566-00000021D69ECA3D.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "0425bd10-ab87-47b5-9b61-fb020eaa85b5",
+          "id": "5cfcdefa05c61649648c82ba",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cfcde0a9f247b7262075679",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/7195454D-CD01-403A-9C35-19C1833334B4-566-000000216CB1A9BC.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/7195454D-CD01-403A-9C35-19C1833334B4-566-000000216CB1A9BC.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "business": true,
+      "premium": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "a753a7ca-10df-402f-adc3-5b955f472cef",
+    "id": "5cfdf9119f247b726207567a",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "c4da51a2-4507-4d5b-a990-3be901785bcc",
+      "createdTS": "2019-06-10T06:30:41.996+0000",
+      "updatedTS": "2020-11-27T06:19:16.432+0000",
+      "createdBy": "5cfdf8779f247b729c3d1465",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 4,
+      "id": "5cfdf9119f247b726207567a",
+      "accountId": 1512380,
+      "name": "Halal Trip",
+      "description": "HalalTrip is an online lifestyle platform that inspires Muslims to travel and explore the world. We strive to make place discovery and trip planning fun and intuitive with our growing library of travel tips and video reviews. ",
+      "handle": "MuslimTravelPlatform",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "95075b77-a0d7-47f3-8be2-8b21fc52a450",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.900537,
+            1.316342
+          ],
+          "latitude": "1.316342",
+          "longitude": "103.900537"
+        },
+        "address": {
+          "uuid": "c168d350-4d11-4e74-bb53-699678312cdd",
+          "addressLine1": "80 Changi Rd, #05-12 Centropod, Singapore 419715",
+          "displayAddressLine": "80 Changi Rd, #05-12 Centropod, Singapore 419715",
+          "city": "Singapore",
+          "country": "Singapore",
+          "zipcode": "419715",
+          "active": true
+        },
+        "gplaceId": "ChIJhXb0QdEb2jERCuQNOEWMK5M",
+        "active": true
+      },
+      "webSiteUrl": "www.halaltrip.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "info@halaltrip.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+6597294638"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Halal Travel & Tourism",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "1fd86783-72e6-41bb-99ae-c253cf124c2c",
+          "createdTS": "2020-08-12T17:59:36.258+0000",
+          "updatedTS": "2020-08-12T17:59:36.258+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "32688b38-ac68-4428-9074-f17f48131b81",
+          "id": "5cfdfaa305c61649649aa301",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cfdf9119f247b726207567a",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/70702C19-F255-40BE-9060-8B0F4CD9C3BB-6879-000002087726B2F2.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/70702C19-F255-40BE-9060-8B0F4CD9C3BB-6879-000002087726B2F2.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "7ff5d602-f233-4a16-a043-f677fb26ea62",
+          "id": "5cfdfaf705c61649649aa730",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5cfdf9119f247b726207567a",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/B1670318-990C-4663-AA90-F592561DF8C5-7707-000002419999029F.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/B1670318-990C-4663-AA90-F592561DF8C5-7707-000002419999029F.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "bbb2033b-eab7-42a4-9fef-f88f76667284",
+          "name": "iHalalExpo",
+          "slug": "ihe-2020",
+          "auto": true,
+          "replicate": true,
+          "active": true
+        },
+        {
+          "uuid": "4466874a-53a4-4f6c-8a3a-f2a94e15e902",
+          "name": "Halal in Asia",
+          "slug": "hia-2020",
+          "auto": false,
+          "replicate": true,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "b178fbd6-032c-48b5-bb45-47f4ff864e5a",
+    "id": "5d5e1acb9f247b5f884aa347",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "212a6e24-16fc-4717-a484-f0ffd2307be1",
+      "createdTS": "2019-08-22T04:32:11.108+0000",
+      "updatedTS": "2019-08-22T04:42:39.655+0000",
+      "createdBy": "5b9a17ab9f247b0f9ef375a0",
+      "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+      "version": 1,
+      "id": "5d5e1acb9f247b5f884aa347",
+      "accountId": 1512433,
+      "name": "Special Islamic Days",
+      "description": "Upcoming Islamic Events will be shown by this default community, based on your sect, Inshallah",
+      "sect": "None",
+      "handle": "SpecialIslamicDays",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "a0dbdd0a-96d5-45de-b8fd-c097448e53c8",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.8476333,
+            1.2777628
+          ],
+          "latitude": "1.2777628",
+          "longitude": "103.8476333"
+        },
+        "address": {
+          "uuid": "ea4c307f-5d68-4cc5-99df-2d4b58704150",
+          "addressLine1": "168 Robinson Rd, Singapore 068912",
+          "displayAddressLine": "168 Robinson Rd, Singapore 068912",
+          "city": "Singapore",
+          "country": "Singapore",
+          "zipcode": "068912",
+          "active": true
+        },
+        "gplaceId": "ChIJPWWwVRIZ2jERRVpILGfdguA",
+        "active": true
+      },
+      "webSiteUrl": "",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "support@collabdeen.com"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 25000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "bc92999e-1677-4fbb-b43f-2241db727c5a",
+          "id": "5d5e1c31cfbeffa72abff319",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5d5e1acb9f247b5f884aa347",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped6366794286470368135.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://collabu-prod-resized.s3.amazonaws.com/thumbnails/cropped6366794286470368135.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "cedc24e0-c014-4e8d-bbed-c9235a591fdc",
+          "id": "5d5e1c1acfbeffa72abff221",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5d5e1acb9f247b5f884aa347",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped4795250255698551648.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://collabu-prod-resized.s3.amazonaws.com/thumbnails/cropped4795250255698551648.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "5e1e57b2-babd-477f-9f26-4504c39a113c",
+    "id": "5de51dcc31cbd60447ff79d6",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "b6c4aadc-f0c0-4ead-9b6a-4927ad3a0aa7",
+      "createdTS": "2019-12-02T14:21:00.593+0000",
+      "updatedTS": "2021-05-12T10:50:49.542+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "version": 10,
+      "id": "5de51dcc31cbd60447ff79d6",
+      "accountId": 1512459,
+      "name": "Jaffery Channel",
+      "description": "Asalamun alaykum , All Momin and Momenat\nHoly Prohet(saw) said :- \"One who dies without recognising the Imam(as) of his time, will die the death of Ignorance.\"\nWe the followers of Masoomen(a.s.) were pagans century ago and salute to our forefathers who acted on the above tradition and showed us the true light of guidance by then establisihing Shia Ithna Ashari Momin Jamaat - Kanodar.\nTo show our love and solidarity with Ahle Bait (a.s.) we have Shabeeh of three Rauza's in our village Kanodar situated near Palanpur taluka, Banaskanta District-Gujarat.\nThe three Rauza's were constructed at Hussain Tekri - Kanodar of the great matyrs of Karbala due to which Islam is still alive i.e.\n1.) Our third Imam-e-Mazloom - Hussain(a.s.),\n2.) The flag bearer of Karbala Hazrat Abul Fazlil Abbas(as.) and\n3.) Janab-e-Zainab(sa) :- Ummul Masaeb who esablished the tradition of Majalis.\nThus, keeping in view the sacrifice of the beloved masoomeen, Anjuman-e-Aza-e-Hussain(a.s.) was formed to commerate the sacrifice of Karbala and show solidarity to Ahle Bait(as) and especially to Janab-e-Zehra(sa).\nA full fledged four days programme are held after Chehlum every year at Hussain Tekri after Chehlum of Imam Hussain(as).\nThe tomb of Imam-e-Hussain(as) similar to that of Karbala has been inaugurated on 23rd. Safar 1434 A.H. (6th. Jan 2013) further showing our love to Imam of our time Imam-e-Mahdi(atfs).\nWe also have Madresa to teach children of our village the traditions and teachings of Masomeen(as).\nIn the present world of technology, we have launched this website to spread the word of Islam to the world and especially to Momin brothers and sisters of our village. We have launched streaming facility for all those who are away from village and to be part of the programmes held in village, especially the four day Chehlum programme for which community members across the world come to village and pay homage to Ahle Bait(as).\nThe webiste www.jafferykanodar.com also has majalis of different Aalims and Zakirs and has Nauhas and Marsiyas recited by different famous poets across the world.\nWe pray to Allah(ta) that help us continue to serve the Imam of our time(atfs) that pleases him and pray that he gives us strength to keep our hearts united to work for Imam-e-Asr(atfs) and include us among those who are escribed for the tradition of Holy Masomeen(as).\n\"One who dies with the love of Ahle Bait(as), dies the death of martyr.\"",
+      "sect": "Shia",
+      "handle": "JafferyChannel",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "024c6c7a-fdf6-45c7-a908-8ba4ff56e9b5",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.3932043,
+            24.0890321
+          ],
+          "latitude": "24.0890321",
+          "longitude": "72.3932043"
+        },
+        "address": {
+          "uuid": "e46aa0a3-4630-4b26-a20b-45a603e109e2",
+          "addressLine1": "Kanoodar, Gujarat 385520, India",
+          "displayAddressLine": "Kanoodar, Gujarat 385520, India",
+          "city": "Kanoodar",
+          "country": "India",
+          "zipcode": "385520",
+          "active": true
+        },
+        "gplaceId": "ChIJ9dL2f7DtXDkRIEFqxGKR3UI",
+        "active": true
+      },
+      "contactPoints": [],
+      "facilities": [
+        {
+          "uuid": "6cde9bb2-6c27-43d7-87ce-da6fbc4889c6",
+          "description": "Information Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "0d368342-3267-46ad-bfeb-234e49616010",
+          "description": "Library",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 5000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "7dfc5970-9d92-4e20-acc6-3ac0fbb017fb",
+          "version": 1,
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "5ad9d819-70ab-4a03-8cfa-d224e8ad7a8f",
+          "createdTS": "2021-04-11T05:20:51.534+0000",
+          "updatedTS": "2021-04-11T05:20:51.534+0000",
+          "createdBy": "5bf39dec9f247b2e587c573b",
+          "updatedBy": "5bf39dec9f247b2e587c573b",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "1baa49d4-c342-4fca-9073-cc45eb4f4118",
+          "id": "5de787edcf53f56a619d96c0",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5de51dcc31cbd60447ff79d6",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/9466008e-ba41-42a1-bb6f-2abbe27c7304.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/9466008e-ba41-42a1-bb6f-2abbe27c7304.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "6b442d89-c92b-4c24-b396-1b22544847d4",
+          "id": "5de52833cf53f56a617731a2",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5de51dcc31cbd60447ff79d6",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/6315c50e-2a12-430f-b0f2-3e505519ac73.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/6315c50e-2a12-430f-b0f2-3e505519ac73.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "955a7f2d-956a-44d1-9f7c-73dc737d83da",
+          "name": "TV-Shia",
+          "slug": "tv-shia",
+          "auto": false,
+          "replicate": false,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "hidden": true,
+      "verified": true,
+      "business": false,
+      "premium": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "c402d5f3-c86e-41eb-912e-078d8320dbca",
+    "id": "5d47ca199f247b5f884aa33b",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "faedf9d1-c501-4d90-9649-5120a0ff7ff4",
+      "createdTS": "2019-08-05T06:18:01.571+0000",
+      "updatedTS": "2019-08-05T06:30:10.611+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 1,
+      "id": "5d47ca199f247b5f884aa33b",
+      "accountId": 1512426,
+      "name": "Imam Hasan Centre",
+      "description": "Imam Hasan Centre was established on Friday 16th October 2004, coinciding with the first night of Ramadhan. It has been established in Annangrove a suburb North west of Sydney. The address being 165 Annangrove Road, Annangrove. After some initial opposition, Imam Hasan Centre has settled into the community and particpating in the community.\n\nImam Hasan Centre – was named after the First grandson of the Holy Prophet, Prophet Muhammad S.A.A.W. Imam Hasan A.S was an advocate for peace, and an example of his chracter can be seen in his saying “The most preferable adornment is graceful manners and the height of intelligence is associating with people amicably”.\n\nMore history about the centre can be found by googling “Imam Hasan Centre”, or “Annangrove Prayer Hall”",
+      "sect": "Shia",
+      "handle": "ImamHasanCentre",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "3dbff448-af66-4d95-8800-ae916b63ddd0",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            150.9567803,
+            -33.67133069999999
+          ],
+          "latitude": "-33.67133069999999",
+          "longitude": "150.9567803"
+        },
+        "address": {
+          "uuid": "81dda0af-00ca-4e1a-a941-c6991ee36f0c",
+          "addressLine1": "165 Annangrove Rd, Annangrove NSW 2156, Australia",
+          "displayAddressLine": "165 Annangrove Rd, Annangrove NSW 2156, Australia",
+          "city": "Annangrove",
+          "country": "Australia",
+          "zipcode": "2156",
+          "active": true
+        },
+        "gplaceId": "ChIJAQDQKh2gEmsR_s8kRTfsyeI",
+        "active": true
+      },
+      "webSiteUrl": "https://www.imamhasancentre.com.au",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "info@imamhasancentre.com.au"
+        },
+        {
+          "type": "MOBILE",
+          "value": "02 9679 0855"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "20eecdd7-f033-4b8d-b48d-2ffd00bc9145",
+          "description": "Separate women's corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "6f1f0c41-aba9-45b0-8f0e-5507cc74b2fc",
+          "description": " Offers Jamaat Prayers",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "a2ca360f-5f09-4e4a-bc8e-148e1531a74d",
+          "description": "Offers Jumu'ah",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "1b9008f3-c32f-4b46-a782-f902f7ce69fa",
+          "description": "Parking",
+          "type": "PARKING",
+          "active": true
+        },
+        {
+          "uuid": "73101fb9-df9d-458a-a5cd-b3d63bf384df",
+          "description": " Information Corner",
+          "type": "LIBRARY",
+          "active": true
+        },
+        {
+          "uuid": "7c180924-aa91-4355-b6cb-4236edb57924",
+          "description": "Rest & Relax Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "c80df44d-dc27-4ca5-a876-ddfff493dde1",
+          "description": "Imam Guest Room",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "a2d00d74-dd0e-47ec-859e-ad73e40bef2b",
+          "description": "Meeting Room",
+          "type": "SEMINAR_HALL",
+          "active": true
+        },
+        {
+          "uuid": "4ec9710b-a12e-4886-8218-a75d377141c3",
+          "description": "Kitchen Area",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 2500,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "0a15cf3c-9aff-4f1f-85ae-1db12228da2c",
+          "id": "5df0c58bcf53f56a6133750a",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5d47ca199f247b5f884aa33b",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/be90cad6-316d-4f39-b6bc-c8e6155b421d.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/be90cad6-316d-4f39-b6bc-c8e6155b421d.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "ec33e1cf-ec11-479c-8f7e-97666fca1573",
+          "id": "5df0c6afcf53f56a61338857",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5d47ca199f247b5f884aa33b",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/2181f8ed-ca86-4226-b419-00a6702c154d.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/2181f8ed-ca86-4226-b419-00a6702c154d.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "verified": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "7e5f867d-8191-4e8f-ab12-643b308e648e",
+    "id": "5e91e9d8b26c32236fe88f92",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "98395dee-c353-4cb1-9eb6-0ac076f4293f",
+      "createdTS": "2020-04-11T16:01:28.422+0000",
+      "updatedTS": "2020-04-11T16:01:28.422+0000",
+      "createdBy": "5e4f85f8a3303329f1a491a6",
+      "updatedBy": "5e4f85f8a3303329f1a491a6",
+      "version": 1,
+      "id": "5e91e9d8b26c32236fe88f92",
+      "accountId": 1512492,
+      "name": "Ya Zehra TV Network",
+      "sect": "Shia",
+      "handle": "YaZehraTVNetwork",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "3c51afb8-1b33-44f4-993b-c1fd20ce0ad5",
+        "version": 0,
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.610987,
+            12.950477
+          ],
+          "latitude": "12.950477",
+          "longitude": "77.610987"
+        },
+        "address": {
+          "uuid": "3b88a6e1-7722-4b11-8f33-08e7015832ca",
+          "version": 0,
+          "addressLine1": "4th Cross Anepalya, Anepalya, Neelasandra, Bengaluru, Karnataka 560030, India",
+          "city": "Bangalore Urban",
+          "state": "Karnataka",
+          "country": "India",
+          "zipcode": "560030",
+          "active": true
+        },
+        "gplaceId": "ChIJN2LsfDQUrjsRKGVe5bH6VQg",
+        "active": false
+      },
+      "contactPoints": [],
+      "facilities": [],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 5000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "fe0febdb-2ae2-4f82-910d-8a87b438cf08",
+          "createdTS": "2020-04-11T16:01:28.431+0000",
+          "updatedTS": "2020-04-11T16:01:28.431+0000",
+          "createdBy": "5e4f85f8a3303329f1a491a6",
+          "updatedBy": "5e4f85f8a3303329f1a491a6",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "5574c2f3-203c-419a-9671-d52ed70b3cf8",
+          "id": "5e91f042934c5ead00c133b7",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5e91e9d8b26c32236fe88f92",
+          "type": "CommunityProfilePic",
+          "contentType": "jpeg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:24acbfee-5f6f-41ed-ab8d-255de98eee8e/561572a6-2f1e-4e24-9265-5ac94efad7a6.jpeg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:24acbfee-5f6f-41ed-ab8d-255de98eee8e/561572a6-2f1e-4e24-9265-5ac94efad7a6.jpeg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "7b5694fa-744c-4a66-a393-30bfafdaf9e7",
+          "id": "5e91f08c934c5ead00c13837",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5e91e9d8b26c32236fe88f92",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpeg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:24acbfee-5f6f-41ed-ab8d-255de98eee8e/5c2d3e6b-bd1d-4388-81ff-5c20695c73cb.jpeg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:24acbfee-5f6f-41ed-ab8d-255de98eee8e/5c2d3e6b-bd1d-4388-81ff-5c20695c73cb.jpeg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "da1b095f-7201-42be-80fd-ca40275b2fca",
+    "id": "5ca55cd89f247b078f26e1cf",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "00591802-3334-46c5-82bc-dad53d56a3c6",
+      "createdTS": "2019-04-04T01:24:40.302+0000",
+      "updatedTS": "2020-05-08T23:59:00.722+0000",
+      "createdBy": "5c724a4e9f247b6867d9bd3b",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 3,
+      "id": "5ca55cd89f247b078f26e1cf",
+      "accountId": 1512203,
+      "name": "Masjid e Sayed us Sajideen (a.s)",
+      "sect": "Shia",
+      "handle": "AnjumanESajjadia-Sulibele",
+      "communityType": "MOSQUE",
+      "location": {
+        "uuid": "61c61755-5354-4644-b931-f0fa9bd3456b",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.7994298,
+            13.185575999999998
+          ],
+          "latitude": "13.185575999999998",
+          "longitude": "77.7994298"
+        },
+        "address": {
+          "uuid": "7a283dae-8e47-4386-8901-ccb0a16862a9",
+          "addressLine1": "Janatha Colony, Sulibele, Karnataka 562129, India",
+          "displayAddressLine": "Shia Ashurkhana",
+          "city": "Sulibele",
+          "country": "India",
+          "zipcode": "562129",
+          "active": true
+        },
+        "gplaceId": "ChIJVVVVVQgDrjsRKXGHR7EY3J8",
+        "active": true
+      },
+      "contactPoints": [],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 2500,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "updatedTS": "2020-05-01T14:45:22.733+0000",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "version": 2,
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "e036ce04-d30e-4b22-ae29-2eb0cc6912f5",
+          "id": "5ca55cfe96658adb0ba630e1",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca55cd89f247b078f26e1cf",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:81a84f57-2fd2-4b3f-95c9-7fe16af42aeb/aeccc591-6c62-430d-b57f-57b88b3dc79c.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:81a84f57-2fd2-4b3f-95c9-7fe16af42aeb/aeccc591-6c62-430d-b57f-57b88b3dc79c.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "d1e0e010-d873-4bd5-8ed7-9760f4ce4ea6",
+          "id": "5eb5e6b9f39967a1118323f6",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ca55cd89f247b078f26e1cf",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:81a84f57-2fd2-4b3f-95c9-7fe16af42aeb/628f3678-1491-4869-acb9-55ba0b4a5b9e.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:81a84f57-2fd2-4b3f-95c9-7fe16af42aeb/628f3678-1491-4869-acb9-55ba0b4a5b9e.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "e311777c-f43e-4b46-9996-c24f94815f35",
+    "id": "5f0d7e11feec1a54f7d20662",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "92766abd-1b97-48ea-a9fb-5eb8439acc4a",
+      "createdTS": "2020-07-14T09:42:41.486+0000",
+      "updatedTS": "2020-08-04T07:19:34.289+0000",
+      "createdBy": "5b9a17ab9f247b0f9ef375a0",
+      "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+      "version": 6,
+      "id": "5f0d7e11feec1a54f7d20662",
+      "accountId": 1512561,
+      "name": "iModern Art",
+      "description": "Islamic Modern Home Decor\nCanvas Art\nWholesale/Retail\nPrinting services\nMasjid/Islamic School Art\nArabic & English and multilingual options",
+      "handle": "iModernArt",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "4af68f0f-6b10-485f-a0ae-ce4544c3eded",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            -79.28651459999999,
+            43.8389251
+          ],
+          "latitude": "43.8389251",
+          "longitude": "-79.28651459999999"
+        },
+        "address": {
+          "uuid": "cb5b2820-5d83-4285-90b4-a8dd3ba28bbc",
+          "addressLine1": "Markham, ON L3S 1J5, Canada",
+          "displayAddressLine": "Markham, ON L3S 1J5, Canada",
+          "city": "Markham",
+          "country": "Canada",
+          "zipcode": "L3S 1J5",
+          "active": true
+        },
+        "gplaceId": "ChIJlcns56HW1IkRhWgNCi0tsHQ",
+        "active": true
+      },
+      "webSiteUrl": "www.imodernart.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "info@imodernart.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+4077395298"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Design and Art",
+      "settings": [
+        {
+          "uuid": "ee591e60-59d3-4b90-a77f-e731c0d19d7f",
+          "createdTS": "2020-07-14T09:42:41.490+0000",
+          "updatedTS": "2020-07-14T09:42:41.490+0000",
+          "createdBy": "5b9a17ab9f247b0f9ef375a0",
+          "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "e58b07c0-3694-4a05-bb8a-7628f941a851",
+          "createdTS": "2020-08-01T16:13:57.722+0000",
+          "updatedTS": "2020-08-01T16:13:57.722+0000",
+          "createdBy": "5bf39dec9f247b2e587c573b",
+          "updatedBy": "5bf39dec9f247b2e587c573b",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "6d2a59b0-82c8-499c-8059-0226f95a3cfb",
+          "id": "5f0d802b2f15fdd5106bc6de",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f0d7e11feec1a54f7d20662",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d9734239-5592-40b3-8274-d1179f55b389.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d9734239-5592-40b3-8274-d1179f55b389.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "1326006f-6bfe-4732-a7b3-7c6ccb5a180d",
+          "id": "5f0d7ffe2f15fdd5106bc40e",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f0d7e11feec1a54f7d20662",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/762a0dbe-452f-4d38-b19e-fcf41651cc12.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/762a0dbe-452f-4d38-b19e-fcf41651cc12.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [],
+      "eligibility": {},
+      "registered": false,
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "17d4cbf6-ccf4-4c6d-a276-4040a714228e",
+    "id": "5f433347eb0ae97050d94d13",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "d81a0159-f0f2-4fc6-ad4b-44700d78dc93",
+      "createdTS": "2020-08-24T03:25:59.232+0000",
+      "updatedTS": "2020-08-24T03:25:59.232+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 1,
+      "id": "5f433347eb0ae97050d94d13",
+      "accountId": 1512664,
+      "name": "Mariyam Centre",
+      "sect": "Shia",
+      "handle": "MariyamCentre",
+      "communityType": "MOSQUE",
+      "location": {
+        "uuid": "c29d81f9-a521-469c-a48e-5154b25ff101",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.819836,
+            1.352083
+          ],
+          "latitude": "1.352083",
+          "longitude": "103.819836"
+        },
+        "address": {
+          "uuid": "df7a534c-f430-434e-8b4b-4d7e892d7dbb",
+          "addressLine1": "Singapore",
+          "city": "Singapore",
+          "country": "Singapore",
+          "active": true
+        },
+        "gplaceId": "ChIJdZOLiiMR2jERxPWrUs9peIg",
+        "active": true
+      },
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 250,
+      "contentVisibilityType": "PRIVATE",
+      "settings": [
+        {
+          "uuid": "a18951ec-b1af-4ec6-b6c7-f796b4624bca",
+          "createdTS": "2020-08-24T03:25:59.462+0000",
+          "updatedTS": "2020-11-05T10:02:56.177+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "version": 3,
+          "key": "COMM_COMMENTS_B",
+          "value": "false",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "978fd1c4-3ea9-4628-a49a-15a00d8ae82f",
+          "id": "5f4338ba3a68d6f1a6c0d36c",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f433347eb0ae97050d94d13",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/078052e4-fd23-44e2-b91a-5799fa58816e.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/078052e4-fd23-44e2-b91a-5799fa58816e.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "bd48d721-6b6f-4e6a-bef9-361a450acc2e",
+          "id": "5f929e615eb217b8e75047ca",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f433347eb0ae97050d94d13",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/83857cb7-79da-4f38-970d-80cd9410e11b.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/83857cb7-79da-4f38-970d-80cd9410e11b.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "hidden": true,
+      "registered": false,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "cbe163dd-1ffb-443e-8709-7b84c7a4aee5",
+    "id": "5f450375eb0ae97050d94d36",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "46753b09-1f99-4337-9f6f-0d3b923f98e5",
+      "createdTS": "2020-08-25T12:26:29.431+0000",
+      "updatedTS": "2020-09-04T04:43:39.552+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+      "version": 3,
+      "id": "5f450375eb0ae97050d94d36",
+      "accountId": 1512666,
+      "name": "CollabDeen Support",
+      "description": "Welcome to CollabDeen Support - we’re so glad that you’re here. Let us help you to get started through this page which will provide you direct access with our team for asking anything from gettin-started with CollabDeen to technical, sales and partnership questions via Chat. \n\nWe will be sharing updates and new features and how to videos here on this community, so you are up to date with all happenings.\n\nYou can also email to us support@collabdeen.com",
+      "sect": "Digital Islamic Technology",
+      "handle": "CollabDeenSupport",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "bf0f1988-c720-4bbc-88fe-8cca3983a475",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            103.819836,
+            1.352083
+          ],
+          "latitude": "1.352083",
+          "longitude": "103.819836"
+        },
+        "address": {
+          "uuid": "2418028a-03af-45ae-8070-1b30649afe34",
+          "addressLine1": "Singapore",
+          "displayAddressLine": "Singapore",
+          "city": "Singapore",
+          "country": "Singapore",
+          "active": true
+        },
+        "gplaceId": "ChIJdZOLiiMR2jERxPWrUs9peIg",
+        "active": true
+      },
+      "webSiteUrl": "https://support.collabdeen.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "support@collabdeen.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+6582021972"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 25000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "44067d19-585d-4d83-9793-6a97f44bb707",
+          "createdTS": "2020-08-25T12:26:29.439+0000",
+          "updatedTS": "2020-08-25T12:26:29.439+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "e383e453-db1d-4415-8506-45d73e5836bf",
+          "createdTS": "2020-08-25T12:45:55.496+0000",
+          "updatedTS": "2020-08-25T12:45:55.496+0000",
+          "createdBy": "5bf39dec9f247b2e587c573b",
+          "updatedBy": "5bf39dec9f247b2e587c573b",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "91e78472-0b1d-4443-a348-a26d6ff07bc2",
+          "id": "5f4753933a68d6f1a606fc2a",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f450375eb0ae97050d94d36",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:960c9f4c-6be0-46c1-9b31-fb0a6f680f5e/e45292b1-cdb2-4d0f-967e-b3ed071ead3b.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:960c9f4c-6be0-46c1-9b31-fb0a6f680f5e/e45292b1-cdb2-4d0f-967e-b3ed071ead3b.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "c2a633c6-57a0-4b3f-9968-9e039c0d56bc",
+          "id": "5f51c4603a68d6f1a6b78d45",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f450375eb0ae97050d94d36",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/c537daae-4a8b-457d-bd0e-6f505458416b.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/c537daae-4a8b-457d-bd0e-6f505458416b.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "registered": false,
+      "verified": true,
+      "business": false,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "7f406cee-b8c8-4701-baa4-b9eb851e027a",
+    "id": "5f240f4a9bbf453c4e156844",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "1cb5cfec-ac91-41ab-a783-4c3f7dcda5fb",
+      "createdTS": "2020-07-31T12:32:10.284+0000",
+      "updatedTS": "2020-09-23T12:56:13.248+0000",
+      "createdBy": "5f22be93a67186739dff4b3a",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 5,
+      "id": "5f240f4a9bbf453c4e156844",
+      "accountId": 1512626,
+      "name": "Callithon",
+      "description": "WHAT IS CALLITHON ?\n\nCallithon Is An ANNUAL Two-Day Creative Design Expo By Spacewell,\n\nBringing Together Calligraphers And Art-Lovers From Across The Realm.\n\nCallithon Provides A Space Where You’ll Be Challenged To Push Yourself In The Creative Process While Drawing Inspiration From Those Successful In The Field Of Calligraphy.\n\nDuring This Expo, You’ll Be Empowered With Resources To Help You Display Your Art Work And Auction Them As Well.\n\nThe Best Artwork Would Be Chosen By Our Esteemed Panel Of Judges And The Calligrapher Would Be Awarded.\n\nAt The End Of The Experience, You’ll Leave With A Fresh Spark Of Passion Filled To The Brim With Revolutionary Ideas And A Network Of Calligraphers To Get Inspired And Pursue Excellence In The WORLD OF CALLIGRAPHY.\n\n",
+      "sect": "None",
+      "handle": "Callithon",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "e4b2f4c8-3975-4007-b71a-2495663eb614",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            77.6088982,
+            12.8521427
+          ],
+          "latitude": "12.8521427",
+          "longitude": "77.6088982"
+        },
+        "address": {
+          "uuid": "5025aa69-989c-463e-bd39-2c680585a13d",
+          "addressLine1": "Eagle Ridge, Ckikkakammana halli, Bengaluru",
+          "displayAddressLine": "148/1,Next to Eagle Ridge, Ckikkakammana halli, Bengaluru 560068",
+          "city": "Bengaluru",
+          "country": "India",
+          "zipcode": "560083",
+          "active": true
+        },
+        "gplaceId": "ChIJb2aZOR5rrjsRx6i_TQUP6F0",
+        "active": true
+      },
+      "webSiteUrl": "www.callithon.com",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "callithon@gmail.com"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+8904031975"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "Design and Art",
+      "settings": [
+        {
+          "uuid": "c71708ab-d770-489e-aace-066a0831d27d",
+          "createdTS": "2020-07-31T12:32:10.311+0000",
+          "updatedTS": "2020-07-31T12:32:10.311+0000",
+          "createdBy": "5f22be93a67186739dff4b3a",
+          "updatedBy": "5f22be93a67186739dff4b3a",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "6e1c5807-7aff-49bc-83b4-38f636e915ca",
+          "createdTS": "2020-09-03T06:46:23.681+0000",
+          "updatedTS": "2020-09-03T06:46:23.681+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "a6f31d17-34a2-47ed-9cb9-8f7233f3636e",
+          "id": "5f2410763a68d6f1a6b9c770",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f240f4a9bbf453c4e156844",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:14b2f455-a17c-4ba1-91a7-3220c96986ca/6864b85b-f8da-412c-a9b8-be8c471506ff.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:14b2f455-a17c-4ba1-91a7-3220c96986ca/6864b85b-f8da-412c-a9b8-be8c471506ff.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "851861b5-8a0b-48d3-bde3-891f44c8a29d",
+          "id": "5f240ff93a68d6f1a6b9bef2",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5f240f4a9bbf453c4e156844",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:14b2f455-a17c-4ba1-91a7-3220c96986ca/46dd9d54-18cf-4902-b952-d830c06bd7ad.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:14b2f455-a17c-4ba1-91a7-3220c96986ca/46dd9d54-18cf-4902-b952-d830c06bd7ad.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "eligibility": {},
+      "registered": true,
+      "verified": true,
+      "business": false,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "913ba259-4c78-4c2e-9e56-ca793802db9d",
+    "id": "601ee39aac77e1646a92b6f1",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "b566f461-ed8a-48b2-a2ed-acfa8b65d81a",
+      "createdTS": "2021-02-06T18:44:42.761+0000",
+      "updatedTS": "2021-02-09T19:55:03.024+0000",
+      "createdBy": "5cbb1dc49f247b076c6751c6",
+      "updatedBy": "5c39442f9f247b54dc21aae6",
+      "version": 5,
+      "id": "601ee39aac77e1646a92b6f1",
+      "accountId": 1512748,
+      "name": "Global Kanodar Jamaat",
+      "description": "Shia Ithna Ashri Momin Jamat, located at Kanodar (Ta:-Palanpur,Dist-Banas Kantha, North Gujarat, on Ahmedabad Delhi High Way), which is a famous place for the Azadari Programme held on the 22nd of Safar every year at Husain Tekri, Kanodar.\n\nThe Azadari Programme is organized by Anjumane Aza-e-Husain, Kanodar est. since 1964. There are three holy shrines (Shabih) 1.Hazarat Imam Husain (a.s) 2.Hazarat Abbas (a.s) 3.Sani-e-Zahra Janabe Zainab (a.s), a Mosque (Masjid), rooms for Zai'rin and a big shade for Majlis-e-Aja at Husain Takeri Campus.",
+      "sect": "Muslim",
+      "handle": "GlobalKanodarJamaat",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "c6b6871e-4158-4ca0-9219-ac0c4d67fb9c",
+        "version": 0,
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.39347,
+            24.089358
+          ],
+          "latitude": "24.089358",
+          "longitude": "72.393470"
+        },
+        "address": {
+          "uuid": "574eaca8-c4f6-4211-ada6-25283b487732",
+          "version": 0,
+          "addressLine1": "Kuvi Vas, Main Bazar Area, Kanoodar, Gujarat 385520, India",
+          "displayAddressLine": "Kuvi Vas, Main Bazar Area, Kanoodar, Gujarat 385520, India",
+          "city": "Banaskantha",
+          "state": "Gujarat",
+          "country": "India",
+          "zipcode": "385520",
+          "active": true
+        },
+        "gplaceId": "ChIJ3wnrDg_tXDkRvTUQS0pRbmw",
+        "active": false
+      },
+      "contactPoints": [],
+      "facilities": [
+        {
+          "uuid": "3e0f507c-b51b-4000-b4ee-ec053caad4b5",
+          "description": "Information Corner",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "b8e6b07e-ba03-4bf8-9527-2f49aeb49f4a",
+          "description": "Social services",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 5000,
+      "contentVisibilityType": "PRIVATE",
+      "settings": [
+        {
+          "uuid": "71111bbc-eb0d-4eb5-87f7-b768373bf0b3",
+          "createdTS": "2021-02-06T18:44:42.764+0000",
+          "updatedTS": "2021-02-06T18:44:42.764+0000",
+          "createdBy": "5cbb1dc49f247b076c6751c6",
+          "updatedBy": "5cbb1dc49f247b076c6751c6",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "18508de6-04ef-4eee-a991-151cd9ffd5d1",
+          "createdTS": "2021-02-07T07:12:50.452+0000",
+          "updatedTS": "2021-02-07T07:12:50.452+0000",
+          "createdBy": "5c39442f9f247b54dc21aae6",
+          "updatedBy": "5c39442f9f247b54dc21aae6",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "3f1dbcde-89e9-4e57-aafb-bbd6f0d7d32d",
+          "id": "601f9b409b3d3402eac9d8fc",
+          "resourceType": "COMMUNITY",
+          "resourceId": "601ee39aac77e1646a92b6f1",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/a6fcf5ac-5e36-4ef6-864b-50c176347441.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/a6fcf5ac-5e36-4ef6-864b-50c176347441.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "fc1c8402-e768-4b0b-9904-04692b313309",
+          "id": "601f971f9b3d3402eac9a30f",
+          "resourceType": "COMMUNITY",
+          "resourceId": "601ee39aac77e1646a92b6f1",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/cab2743a-8b01-4b42-be37-4eb5daa478ea.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/cab2743a-8b01-4b42-be37-4eb5daa478ea.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [],
+      "eligibility": {},
+      "hidden": false,
+      "verified": true,
+      "business": false,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "297ddd31-ceef-466b-9984-868b187df21a",
+    "id": "6065a072e8024d60f9383e33",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "852a5f4c-ce33-4707-b46a-adef82539a90",
+      "createdTS": "2021-04-01T10:29:06.190+0000",
+      "updatedTS": "2021-04-14T01:16:53.640+0000",
+      "createdBy": "5b9a17ab9f247b0f9ef375a0",
+      "updatedBy": "5c39442f9f247b54dc21aae6",
+      "version": 9,
+      "id": "6065a072e8024d60f9383e33",
+      "accountId": 1512807,
+      "name": "Sabeel Quran",
+      "description": "Digital community for Quranic teachings",
+      "sect": "Muslim",
+      "handle": "SabeelQuran",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "f3c8047c-7266-4e3c-8e5d-57168f343b63",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.9571294,
+            18.8950242
+          ],
+          "latitude": "18.8950242",
+          "longitude": "72.9571294"
+        },
+        "address": {
+          "uuid": "b2776d63-a9ff-40ef-8cee-cd6a9eb33535",
+          "addressLine1": "Dongri, Maharashtra 400702, India",
+          "displayAddressLine": "Dongri, Maharashtra 400702, India",
+          "city": "Navi Mumbai",
+          "country": "India",
+          "zipcode": "400702",
+          "active": true
+        },
+        "gplaceId": "ChIJrVNVb7Db5zsR1ezZ6D66hRM",
+        "active": true
+      },
+      "contactPoints": [],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 2500,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "f99b2776-7765-40d7-a625-29ca7f4b8ec4",
+          "createdTS": "2021-04-01T10:29:06.195+0000",
+          "updatedTS": "2021-04-01T10:29:06.195+0000",
+          "createdBy": "5b9a17ab9f247b0f9ef375a0",
+          "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "d1a398cd-06ca-4708-b159-4d8ab235086c",
+          "createdTS": "2021-04-11T01:26:32.492+0000",
+          "updatedTS": "2021-04-11T01:26:32.492+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "3e7b5596-4600-4e12-b121-53f42968863c",
+          "id": "60660fa82de84a5a8e6cf58e",
+          "resourceType": "COMMUNITY",
+          "resourceId": "6065a072e8024d60f9383e33",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/7fbdffb1-1a49-4f3d-988e-04d7c5bb67e2.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/7fbdffb1-1a49-4f3d-988e-04d7c5bb67e2.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "2d2d052e-2501-40b8-ad77-60081da81fe4",
+          "id": "60660fc02de84a5a8e6cf6a0",
+          "resourceType": "COMMUNITY",
+          "resourceId": "6065a072e8024d60f9383e33",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/b7405360-9e94-43a2-9676-355281139bfc.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/b7405360-9e94-43a2-9676-355281139bfc.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [],
+      "eligibility": {},
+      "hidden": false,
+      "registered": false,
+      "verified": true,
+      "business": false,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "2a19282f-1549-48d0-b2ab-c81fb0210568",
+    "id": "5ccce44b9f247b6c387534ec",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "4e7aeae3-5646-4f62-bdf7-1b0260bd7337",
+      "createdTS": "2019-05-04T01:00:59.319+0000",
+      "updatedTS": "2021-05-11T14:42:27.940+0000",
+      "createdBy": "5b741fc79f247b0f9ef3756e",
+      "updatedBy": "5b741fc79f247b0f9ef3756e",
+      "version": 4,
+      "id": "5ccce44b9f247b6c387534ec",
+      "accountId": 1512241,
+      "name": "Channel WIN: \"Message Of Humanity\"",
+      "description": "World Islamic Network /\nChannel WIN\n\n(Regd. Public Trust No. E 14741 Bom)\n\nAlhumdolillah we are growing. We need \nyour support, you can help us by subscribing to our Youtube Channel \n(https://www.youtube.com/user/channelwin \ntv) \n\nYou can also follow us on INSTAGRAM \nhttps://www.instagram.com/channelwin/ \n\nfor TWITTER \nhttps://www.instagram.com/channelwin/ ",
+      "handle": "ChannelWINMessageOfHumanity",
+      "communityType": "BUSINESS_BRAND",
+      "location": {
+        "uuid": "243bd043-f51b-4c74-8e38-7477cade66b6",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            72.83664499999999,
+            18.956754
+          ],
+          "latitude": "18.956754",
+          "longitude": "72.83664499999999"
+        },
+        "address": {
+          "uuid": "228550f7-4f88-4b7c-9210-669120c6eb26",
+          "addressLine1": "67/ 69, Bootwala Building, Samuel St, Bhat Bazar, Dongri, Masjid Bandar, Mumbai, Maharashtra 400009, India",
+          "displayAddressLine": "Hazrat Abbas (a.s) Street, Dongri, Mumbai",
+          "city": "Mumbai",
+          "country": "India",
+          "zipcode": "400009",
+          "active": true
+        },
+        "active": true
+      },
+      "webSiteUrl": "http://channelwin.tv",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "channelwin@gmail.com"
+        }
+      ],
+      "facilities": [
+        {
+          "uuid": "b59ba205-8947-4ae5-826b-825bed83651a",
+          "description": "Business support services",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "cc5419fd-4f8e-450b-a905-eb5d68be83b6",
+          "description": "Online booking",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "a3598643-494f-45b8-880a-26b240153bba",
+          "description": "Wifi Available",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "09da9348-0dfc-4fb6-998b-5a942070e5d7",
+          "description": "Parking",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "c44fab72-1ad5-481e-a33e-c4d8436b256f",
+          "description": " Concierge",
+          "type": "PRAYER_HALL",
+          "active": true
+        },
+        {
+          "uuid": "e35f5f33-78f9-404b-b23b-2e6fb752ecb5",
+          "description": "Wheelchair Accessible",
+          "type": "PRAYER_HALL",
+          "active": true
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "contentVisibilityType": "PUBLIC",
+      "businessCategory": "News and Media",
+      "settings": [
+        {
+          "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+          "createdBy": "5c5cfbdd9f247b65d961aa14",
+          "updatedBy": "5c5cfbdd9f247b65d961aa14",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        },
+        {
+          "uuid": "ee03f24d-8dc3-458f-ad2d-116e013d1b88",
+          "createdTS": "2021-05-11T14:42:27.940+0000",
+          "updatedTS": "2021-05-11T14:42:27.940+0000",
+          "createdBy": "5b741fc79f247b0f9ef3756e",
+          "updatedBy": "5b741fc79f247b0f9ef3756e",
+          "key": "COMM_CHAT_USR2COM_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "2922d035-2203-4ea5-8786-b8fa816c930e",
+          "id": "5ccce46b08d8cd6a659c5701",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ccce44b9f247b6c387534ec",
+          "type": "CommunityProfilePic",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped338708311993547915.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped338708311993547915.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "a1d1f374-be23-484d-8740-e156e322ef11",
+          "id": "5ccce49508d8cd6a659c59ff",
+          "resourceType": "COMMUNITY",
+          "resourceId": "5ccce44b9f247b6c387534ec",
+          "type": "CommunityCoverPhoto",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped1704260772614757913.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/cd/img/rs/tn/cropped1704260772614757913.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "cac5997a-93ec-4889-a957-b52cd07974e0",
+          "name": "TV-Shia",
+          "slug": "tv-shia",
+          "auto": false,
+          "replicate": false,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "verified": true,
+      "business": true,
+      "premium": true,
+      "active": true
+    },
+    "active": true
+  },
+  {
+    "uuid": "05c0038e-96eb-4c41-9c20-b60d252a7e45",
+    "id": "6095639036ed6c6a067f1b3c",
+    "httpMethod": "Get",
+    "statusCode": "200",
+    "body": {
+      "uuid": "6fcebc86-8594-4f2b-a44d-2891a9c1971f",
+      "createdTS": "2021-05-07T15:58:08.032+0000",
+      "updatedTS": "2021-05-08T06:39:08.147+0000",
+      "createdBy": "5b9a17ab9f247b0f9ef375a0",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "version": 7,
+      "id": "6095639036ed6c6a067f1b3c",
+      "accountId": 1513085,
+      "name": "Ahlulbayt TV",
+      "description": "Ahlulbayt TV is the world's first free-to-air, exclusively English TV network dedicated to delivering the pristine message of the Holy Prophet Muhammad and His Holy Household.\n\n\nWho do we serve?\nAhlulbayt TV transcends all divides, serving Muslims as well as non-Muslims, the religious and the non-practicing, submissive and inquisitive, young, old and everyone in between.\n\nAhlulbayt TV is a resource for parents seeking help with their children's upbringing, and is where a 76 year-old grandpa can keep connected to the Household he loves and to find inspiration from supplications and recitations.\n\nAhlulbayt TV is a place where top executives come for fresh daily insight, and is the community a university student turns to for guidance and support.\n\nThe university student, the seminary student, the professional globe-trotter, the young parent, the community leader, the online blogger, the curious Non-Muslim, the struggling entrepreneur, the new revert, Shia, Sunni, conservative, liberal, from LA to New York, Dearborn to Miami, Toronto to Vancouver, London to Glasgow, Karbala to Rome, Arab, Indian, white, black – all turn to and rely on Ahlulbayt.\n\nAhlulbayt TV: \"The Holy Household…For Every Household\"",
+      "sect": "Shia",
+      "handle": "AhlulbaytTV",
+      "communityType": "COMMUNITY_CENTER",
+      "location": {
+        "uuid": "a0aef6e9-2cc3-4d6b-a3c9-030e06f8a325",
+        "geoCoordinates": {
+          "type": "Point",
+          "coordinates": [
+            -0.1277583,
+            51.5073509
+          ],
+          "latitude": "51.5073509",
+          "longitude": "-0.1277583"
+        },
+        "address": {
+          "uuid": "d913f9f9-fe5e-45c6-85a9-6049aae306bc",
+          "addressLine1": "London, UK",
+          "displayAddressLine": "London, UK",
+          "country": "United Kingdom",
+          "zipcode": "SW1A 2DX",
+          "active": true
+        },
+        "gplaceId": "ChIJdd4hrwug2EcRmSrV3Vo6llI",
+        "active": true
+      },
+      "webSiteUrl": "http://ahlulbayt.tv",
+      "contactPoints": [
+        {
+          "type": "EMAIL",
+          "value": "info@ahlulbayt.tv"
+        },
+        {
+          "type": "MOBILE",
+          "value": "+44 203-355-1489"
+        }
+      ],
+      "status": "ACTIVE",
+      "creationSourceType": "USER_CREATED",
+      "rangeMembersCount": 25000,
+      "contentVisibilityType": "PUBLIC",
+      "settings": [
+        {
+          "uuid": "5594bd16-ddec-4c61-b8bc-d863ff302eea",
+          "createdTS": "2021-05-07T15:58:08.036+0000",
+          "updatedTS": "2021-05-07T15:58:08.036+0000",
+          "createdBy": "5b9a17ab9f247b0f9ef375a0",
+          "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+          "key": "COMM_COMMENTS_B",
+          "value": "true",
+          "active": true
+        }
+      ],
+      "media": {
+        "proImg": {
+          "uuid": "ab8ec21b-5b58-42c6-837e-8567bf8dc5df",
+          "id": "609568c5efa1cf6b0e8f4fda",
+          "resourceType": "COMMUNITY",
+          "resourceId": "6095639036ed6c6a067f1b3c",
+          "type": "CommunityProfilePic",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/40b7111f-e18d-4a98-818c-8e3f19e95f31.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/40b7111f-e18d-4a98-818c-8e3f19e95f31.jpg"
+            }
+          ],
+          "active": true
+        },
+        "covImg": {
+          "uuid": "c1c50e29-86ea-4131-8be4-014425e5fa3e",
+          "id": "609568b5efa1cf6b0e8f4ed7",
+          "resourceType": "COMMUNITY",
+          "resourceId": "6095639036ed6c6a067f1b3c",
+          "type": "CommunityCoverPhoto",
+          "contentType": "jpg",
+          "resizedMediaList": [
+            {
+              "type": "thumbnail",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/a1d78db9-c3de-4525-946c-4f1a9576f98c.jpg"
+            },
+            {
+              "type": "resized",
+              "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/a1d78db9-c3de-4525-946c-4f1a9576f98c.jpg"
+            }
+          ],
+          "active": true
+        }
+      },
+      "tags": [
+        {
+          "uuid": "af7ead65-250c-4a93-8443-c3dcf9a2577b",
+          "name": "TV-Shia",
+          "slug": "tv-shia",
+          "auto": false,
+          "replicate": false,
+          "active": true
+        }
+      ],
+      "eligibility": {},
+      "hidden": true,
+      "registered": false,
+      "verified": true,
+      "business": false,
+      "active": true
+    },
+    "active": true
+  }
+]

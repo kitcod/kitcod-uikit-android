@@ -30,7 +30,6 @@ public class KcCreateGroupActivity extends AppCompatActivity {
         final Intent intent = getIntent();
         CreateGroupFragment.Builder builder = new CreateGroupFragment.Builder()
                 .setUseHeader(true)
-                .setUseHeaderRightButton(false)
                 .setHeaderTitle("Create Group");
 
         return builder.build();

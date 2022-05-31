@@ -13,10 +13,14 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
 import androidx.databinding.DataBindingUtil;
 
+import com.google.gson.Gson;
 import com.kitcod.android.KitCodUIKit;
 import com.kitcod.android.R;
 import com.kitcod.android.consts.StringSet;
 import com.kitcod.android.databinding.UserProfileFragmentBinding;
+import com.kitcod.android.model.KcUser;
+import com.kitcod.android.utils.Util;
+import com.squareup.picasso.Picasso;
 
 public class UserProfileFragment extends BaseFragment {
 
@@ -25,6 +29,7 @@ public class UserProfileFragment extends BaseFragment {
     private String headerTitle = null, buttonTitle = null;
     private View.OnClickListener headerLeftButtonListener;
     private View.OnClickListener headerRightButtonListener;
+    private KcUser user;
 
     public static UserProfileFragment newInstance() {
         return new UserProfileFragment();
@@ -55,13 +60,48 @@ public class UserProfileFragment extends BaseFragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         initHeaderOnCreated();
+        setData();
+    }
+
+    private void setData() {
+        user = new Gson().fromJson(Util.loadJSONFromAsset("UserProfileResponse.json", getActivity()), KcUser.class);
+        binding.createGroupView.getBinding().tvCity.setText(user.homeLocation.address.city);
+        for (int i = 0; i < user.contactPoints.size(); i++) {
+            if (user.contactPoints.get(i).type.equalsIgnoreCase("MOBILE")) {
+            } else if (user.contactPoints.get(i).type.equalsIgnoreCase("EMAIL")) {
+                binding.createGroupView.getBinding().tvEmail.setText(user.contactPoints.get(i).value);
+            }
+        }
+        if (Util.validateString(user.aboutMe)) {
+            binding.createGroupView.getBinding().tvAbout.setText(user.aboutMe);
+        }
+        binding.createGroupView.getBinding().tvName.setText(user.firstName + " " + user.lastName);
+        if (user.media.proImg != null && user.media.proImg.resizedMediaList != null)
+            for (int i = 0; i < user.media.proImg.resizedMediaList.size(); i++) {
+                if (user.media.proImg.resizedMediaList.get(i).type != null) {
+                    if (user.media.proImg.resizedMediaList.get(i).type.equalsIgnoreCase("thumbnail")) {
+                        Picasso.get()
+                                .load(user.media.proImg.resizedMediaList.get(i).mediaUrl)
+                                .into(binding.createGroupView.getBinding().ivProfile);
+                    } else if (user.media.proImg.resizedMediaList.get(i).type.equalsIgnoreCase("resized")) {
+                        Picasso.get()
+                                .load(user.media.proImg.resizedMediaList.get(i).mediaUrl)
+                                .into(binding.createGroupView.getBinding().ivProfile);
+                    }
+                } else {
+                    //TODO - Default Profile pic of user
+                }
+
+            }
+
+
     }
 
     private void initHeaderOnCreated() {
         Bundle args = getArguments();
         boolean useHeader = false;
         boolean useHeaderLeftButton = true;
-        boolean useHeaderRightButton = true;
+        boolean useHeaderRightButton = false;
         int headerLeftButtonIconResId = R.drawable.icon_arrow_left;
         int headerRightButtonIconResId = R.drawable.icon_info;
         ColorStateList headerLeftButtonIconTint = null;
@@ -69,7 +109,7 @@ public class UserProfileFragment extends BaseFragment {
         if (args != null) {
             useHeader = args.getBoolean(StringSet.KEY_USE_HEADER, false);
             useHeaderLeftButton = args.getBoolean(StringSet.KEY_USE_HEADER_LEFT_BUTTON, true);
-            useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, true);
+            useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, false);
             headerLeftButtonIconResId = args.getInt(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_RES_ID, R.drawable.icon_arrow_left);
             headerRightButtonIconResId = args.getInt(StringSet.KEY_HEADER_RIGHT_BUTTON_ICON_RES_ID, R.drawable.icon_info);
             headerLeftButtonIconTint = args.getParcelable(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_TINT);

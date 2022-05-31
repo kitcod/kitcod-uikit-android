@@ -1,0 +1,74 @@
+[
+  {
+    "category": "Islamic Finance",
+    "displayName":"Islamic<br>Finance",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/islamic_finance_icon.png",
+    "active": true
+  },
+  {
+    "category": "Halal Food & Beverages",
+    "displayName":"Halal Food &<br>Beverages",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/halal_foods_icon.png",
+    "active": true
+  },
+  {
+    "category": "Digital Islamic Economy",
+    "displayName":"Digital Islamic<br>Economy",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/digital_economy_icon.png",
+    "active": true
+  },
+  {
+    "category": "Modest Fashion",
+    "displayName":"Modest<br>Fashion",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/modest_fashion_icon.png",
+    "active": true
+  },
+  {
+    "category": "Halal Travel & Tourism",
+    "displayName":"Halal Travel &<br>Tourism",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/halal_travel_icon.png",
+    "active": true
+  },
+  {
+    "category": "Healthcare & welfare",
+    "displayName":"Healthcare &<br>welfare",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/healthcare_icon.png",
+    "active": true
+  },
+  {
+    "category": "Islamic Standards",
+    "displayName":"Islamic<br>Standards",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/islamic_certification_icon.png",
+    "active": true
+  },
+  {
+    "category": "Islamic Knowledge",
+    "displayName":"Islamic<br>Knowledge",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/islamic_knowledge_icon.png",
+    "active": true
+  },
+  {
+    "category": "Halal Cosmetics",
+    "displayName":"Halal<br>Cosmetics",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/halal_cosmetics.png",
+    "active": true
+  },
+  {
+    "category": "Halal Ingredients",
+    "displayName":"Halal<br>Ingredients",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/halal_ingredient_icon.png",
+    "active": true
+  },
+  {
+    "category": "Halal Shipping & Logistics",
+    "displayName":"Halal Shipping<br>& Logistics",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/halal_shipping_icon.png",
+    "active": true
+  },
+  {
+    "category": "Others",
+    "displayName":"Others",
+    "icon":"https://static-dv.collabdeen.com/community-categories-icons/others_category_icon.png",
+    "active": true
+  }
+]

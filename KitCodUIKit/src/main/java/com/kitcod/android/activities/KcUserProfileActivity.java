@@ -25,7 +25,8 @@ public class KcUserProfileActivity extends AppCompatActivity {
 
     public UserProfileFragment userProfileFragment() {
         UserProfileFragment.Builder builder = new UserProfileFragment.Builder()
-                .setUseHeader(true);
+                .setUseHeader(true)
+                .setHeaderTitle("User Profile");
 
         return builder.build();
     }

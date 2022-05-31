@@ -13,7 +13,7 @@ class CreatePostActivity : KcCreatePostActivity() {
             .setButtonTitle("Post")
             .setVideo(false)
             .setPostButtonListener {
-            startActivity(Intent(this,GroupHomeActivity::class.java))
+                startActivity(Intent(this, GroupHomeActivity::class.java))
 
             }
             .setHeaderTitle("Create Post").build();

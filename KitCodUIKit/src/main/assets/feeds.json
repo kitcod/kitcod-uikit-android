@@ -1,0 +1,1350 @@
+{
+  "_embedded": {
+    "postList": [
+      {
+        "uuid": "9d3d6d23-fe2c-4f2b-a3c0-5052217c0b1e",
+        "createdTS": "2022-05-10T00:17:30.514+0000",
+        "updatedTS": "2022-05-10T00:17:30.514+0000",
+        "createdBy": "5b741fc79f247b0f9ef3756e",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 1,
+        "id": "6279af1a125ce0310c2b78ff",
+        "title": "New Hajj rules, did you know?",
+        "contentHTML": "<p>Those above 65-years-old intending to perform Haj will not be eligible for the pilgrimage. Also, only fully vaccinated pilgrims will be allowed to perform Haj - What do you think of this rule?</p><br>",
+        "contentMarkdown": "Those above 65-years-old intending to perform Haj will not be eligible for the pilgrimage. Also, only fully vaccinated pilgrims will be allowed to perform Haj - What do you think of this rule?",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5cde16c19f247b6c38753568",
+        "publishedTS": "2022-05-10T00:17:30.514+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 4,
+            "COMMENTTOT": 1,
+            "VIEWTOT": 5,
+            "VIEW": 3,
+            "COMMENT": 1
+          },
+          "userInteractions": [
+            {
+              "uuid": "f45a2a37-a46f-4dd9-b09c-cbb32c7f3f0c",
+              "createdTS": "2022-05-10T06:52:07.985+0000",
+              "updatedTS": "2022-05-10T06:52:07.985+0000",
+              "version": 1,
+              "id": "627a0b97a55f0523107ff51d",
+              "interactionType": "LIKEOPTION1",
+              "resourceType": "POST",
+              "resourceId": "6279af1a125ce0310c2b78ff",
+              "userId": "5b7a7a3a9f247b0f9ef37595",
+              "count": 1,
+              "active": true
+            }
+          ]
+        },
+        "communityContentVisibility": "PUBLIC",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "1cc3b265-ba06-422a-94e6-e2531ca6e005",
+              "id": "6279af1d42bc001997f8e57e",
+              "resourceType": "POST",
+              "resourceId": "6279af1a125ce0310c2b78ff",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/30eeab14-2a07-43da-aa8c-0af6cd5b518d.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/30eeab14-2a07-43da-aa8c-0af6cd5b518d.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "2e799e79-d481-4a65-9ae0-d48e59dbd69e",
+        "createdTS": "2022-05-06T09:59:24.027+0000",
+        "updatedTS": "2022-05-06T09:59:24.027+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "6274f17c125ce0310c2b78fe",
+        "title": "ઈન્ના લીલ્લાહે વ ઈન્ના એલયહે રાજેઉન",
+        "contentHTML": "<p>ઈન્ના લીલ્લાહે વ ઈન્ના એલયહે રાજેઉન<br>ઈકબાલ ભાઈ મોહમ્મદ ભાઈ હસન નો કાણોદર મા ઈનતેકાલ થયેલ છે ઉચાડા વાસ એમની રુહ ના સવાબ માટે સુરેહફાતેહા પઢવા ઞુજારીશ</p><br>",
+        "contentMarkdown": "ઈન્ના લીલ્લાહે વ ઈન્ના એલયહે રાજેઉન\nઈકબાલ ભાઈ મોહમ્મદ ભાઈ હસન નો કાણોદર મા ઈનતેકાલ થયેલ છે ઉચાડા વાસ એમની રુહ ના સવાબ માટે સુરેહફાતેહા પઢવા ઞુજારીશ",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-05-06T09:59:24.027+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 36,
+            "VIEW": 8,
+            "LIKEOPTION4": 2
+          },
+          "userInteractions": [
+            {
+              "uuid": "6d43a8a5-2d45-49b7-b24d-edc498b3dd86",
+              "createdTS": "2022-05-10T06:52:18.684+0000",
+              "updatedTS": "2022-05-10T06:52:18.684+0000",
+              "version": 1,
+              "id": "627a0ba2a55f0523107ff51e",
+              "interactionType": "LIKEOPTION4",
+              "resourceType": "POST",
+              "resourceId": "6274f17c125ce0310c2b78fe",
+              "userId": "5b7a7a3a9f247b0f9ef37595",
+              "count": 1,
+              "active": true
+            }
+          ]
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "9ad4ee3f-2060-47fe-afe7-8c8161395f26",
+              "id": "6274f17f42bc001997f8e57a",
+              "resourceType": "POST",
+              "resourceId": "6274f17c125ce0310c2b78fe",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/a4eb4f1e-de74-408d-a68a-765063f9abe9.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/a4eb4f1e-de74-408d-a68a-765063f9abe9.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "2d683543-2491-44a6-b58a-bca12ea56528",
+        "createdTS": "2022-05-02T14:09:31.619+0000",
+        "updatedTS": "2022-05-02T14:09:31.619+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "626fe61b125ce0310c2b78f9",
+        "title": "eid mubarak",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-05-02T14:09:31.619+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 3,
+            "COMMENTTOT": 2,
+            "VIEWTOT": 34,
+            "VIEW": 7,
+            "COMMENT": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "6410c0e0-016a-43cb-8940-21c03dc3edf2",
+              "id": "626fe61f42bc001997f8e577",
+              "resourceType": "POST",
+              "resourceId": "626fe61b125ce0310c2b78f9",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/a6d7cb1d-4090-4e5a-989d-0d9731ccf86e.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/a6d7cb1d-4090-4e5a-989d-0d9731ccf86e.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "084e9594-73ca-4d03-9608-b1e7fe9befa3",
+        "createdTS": "2022-04-27T04:17:33.710+0000",
+        "updatedTS": "2022-04-27T04:17:33.710+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "6268c3dd125ce0310c2b78f7",
+        "title": "Document Upload",
+        "contentHTML": "<p>Following is document upload.</p><br>",
+        "contentMarkdown": "Following is document upload.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-04-27T04:17:33.710+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 1,
+            "VIEWTOT": 9,
+            "VIEW": 3
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "docs": [
+            {
+              "uuid": "d2920f14-3ec8-4d37-a3f9-2f10e968daba",
+              "id": "6268c3e042bc001997f8e575",
+              "resourceType": "POST",
+              "resourceId": "6268c3dd125ce0310c2b78f7",
+              "type": "CommunityDocument",
+              "mediaUrl": "https://content.collabdeen.com/public/doc/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/20220427-094733/stepBystep.pdf",
+              "contentType": "pdf",
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "f7e02400-8e65-4e17-86e7-17e98cdeb6b8",
+        "createdTS": "2022-04-27T04:16:11.861+0000",
+        "updatedTS": "2022-04-27T04:16:11.861+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "6268c38b125ce0310c2b78f6",
+        "title": "Audio Post",
+        "contentHTML": "<p>Following is the audio Post.</p><br>",
+        "contentMarkdown": "Following is the audio Post.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-04-27T04:16:11.861+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 6,
+            "VIEW": 3
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "auds": [
+            {
+              "uuid": "319d83ca-8f6a-457f-8111-0982852cb350",
+              "id": "6268c3ad42bc001997f8e574",
+              "resourceType": "POST",
+              "resourceId": "6268c38b125ce0310c2b78f6",
+              "type": "CommunityAudio",
+              "mediaUrl": "https://content.collabdeen.com/public/aud/or/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/1944f9fb-10c9-4dfc-b039-e30ccb7799ff.mp3",
+              "contentType": "mp3",
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "b698fdeb-eb77-464a-89a3-f374151a0d8c",
+        "createdTS": "2022-04-20T11:45:52.153+0000",
+        "updatedTS": "2022-04-20T11:45:52.153+0000",
+        "createdBy": "5b741fc79f247b0f9ef3756e",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 1,
+        "id": "625ff270125ce0310c2b78f1",
+        "title": "Quiz Time! Eating dates ",
+        "contentHTML": "<p>Eating dates is a sunnah for breaking fast. What is the sunnah for the number of dates?</p><br>",
+        "contentMarkdown": "Eating dates is a sunnah for breaking fast. What is the sunnah for the number of dates?",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5cde16c19f247b6c38753568",
+        "publishedTS": "2022-04-20T11:45:52.153+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION2": 1,
+            "LIKEOPTION3": 3,
+            "LIKEOPTION1": 6,
+            "COMMENTTOT": 11,
+            "VIEWTOT": 1006,
+            "VIEW": 342,
+            "COMMENT": 1
+          }
+        },
+        "communityContentVisibility": "PUBLIC",
+        "media": {},
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "d8c1774b-6846-4555-89b6-fd2b814aed59",
+        "createdTS": "2022-04-19T06:51:24.954+0000",
+        "updatedTS": "2022-04-19T06:51:24.954+0000",
+        "createdBy": "5b741fc79f247b0f9ef3756e",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 1,
+        "id": "625e5bec125ce0310c2b78f0",
+        "title": "Which month is Ramadan in the Islamic calendar? 📅 ",
+        "postType": "POLL",
+        "communityId": "5cde16c19f247b6c38753568",
+        "publishedTS": "2022-04-19T06:51:24.954+0000",
+        "poll": {
+          "options": [
+            {
+              "type": "POLLOPTION1",
+              "text": "5th Month"
+            },
+            {
+              "type": "POLLOPTION2",
+              "text": "1st Month"
+            },
+            {
+              "type": "POLLOPTION3",
+              "text": "9th Month"
+            },
+            {
+              "type": "POLLOPTION4",
+              "text": "8th Month"
+            }
+          ]
+        },
+        "interactionSummary": {
+          "interactionCounts": {
+            "POLLOPTION2": 5,
+            "LIKEOPTION2": 1,
+            "POLLOPTION3": 54,
+            "LIKEOPTION1": 6,
+            "POLLOPTION1": 19,
+            "VIEWTOT": 872,
+            "VIEW": 331,
+            "POLLTOT": 86,
+            "POLLOPTION4": 8,
+            "LIKEOPTION4": 1,
+            "LIKEOPTION5": 1
+          },
+          "userInteractions": [
+            {
+              "uuid": "37b9b0c7-3dde-413a-9111-7c4a2741fe18",
+              "createdTS": "2022-04-25T10:29:19.732+0000",
+              "updatedTS": "2022-04-25T10:29:19.732+0000",
+              "version": 1,
+              "id": "626677ffa55f0523107fd1a2",
+              "interactionType": "POLLOPTION3",
+              "resourceType": "POST",
+              "resourceId": "625e5bec125ce0310c2b78f0",
+              "resourceSubType": "POLL",
+              "userId": "5b7a7a3a9f247b0f9ef37595",
+              "count": 1,
+              "active": true
+            }
+          ]
+        },
+        "communityContentVisibility": "PUBLIC",
+        "media": {},
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "00c0b18e-c65c-41e2-8ff2-475d74ff1185",
+        "createdTS": "2022-04-19T04:37:38.757+0000",
+        "updatedTS": "2022-04-19T04:37:38.757+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "625e3c92125ce0310c2b78ef",
+        "title": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِ",
+        "contentHTML": "<p>﷽<br /><br><em>إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون</em><br /><br><em>ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</em><br><br>&quot; <em>ફાતેમા બેન ગુલામભાઈ ચૌધરી (બિન્તે અલી મહંમદ ચૌધરી ઘડીયાલી)</em><br><em>નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે</em>.<br>*તેમનો જનાઝો આજે મંગળવાર સવારે <em>૧૦/૪૫ કલાકે</em> *એમના ઘરે *<br>(*બાગે ઝહેરા) થી<br><em>નીકાળવા મો આવશે</em> .</p><br><h2><em>મરહુમા ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે</em><br><em>વહેશત પઢવા ગુજારીશ છે</em></h2><br>",
+        "contentMarkdown": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون*       \n*ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન*\n\n\" *ફાતેમા બેન ગુલામભાઈ ચૌધરી (બિન્તે અલી મહંમદ ચૌધરી ઘડીયાલી)*\n *નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે*. \n*તેમનો જનાઝો આજે મંગળવાર સવારે *૧૦/૪૫ કલાકે* *એમના ઘરે * \n(*બાગે ઝહેરા) થી\n *નીકાળવા મો આવશે* .\n\n*મરહુમા ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે* \n *વહેશત પઢવા ગુજારીશ છે*\n--------------",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-04-19T04:37:38.757+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 1,
+            "VIEWTOT": 108,
+            "VIEW": 11
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "47683771-1a2f-497e-b4fb-4867fc02b9b0",
+              "id": "625e3c9642bc001997f8e56d",
+              "resourceType": "POST",
+              "resourceId": "625e3c92125ce0310c2b78ef",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/83c57f4e-34c6-4aa4-a0ae-bed7c58ddd5f.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/83c57f4e-34c6-4aa4-a0ae-bed7c58ddd5f.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "301b6e49-a900-4e86-ad7a-5bb8f87e85fd",
+        "createdTS": "2022-04-08T16:26:20.215+0000",
+        "updatedTS": "2022-04-08T17:12:22.946+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "6250622c125ce0310c2b78e9",
+        "title": "Inna lillahe.. Khatijaben Mahamadbh",
+        "contentHTML": "<p>﷽ તારીખ : 08-04-2022 શુક્રવાર</p>\n<p>إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون</p>\n<p>ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</p>\n<p>ખદિજાબેન મોહંમદભાઈ મુસા નો કાણોદર માં ઇન્તેકાલ થયેલ છે</p>\n<p>તેમનો જનાઝો નવાકુવા વાસ થી 11:00 વાગે નિકાળવામાં આવશે</p>\n<p>(મહુઁમ ના રૂહના ઇસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેસત પઢવા ની ગુજારીશ છે)_ -------------------Inna lillahe.. Khatijaben Mahamadbhai Musa no intekal thayo se. temno janajo 11 vage Navakuva mathi nikalvamo avse.</p>\n",
+        "contentMarkdown": "﷽ તારીખ : 08-04-2022 શુક્રવાર\n\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\n\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન\n\nખદિજાબેન મોહંમદભાઈ મુસા નો કાણોદર માં ઇન્તેકાલ થયેલ છે\n\nતેમનો જનાઝો નવાકુવા વાસ થી 11:00 વાગે નિકાળવામાં આવશે\n\n(મહુઁમ ના રૂહના ઇસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેસત પઢવા ની ગુજારીશ છે)_ -------------------Inna lillahe.. Khatijaben Mahamadbhai Musa no intekal thayo se. temno janajo 11 vage Navakuva mathi nikalvamo avse.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-04-08T16:26:20.215+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 123,
+            "VIEW": 14,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "a3a64fd9-a5cc-4743-8fd3-212049980807",
+              "id": "62506cfa42bc001997f8e568",
+              "resourceType": "POST",
+              "resourceId": "6250622c125ce0310c2b78e9",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/b7fd7233-8ba5-44d8-a6bb-a8d808fe984e.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/b7fd7233-8ba5-44d8-a6bb-a8d808fe984e.jpg"
+                }
+              ],
+              "active": true
+            },
+            {
+              "uuid": "db3fd039-71f9-4fe5-9d46-bd825158b5a3",
+              "id": "62506cfb42bc001997f8e569",
+              "resourceType": "POST",
+              "resourceId": "6250622c125ce0310c2b78e9",
+              "displayRank": 2,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/e19f129f-e6cb-4040-aa34-ae93cf6eb38b.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/e19f129f-e6cb-4040-aa34-ae93cf6eb38b.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "8683a13a-8b43-41b6-b961-d4c70b581535",
+        "createdTS": "2022-04-03T11:31:00.766+0000",
+        "updatedTS": "2022-04-03T11:31:00.766+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "62498574125ce0310c2b78e1",
+        "title": "Inna lillahe.. Fatmaben Miyanjibhai",
+        "contentHTML": "<p>Inna lillahe.. Fatmaben Miyanjibhai Polara no intekal thayo se. temno janajo 5 vage Khanvalavas mathi nikalvamo avse.</p><br>",
+        "contentMarkdown": "Inna lillahe.. Fatmaben Miyanjibhai Polara no intekal thayo se. temno janajo 5 vage Khanvalavas mathi nikalvamo avse. ",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-04-03T11:31:00.766+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 108,
+            "VIEW": 16,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "4e9e66b6-6fe7-436d-b372-57b8f89bc9a5",
+              "id": "6249857842bc001997f8e561",
+              "resourceType": "POST",
+              "resourceId": "62498574125ce0310c2b78e1",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/e6c8648a-dae4-4157-ad25-3645eacd90d3.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/e6c8648a-dae4-4157-ad25-3645eacd90d3.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "b4e36b62-2215-4e5f-88b3-ad335d8bc889",
+        "createdTS": "2022-04-03T08:26:38.708+0000",
+        "updatedTS": "2022-04-03T08:26:38.708+0000",
+        "createdBy": "5b741fc79f247b0f9ef3756e",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 1,
+        "id": "62495a3e125ce0310c2b78e0",
+        "title": "Ramadan kareem 🌙",
+        "contentHTML": "<p>Wishing each of you a warm and blessed Shahr Ramadhan Mubarak 💐</p><br>",
+        "contentMarkdown": "Wishing each of you a warm and blessed Shahr Ramadhan Mubarak 💐",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5cde16c19f247b6c38753568",
+        "publishedTS": "2022-04-03T08:26:38.708+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION3": 5,
+            "LIKEOPTION1": 49,
+            "COMMENTTOT": 6,
+            "VIEWTOT": 2664,
+            "VIEW": 718,
+            "LIKEOPTION4": 4,
+            "COMMENT": 1,
+            "LIKEOPTION5": 1
+          }
+        },
+        "communityContentVisibility": "PUBLIC",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "30a97e43-e4c5-4bed-9be2-b27cb5f7a0da",
+              "id": "62495a4142bc001997f8e55f",
+              "resourceType": "POST",
+              "resourceId": "62495a3e125ce0310c2b78e0",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/5682cd07-98a9-44b7-963b-4d7ccb18db38.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/5682cd07-98a9-44b7-963b-4d7ccb18db38.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "e364292e-c700-4dbc-85be-91ed29222a3e",
+        "createdTS": "2022-04-03T08:13:32.331+0000",
+        "updatedTS": "2022-04-03T08:13:32.331+0000",
+        "createdBy": "5b741fc79f247b0f9ef3756e",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 1,
+        "id": "6249572c125ce0310c2b78de",
+        "title": "Robots at Haramain 🤖",
+        "contentHTML": "<p>Five smart robots have been allocated by the General Presidency of Haramain to clean and disinfect the surface of the Ka'bah. The robots can perform the entire cleaning process within 20 minutes. #Haramaininfo</p><br>",
+        "contentMarkdown": "Five smart robots have been allocated by the General Presidency of Haramain to clean and disinfect the surface of the Ka'bah. The robots can perform the entire cleaning process within 20 minutes. #Haramaininfo",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5cde16c19f247b6c38753568",
+        "publishedTS": "2022-04-03T08:13:32.331+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION2": 3,
+            "LIKEOPTION3": 1,
+            "LIKEOPTION1": 25,
+            "VIEWTOT": 1933,
+            "VIEW": 619,
+            "LIKEOPTION4": 4
+          }
+        },
+        "communityContentVisibility": "PUBLIC",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "b6b0be2d-1fa0-4ca6-8c3c-73e7c02907be",
+              "id": "6249572f42bc001997f8e55b",
+              "resourceType": "POST",
+              "resourceId": "6249572c125ce0310c2b78de",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/6437d622-6049-40af-a42d-1d1117cf8a78.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/6437d622-6049-40af-a42d-1d1117cf8a78.jpg"
+                }
+              ],
+              "active": true
+            },
+            {
+              "uuid": "e0a5ca0d-7afa-46f8-9183-ace4450a37a7",
+              "id": "6249573042bc001997f8e55d",
+              "resourceType": "POST",
+              "resourceId": "6249572c125ce0310c2b78de",
+              "displayRank": 2,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/8f6fbe8f-a923-4e19-8882-433faca0308c.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/8f6fbe8f-a923-4e19-8882-433faca0308c.jpg"
+                }
+              ],
+              "active": true
+            },
+            {
+              "uuid": "ccfceb13-9d43-47ca-8193-e16e8ced7aa2",
+              "id": "6249572f42bc001997f8e55c",
+              "resourceType": "POST",
+              "resourceId": "6249572c125ce0310c2b78de",
+              "displayRank": 3,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/cb0f47dc-6c95-46b7-87c4-4fa786121fa8.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:097ca731-4742-41cc-be8e-6d569d02ce23/cb0f47dc-6c95-46b7-87c4-4fa786121fa8.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "e7d05948-ddd1-422e-84a8-a860bbb4dee8",
+        "createdTS": "2022-03-31T03:10:32.830+0000",
+        "updatedTS": "2022-03-31T03:11:13.464+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "62451ba8125ce0310c2b78d8",
+        "title": "Innalillahe Waina Alyhe Rajeoun, La",
+        "contentHTML": "<p>Innalillahe Waina Alyhe Rajeoun, Latif Hasanbhai Marediya (Kanodarwala) he is pass away today at Houston, Texas, USA. Wednesday, March 30, 2022.</p>\n",
+        "contentMarkdown": "Innalillahe Waina Alyhe Rajeoun, Latif Hasanbhai Marediya (Kanodarwala) he is pass away today at Houston, Texas, USA. Wednesday, March 30, 2022.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-03-31T03:10:32.830+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 143,
+            "VIEW": 16
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "32cbaeac-b7d8-48bd-a947-ffe54f03df9c",
+              "id": "62451bd5c2fa7c1e16a851a0",
+              "resourceType": "POST",
+              "resourceId": "62451ba8125ce0310c2b78d8",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/f6e7b132-26c1-4e70-b2e3-3e812b3c91b6.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/f6e7b132-26c1-4e70-b2e3-3e812b3c91b6.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "55982f3e-e2c8-46a1-a7df-da1bbb6bae08",
+        "createdTS": "2022-03-19T17:17:22.983+0000",
+        "updatedTS": "2022-03-19T17:58:31.242+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "62361022125ce0310c2b78cf",
+        "title": "Inna lillahe.. Malukben Dosanbhai S",
+        "contentHTML": "<p>Inna lillahe.. Malukben Dosanbhai Sunasara no intekal thayo se. temno janajo 9 vage Imamiyacoloni mathi nikalvamo avse.</p>\n",
+        "contentMarkdown": "Inna lillahe.. Malukben Dosanbhai Sunasara no intekal thayo se. temno janajo 9 vage Imamiyacoloni mathi nikalvamo avse.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-03-19T17:17:22.983+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 124,
+            "VIEW": 17,
+            "LIKEOPTION4": 2
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "89f37696-91c8-4481-9cf8-d35a645286b6",
+              "id": "623619ccc2fa7c1e16a8519b",
+              "resourceType": "POST",
+              "resourceId": "62361022125ce0310c2b78cf",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/0d79eb0f-8865-4598-baf7-b69b5a6c1f39.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/0d79eb0f-8865-4598-baf7-b69b5a6c1f39.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "76d194d3-48ba-4741-b5e8-f026b25eaef3",
+        "createdTS": "2022-03-04T11:10:25.644+0000",
+        "updatedTS": "2022-03-04T11:10:25.644+0000",
+        "createdBy": "5b741fc79f247b0f9ef3756e",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 1,
+        "id": "6221f3a1125ce0310c2b78c4",
+        "title": "test ",
+        "contentHTML": "<p>announcement post</p><br>",
+        "contentMarkdown": "announcement post",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-03-04T11:10:25.644+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 1,
+            "VIEWTOT": 7,
+            "VIEW": 4
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {},
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "cf9617b9-421b-4c75-8055-54389b253907",
+        "createdTS": "2022-02-21T03:04:22.340+0000",
+        "updatedTS": "2022-02-21T03:41:04.428+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "62130136125ce0310c2b78c0",
+        "title": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِ",
+        "contentHTML": "<p>﷽\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</p>\n<p>મહંમદ અલી હસનઅલી સલેમા નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. તેમનો જનાઝો આજે સોમવારે સવારે ૯/૩૦ કલાકે એમના ઘરે ( હયાત બીલ્ડીંગ) થી નીકાળવા મો આવશે .</p>\n<p>મરહુમ ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત પઢવા ગુજારીશ છે</p>\n",
+        "contentMarkdown": "﷽\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન\n\nમહંમદ અલી હસનઅલી સલેમા નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. તેમનો જનાઝો આજે સોમવારે સવારે ૯/૩૦ કલાકે એમના ઘરે ( હયાત બીલ્ડીંગ) થી નીકાળવા મો આવશે .\n\nમરહુમ ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત પઢવા ગુજારીશ છે",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-02-21T03:04:22.340+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 248,
+            "VIEW": 21,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "77733aa7-82fb-459e-b90b-d5007ef78946",
+              "id": "621309d3c2fa7c1e16a85188",
+              "resourceType": "POST",
+              "resourceId": "62130136125ce0310c2b78c0",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/8556271f-43fc-49fd-9729-995b6afc75de.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/8556271f-43fc-49fd-9729-995b6afc75de.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "85ddb8fd-d14f-4ae5-ace0-7247ab60073b",
+        "createdTS": "2022-02-17T09:02:09.798+0000",
+        "updatedTS": "2022-02-17T09:03:37.281+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "620e0f11125ce0310c2b78bd",
+        "title": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِ",
+        "contentHTML": "<p>﷽\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</p>\n<p>&quot; ફજલે અબ્બાસ અલી ભાઈ માકણોજિયા નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. તેમનો જનાઝો આજે  ગુરુ વાર 5/00 કલાકે એમના ઘરે થી ( ઞૉડન પાકૅ) નીકાળવા મો આવશે .</p>\n<p>મરહુમ ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત/મગ્ફેરત પઢવા ગુજારીશ છે</p>\n",
+        "contentMarkdown": "﷽\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન\n\n\" ફજલે અબ્બાસ અલી ભાઈ માકણોજિયા નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. તેમનો જનાઝો આજે  ગુરુ વાર 5/00 કલાકે એમના ઘરે થી ( ઞૉડન પાકૅ) નીકાળવા મો આવશે .\n\nમરહુમ ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત/મગ્ફેરત પઢવા ગુજારીશ છે",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-02-17T09:02:09.798+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 155,
+            "VIEW": 26,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "b97ed922-ba35-4d6e-9b58-4a751868fdcc",
+              "id": "620e0f6cc2fa7c1e16a85186",
+              "resourceType": "POST",
+              "resourceId": "620e0f11125ce0310c2b78bd",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/972528db-5314-43f9-939b-e7f0c72f54cf.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/972528db-5314-43f9-939b-e7f0c72f54cf.jpg"
+                }
+              ],
+              "active": true
+            },
+            {
+              "uuid": "f1a66c77-a399-445c-bb7a-ab3d3a5305c0",
+              "id": "620e0f6dc2fa7c1e16a85187",
+              "resourceType": "POST",
+              "resourceId": "620e0f11125ce0310c2b78bd",
+              "displayRank": 2,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/c2989038-c231-4ec9-8ea5-3c3a8f73bd7e.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/c2989038-c231-4ec9-8ea5-3c3a8f73bd7e.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "a6ca92dd-c9a4-4e70-bd9e-024ebc36e8a7",
+        "createdTS": "2022-02-10T17:01:35.304+0000",
+        "updatedTS": "2022-02-10T17:01:35.304+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "620544ef125ce0310c2b78bb",
+        "title": "Inna lillahe.. Vajirbhai Alimad Ami",
+        "contentHTML": "<p>Inna lillahe.. Vajirbhai Alimad Ami no intekal thayo se.  Ambavadi mathi nikalvamo avse.</p><br>",
+        "contentMarkdown": "Inna lillahe.. Vajirbhai Alimad Ami no intekal thayo se.  Ambavadi mathi nikalvamo avse. ",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-02-10T17:01:35.304+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 133,
+            "VIEW": 22,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "7845a68a-f322-43d1-b766-e3103d585664",
+              "id": "620544f3c2fa7c1e16a85185",
+              "resourceType": "POST",
+              "resourceId": "620544ef125ce0310c2b78bb",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/b6387be7-2eda-4e09-9b17-c39c2db4332f.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/b6387be7-2eda-4e09-9b17-c39c2db4332f.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "a3638a21-0a67-44ae-9a5c-9575f0561bb3",
+        "createdTS": "2022-02-09T15:09:30.384+0000",
+        "updatedTS": "2022-02-10T16:59:48.591+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "6203d92a125ce0310c2b78b9",
+        "title": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِ",
+        "contentHTML": "<p>﷽\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</p>\n<p>&quot; મરીયમ બેન મહંમદ ભાઈ મલપરા નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. તેમનો જનાઝો આજે બુધવારે બપોરે ૪/૦૦ કલાકે એમના ઘરે\n( કૌસરી વાસ) થી નીકાળવા મો આવશે .</p>\n<p>મરહુમા ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત પઢવા ગુજારીશ છે</p>\n",
+        "contentMarkdown": "﷽\nإِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون\nઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન\n\n\" મરીયમ બેન મહંમદ ભાઈ મલપરા નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. તેમનો જનાઝો આજે બુધવારે બપોરે ૪/૦૦ કલાકે એમના ઘરે\n( કૌસરી વાસ) થી નીકાળવા મો આવશે .\n\nમરહુમા ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત પઢવા ગુજારીશ છે",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-02-09T15:09:30.384+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 126,
+            "VIEW": 22,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "1c674b80-2ce4-4e0e-8137-38475b9d2290",
+              "id": "6203d92dc2fa7c1e16a85183",
+              "resourceType": "POST",
+              "resourceId": "6203d92a125ce0310c2b78b9",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/1bd2839c-6187-478f-8977-78932d363ac5.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/1bd2839c-6187-478f-8977-78932d363ac5.jpg"
+                }
+              ],
+              "active": true
+            },
+            {
+              "uuid": "ba596be8-8816-41f9-869b-13a3adabf2d6",
+              "id": "62054489c2fa7c1e16a85184",
+              "resourceType": "POST",
+              "resourceId": "6203d92a125ce0310c2b78b9",
+              "displayRank": 2,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/308e1674-6617-4ab1-b007-15d785c0d096.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/308e1674-6617-4ab1-b007-15d785c0d096.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "a8635aa8-c83f-463a-9ad0-9ba84683be6c",
+        "createdTS": "2022-02-05T15:58:48.007+0000",
+        "updatedTS": "2022-02-05T15:58:48.007+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "61fe9eb8125ce0310c2b78b7",
+        "title": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِ",
+        "contentHTML": "<p>﷽<br /><br><em>إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون</em><br /><br><em>ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</em><br><br>&quot; <em>તાહેરા બેન મેહબુબ ભાઈ સુણસરા, ચંગીસ (બીન્તે મોહંમદ ભાઈ યાર સુણસરા)</em><br><em>નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે</em>.<br><em>તેમનો જનાઝો આજે શનીવારે રાત્રે</em> <em>૧૦/૪૫ કલાકે</em> <em>એમના ઘરે</em><br>( <em>હુસૈની બાગ,મજુર કલ્યાણ સામે</em> ) <em>થી</em><br><em>નીકાળવા મો આવશે</em> .<br><br><em>મરહુમા ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત પઢવા ગુજારીશ છે</em></p><br>",
+        "contentMarkdown": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون*       \n*ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન*\n\n\" *તાહેરા બેન મેહબુબ ભાઈ સુણસરા, ચંગીસ (બીન્તે મોહંમદ ભાઈ યાર સુણસરા)*\n *નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે*. \n*તેમનો જનાઝો આજે શનીવારે રાત્રે* *૧૦/૪૫ કલાકે* *એમના ઘરે* \n( *હુસૈની બાગ,મજુર કલ્યાણ સામે* ) *થી* \n *નીકાળવા મો આવશે* .\n\n*મરહુમા ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત પઢવા ગુજારીશ છે*",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-02-05T15:58:48.007+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 142,
+            "VIEW": 25,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "d5902f6b-3d31-4766-bb0b-3cf78f412562",
+              "id": "61fe9ebbc2fa7c1e16a85180",
+              "resourceType": "POST",
+              "resourceId": "61fe9eb8125ce0310c2b78b7",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/bdb75b92-bc13-497a-a4c6-7d2e66e525da.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/bdb75b92-bc13-497a-a4c6-7d2e66e525da.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "6e9acf44-5e44-4ccf-b9aa-d096ce438e57",
+        "createdTS": "2022-02-05T03:37:49.491+0000",
+        "updatedTS": "2022-02-05T03:37:49.491+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "61fdf10d125ce0310c2b78b6",
+        "title": "*إِنَّا للهِ وَإِنَّا إِلَيْهِ رَاج",
+        "contentHTML": "<p><em>إِنَّا للهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ</em><br><br>Mrs. Ruqaiya Bai Anwar Ali Maknojia (Daughter of Noor Bhai Jamal Sunasara) has expired. Namaz e Janaza and Tadfeen update will follow.(Pakistan)</p><br>",
+        "contentMarkdown": "*إِنَّا للهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ*\n\nMrs. Ruqaiya Bai Anwar Ali Maknojia (Daughter of Noor Bhai Jamal Sunasara) has expired. Namaz e Janaza and Tadfeen update will follow.(Pakistan)",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-02-05T03:37:49.491+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 154,
+            "VIEW": 26,
+            "LIKEOPTION4": 2
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "8b3342da-81be-405b-85d9-1b7f0c44a67c",
+              "id": "61fdf111c2fa7c1e16a8517e",
+              "resourceType": "POST",
+              "resourceId": "61fdf10d125ce0310c2b78b6",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/d3aad756-4734-413b-88df-15a1834783b8.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/d3aad756-4734-413b-88df-15a1834783b8.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "ff950b1b-4bd9-4086-bca1-d6e0fa77e1e9",
+        "createdTS": "2022-01-30T10:38:18.806+0000",
+        "updatedTS": "2022-01-30T10:38:18.806+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "61f66a9a125ce0310c2b78b2",
+        "title": "Inna lillahe.. Nuriben Hasanbhai Pa",
+        "contentHTML": "<p>Inna lillahe.. Nuriben Hasanbhai Patel no intekal thayo se. temno janajo 3 vage Jalalpuravas mathi nikalvamo avse.</p><br>",
+        "contentMarkdown": "Inna lillahe.. Nuriben Hasanbhai Patel no intekal thayo se. temno janajo 3 vage Jalalpuravas mathi nikalvamo avse.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-01-30T10:38:18.806+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 1,
+            "VIEWTOT": 97,
+            "VIEW": 23,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "e608368a-b3d0-4796-bb2f-47d09dfe3a7f",
+              "id": "61f66a9dc2fa7c1e16a8517a",
+              "resourceType": "POST",
+              "resourceId": "61f66a9a125ce0310c2b78b2",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/928bb4a3-abb6-4257-a44a-8534880dce03.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/928bb4a3-abb6-4257-a44a-8534880dce03.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "b0b1fb8f-2afa-4540-858d-1bc713e06030",
+        "createdTS": "2022-01-28T11:43:45.071+0000",
+        "updatedTS": "2022-01-28T11:43:45.071+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 1,
+        "id": "61f3d6f1125ce0310c2b78b1",
+        "title": "*Mohammadbhai Noorbhai Natha* (Bhag",
+        "contentHTML": "<p><em>Mohammadbhai Noorbhai Natha</em> (Bhagat) no Kanodar ma Inteqal thayel che temno Janazo <em>3:00</em> vage Motira Vaas mathi Nikalva ma Aavse...<br>Marhum Na Isale sawab mate <em>Fatiha</em> Padhva Gujarish...</p><br>",
+        "contentMarkdown": "*Mohammadbhai Noorbhai Natha* (Bhagat) no Kanodar ma Inteqal thayel che temno Janazo *3:00* vage Motira Vaas mathi Nikalva ma Aavse... \nMarhum Na Isale sawab mate *Fatiha* Padhva Gujarish...",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-01-28T11:43:45.071+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 1,
+            "VIEWTOT": 95,
+            "VIEW": 19,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "76a4f278-3ebd-4c8a-94ae-c112f0f81d1c",
+              "id": "61f3d6fbc2fa7c1e16a85178",
+              "resourceType": "POST",
+              "resourceId": "61f3d6f1125ce0310c2b78b1",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/1e4b9fe1-745c-433d-a386-4bdaada0e664.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/1e4b9fe1-745c-433d-a386-4bdaada0e664.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "39e9585b-2d02-45de-9e11-05996ddd314b",
+        "createdTS": "2022-01-26T03:38:39.954+0000",
+        "updatedTS": "2022-01-26T03:39:58.348+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 2,
+        "id": "61f0c23f125ce0310c2b78ae",
+        "title": "Inna lillahe.. Salinaben Alihusain ",
+        "contentHTML": "<p>Inna lillahe.. Salinaben Alihusain Hasanwala no intekal thayo se. temno janajo 10:30 vage Ambavadi mathi nikalvamo avse.</p>\n",
+        "contentMarkdown": "Inna lillahe.. Salinaben Alihusain Hasanwala no intekal thayo se. temno janajo 10:30 vage Ambavadi mathi nikalvamo avse.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-01-26T03:38:39.954+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 55,
+            "VIEW": 19,
+            "LIKEOPTION4": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "f76c4280-5705-4e60-b79f-b7b982cf58f2",
+              "id": "61f0c291c2fa7c1e16a85176",
+              "resourceType": "POST",
+              "resourceId": "61f0c23f125ce0310c2b78ae",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/5a2e46e1-133c-48e7-af01-f4cd62340ed2.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/5a2e46e1-133c-48e7-af01-f4cd62340ed2.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      },
+      {
+        "uuid": "04bc7a38-d8cf-4a1a-bf60-2279d3a642fb",
+        "createdTS": "2022-01-23T16:29:36.797+0000",
+        "updatedTS": "2022-01-24T03:26:20.409+0000",
+        "createdBy": "5cdd40d09f247b6bf80fc3fa",
+        "updatedBy": "5cdd40d09f247b6bf80fc3fa",
+        "version": 3,
+        "id": "61ed8270125ce0310c2b78ab",
+        "title": "﷽        \n*إِنَّا للهِ وَإِنَّـا إِ",
+        "contentHTML": "<p>﷽ إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન</p>\n<p>&quot; મોહંમદ ભાઈ નુરભાઈ  સુણસરા (મથુર) નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. *તેમનો જનાઝો આજે રવીવારે રાત્રે ૧૦/૪૫ કલાકે એમના ઘરે થી ( કૌસરી મોહલ્લાહ ) નીકાળવા મો આવશે .</p>\n<p>મરહુમ ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત/મગ્ફેરત પઢવા ગુજારીશ છે</p>\n",
+        "contentMarkdown": "﷽ إِنَّا للهِ وَإِنَّـا إِلَيْهِ رَاجِعون ઇન્ના લીલ્લાહે વ ઇન્ના એલયહે રાજેઉન\n\n\" મોહંમદ ભાઈ નુરભાઈ  સુણસરા (મથુર) નો કાણોદર ખાતે ઈન્તેકાલ થયેલ છે. *તેમનો જનાઝો આજે રવીવારે રાત્રે ૧૦/૪૫ કલાકે એમના ઘરે થી ( કૌસરી મોહલ્લાહ ) નીકાળવા મો આવશે .\n\nમરહુમ ના રૂહના ઈસાલે સવાબ માટે સૂરે ફાતેહા અને નમાઝે વહેશત/મગ્ફેરત પઢવા ગુજારીશ છે",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "601ee39aac77e1646a92b6f1",
+        "publishedTS": "2022-01-23T16:29:36.797+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 123,
+            "VIEW": 24,
+            "LIKEOPTION4": 2
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "2b896875-ab23-4cc7-932e-3f3a72c19f81",
+              "id": "61ee1c60c2fa7c1e16a85175",
+              "resourceType": "POST",
+              "resourceId": "61ed8270125ce0310c2b78ab",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/9edce513-4212-4cd6-b955-95895ab0f592.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:57d3d3d1-c5c7-42f9-8248-931d8c15ae1d/9edce513-4212-4cd6-b955-95895ab0f592.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "edited": true,
+        "active": true
+      }
+    ]
+  },
+  "_links": {
+    "next": {
+      "href": "http://api-sg.collabdeen.com/post-api/posts?page=1&size=25&business=false"
+    },
+    "last": {
+      "href": "http://api-sg.collabdeen.com/post-api/posts?page=31&size=25&business=false"
+    }
+  },
+  "page": {
+    "size": 25,
+    "totalElements": 791,
+    "totalPages": 32,
+    "number": 0
+  }
+}

@@ -11,6 +11,7 @@ import androidx.core.graphics.drawable.DrawableCompat;
 public class DrawableUtils {
     public DrawableUtils() {
     }
+
     public static Drawable createDividerDrawable(int height, int color) {
         GradientDrawable divider = new GradientDrawable();
         divider.setShape(GradientDrawable.RECTANGLE);
@@ -22,7 +23,7 @@ public class DrawableUtils {
     public static Drawable createRoundedRectrangle(int radius, int color) {
         GradientDrawable drawable = new GradientDrawable();
         drawable.setShape(GradientDrawable.RECTANGLE);
-        drawable.setCornerRadius((float)radius);
+        drawable.setCornerRadius((float) radius);
         drawable.setColor(color);
         return drawable;
     }

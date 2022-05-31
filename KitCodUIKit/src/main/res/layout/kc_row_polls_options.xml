@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_poll"
+            style="@style/KitcodDarkNormal16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_border_radius_5"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:text="I will run to a park and paly hide &amp; seek"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_selected_poll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/pollProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.9"
+                    android:indeterminate="false"
+                    android:maxHeight="10dip"
+                    android:minHeight="10dip"
+                    android:progress="30"
+                    android:progressDrawable="@drawable/polls_progress_bar" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_poll_perc"
+                        style="@style/KitcodDarkMed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="87%" />
+
+                    <TextView
+                        android:id="@+id/tv_poll_text"
+                        style="@style/KitcodDarkNormal16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:text="I will run to a park and play hide &amp; seek" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_selected"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:src="@drawable/selected_tick"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <!--
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_poll_perc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="87%" />
+
+                        <TextView
+                            android:id="@+id/tv_poll_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="I will run to a park and play hide &amp; seek" />
+
+                    </LinearLayout>
+            -->
+            <TextView
+                android:id="@+id/tv_votes"
+                style="@style/KitcodLightReg14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

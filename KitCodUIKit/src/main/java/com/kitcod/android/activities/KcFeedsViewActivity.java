@@ -7,9 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 import com.kitcod.android.R;
+import com.kitcod.android.adapters.FeedsViewAdapter;
 import com.kitcod.android.fragments.FeedsViewFragment;
 
 public class KcFeedsViewActivity extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

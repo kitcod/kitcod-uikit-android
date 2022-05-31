@@ -2,7 +2,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="kitcod_upload_image">Upload image</string>
-    <string name="kitcod_community_name">Community name<font fgcolor="#FF0000">*</font></string>
+    <string name="kitcod_community_name">Group name<font fgcolor="#FF0000">*</font></string>
     <string name="kitcod_cc_hint">Name your community</string>
     <string name="kitcod_error_name">This name has already been taken.</string>
     <string name="kitcod_about">About</string>
@@ -18,4 +18,22 @@
     <string name="kitcod_create_community">Create Group</string>
     <string name="kitcod_save">Save</string>
     <string name="feed_content">With this community, everyone works toward the shared goal. This has huge impact on current generation. Feel free to join.</string>
+    <plurals name="numberofvotes">
+        <item quantity="one">%d Vote</item>
+        <item quantity="other">%d Votes</item>
+    </plurals>
+    <item name="mainPostpostion" type="id" />
+    <item name="childPollposition" type="id" />
+    <item name="mainPost" type="id" />
+    <string name="grant">Grant</string>
+    <string name="settings">Settings</string>
+    <string name="permission_required">You have previously denied the required permissions. Click Grant to allow required permission.</string>
+    <string name="permission_blocked">You have previously blocked the required permissions. Click Settings to enable required permission.</string>
+    <string name="onPermissionGranted_not_provided">onPermissionGranted method is not provided or implemented.</string>
+    <string name="kc_text_dialog_permission_title">Allow permission</string>
+    <string name="kc_text_go_to_settings">Settings</string>
+    <string name="kc_text_need_to_allow_permission_camera">%s\nneeds permission to access your camera. Go to Settings to allow access</string>
+    <string name="kc_text_need_to_allow_permission_storage">%s\nneeds permission to access your device storage. Go to Settings to allow access.</string>
+    <item name="mainCommentpostion" type="id" />
+    <item name="childCommentposition" type="id" />
 </resources>

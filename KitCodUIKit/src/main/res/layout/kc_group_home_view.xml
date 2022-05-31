@@ -73,7 +73,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:layout_marginTop="8dp"
                 android:text="Members"
                 app:layout_constraintStart_toEndOf="@+id/tv_membercount"
                 app:layout_constraintTop_toBottomOf="@+id/tv_groupname" />
@@ -115,10 +114,10 @@
                 android:layout_width="0dp"
                 android:layout_height="259dp"
                 android:scaleType="fitXY"
+                android:src="@color/kitcodColorRed"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:src="@color/kitcodColorRed" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tv_grouptype"
@@ -135,7 +134,7 @@
                 style="@style/KitcodDarkNormal16"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="4dp"
                 android:layout_marginEnd="16dp"
                 android:lineSpacingExtra="3sp"
                 android:text="This has enabled our product teams to ship new\n products faster and feel more."
@@ -156,12 +155,14 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_feeds"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cl_createpost"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:listitem="@layout/kc_row_feeds" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

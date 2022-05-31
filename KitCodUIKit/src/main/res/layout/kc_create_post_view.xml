@@ -83,10 +83,9 @@
                     android:id="@+id/circleImageView"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginTop="16dp"
                     android:src="@color/primary_300"
-                    app:layout_constraintStart_toStartOf="@+id/cl_selectedtype"
-                    app:layout_constraintTop_toBottomOf="@+id/cl_selectedtype" />
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/cl_selectedtype" />
 
                 <TextView
                     android:id="@+id/tv_name"
@@ -123,7 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:text="#Brothers of Kanodar"
+                    android:text="#Avan Travels"
                     app:layout_constraintStart_toEndOf="@+id/textView6"
                     app:layout_constraintTop_toTopOf="@+id/textView6" />
 
@@ -132,20 +131,18 @@
                     style="@style/KitcodDarkMed20"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
                     android:backgroundTint="@color/kitcodTransparentBackground"
                     android:hint="Headline (35 char)"
                     android:inputType="textPersonName"
                     app:layout_constraintEnd_toEndOf="@+id/cl_selectedtype"
                     app:layout_constraintStart_toStartOf="@+id/circleImageView"
-                    app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                    app:layout_constraintTop_toBottomOf="@+id/cl_selectedtype" />
 
                 <EditText
                     android:id="@+id/et_desc"
                     style="@style/KitcodDarkReg18"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:backgroundTint="@color/kitcodTransparentBackground"
                     android:hint="Write a story..."
                     app:layout_constraintEnd_toEndOf="@+id/cl_selectedtype"

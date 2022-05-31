@@ -10,8 +10,27 @@
         <attr name="kc_createpost_style" format="reference" />
         <attr name="kc_bottomsheetdialog_style" format="reference" />
         <attr name="kc_group_home_style" format="reference" />
+        <attr name="kc_poll_style" format="reference" />
+        <attr name="kc_comment_style" format="reference" />
+        <attr name="kc_groups_list_style" format="reference" />
+        <attr name="kc_group_feed_style" format="reference" />
     </declare-styleable>
-
+    <declare-styleable name="GroupsListFeedView">
+        <attr name="kc_groupslistfeed_tv_name_appearance" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="GroupsListView">
+        <attr name="kc_groupslist_tv_name_appearance" format="reference" />
+        <attr name="kc_groupslist_tv_button_appearance" format="reference" />
+        <attr name="kc_groupslist_tv_button_tint" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CommentView">
+        <attr name="kc_comment_tv_name" format="reference" />
+        <attr name="kc_comment_tv_id" format="reference" />
+        <attr name="kc_comment_tv_timepost" format="reference" />
+        <attr name="kc_comment_tv_comment" format="reference" />
+        <attr name="kc_comment_tv_reply" format="reference" />
+        <attr name="kc_comment_tv_view_all_reply" format="reference" />
+    </declare-styleable>
     <declare-styleable name="AppBarView">
         <attr name="kc_appbar_title" format="string" />
         <attr name="kc_appbar_title_appearance" format="reference" />
@@ -37,6 +56,7 @@
         <attr name="kc_creategroup_button_backgroundtint_appearance" format="reference" />
     </declare-styleable>
     <declare-styleable name="ButtonContainedView">
+        <attr name="kc_buttoncontained_button_text" format="string" />
         <attr name="kc_buttoncontained_button_text_color" format="reference" />
         <attr name="kc_buttoncontained_button_text_appearance" format="reference" />
         <attr name="kc_buttoncontained_button_background_appearance" format="reference" />
@@ -58,6 +78,15 @@
         <attr name="kc_member_preview_like_appearence" format="reference" />
         <attr name="kc_member_preview_comment_appearence" format="reference" />
         <attr name="kc_member_preview_share_appearence" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PollsView">
+        <attr name="kc_polls_option_appearance" format="reference" />
+        <attr name="kc_polls_option_bg_appearance" format="reference" />
+        <attr name="kc_polls_option_percentage_appearance" format="reference" />
+        <attr name="kc_polls_option_voted_text_appearance" format="reference" />
+        <attr name="kc_polls_option_progress_appearance" format="reference" />
+        <attr name="kc_polls_votes_appearance" format="reference" />
+        <attr name="kc_polls_progress_bg_appearance" format="reference" />
     </declare-styleable>
 
     <declare-styleable name="CreatePostView">

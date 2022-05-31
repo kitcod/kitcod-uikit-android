@@ -66,7 +66,7 @@ public class CreatePostFragment extends BaseFragment {
         boolean useHeader = false;
         boolean useHeaderLeftButton = true;
         boolean useMoreOption = true;
-        boolean useHeaderRightButton = true;
+        boolean useHeaderRightButton = false;
         int headerLeftButtonIconResId = R.drawable.icon_arrow_left;
         int headerRightButtonIconResId = R.drawable.icon_info;
         ColorStateList headerLeftButtonIconTint = null;
@@ -75,7 +75,7 @@ public class CreatePostFragment extends BaseFragment {
             useMoreOption = args.getBoolean(StringSet.KEY_MORE_OPTIONS_CREATEPOST, true);
             useHeader = args.getBoolean(StringSet.KEY_USE_HEADER, false);
             useHeaderLeftButton = args.getBoolean(StringSet.KEY_USE_HEADER_LEFT_BUTTON, true);
-            useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, true);
+            useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, false);
             headerLeftButtonIconResId = args.getInt(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_RES_ID, R.drawable.icon_arrow_left);
             headerRightButtonIconResId = args.getInt(StringSet.KEY_HEADER_RIGHT_BUTTON_ICON_RES_ID, R.drawable.icon_info);
             headerLeftButtonIconTint = args.getParcelable(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_TINT);
@@ -97,6 +97,8 @@ public class CreatePostFragment extends BaseFragment {
         binding.chvChannelHeader.setUseRightButton(useHeaderRightButton);
         if (headerTitle != null) {
             binding.chvChannelHeader.getTitleTextView().setText(headerTitle);
+        } else {
+            binding.chvChannelHeader.getTitleTextView().setText("Post");
         }
         binding.chvChannelHeader.setLeftImageButtonResource(headerLeftButtonIconResId);
         if (args != null && args.containsKey(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_RES_ID)) {

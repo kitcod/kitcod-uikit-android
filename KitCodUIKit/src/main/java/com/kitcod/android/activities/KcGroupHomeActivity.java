@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager;
 
 import com.kitcod.android.R;
 import com.kitcod.android.fragments.GroupHomeFragment;
+import com.kitcod.android.utils.Util;
 
 public class KcGroupHomeActivity extends AppCompatActivity {
 
@@ -15,7 +16,7 @@ public class KcGroupHomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setTheme(R.style.KitCod);
         setContentView(R.layout.activity_user_profile);
-        GroupHomeFragment fragment = groupHomeFragment();
+        GroupHomeFragment fragment = groupHomeFragment(getIntent().getStringExtra(Util.GROUP));
         FragmentManager manager = getSupportFragmentManager();
         manager.popBackStack();
         manager.beginTransaction()
@@ -23,9 +24,12 @@ public class KcGroupHomeActivity extends AppCompatActivity {
                 .commit();
     }
 
-    public GroupHomeFragment groupHomeFragment() {
-        GroupHomeFragment.Builder builder = new GroupHomeFragment.Builder()
-                .setUseHeader(true);
+    public GroupHomeFragment groupHomeFragment(String group) {
+        GroupHomeFragment.Builder builder = new GroupHomeFragment.Builder(group)
+                .setUseHeader(true)
+                .setButtonTitle("Join")
+                .setHeaderTitle("Group Home")
+                .setUseHeaderRightButton(false);
 
         return builder.build();
     }

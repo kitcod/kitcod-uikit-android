@@ -19,7 +19,7 @@ public class FeedsView extends FrameLayout {
     private KcFeedviewBinding binding;
 
     public FeedsView(@NonNull Context context) {
-            this(context, null);
+        this(context, null);
     }
 
     public FeedsView(@NonNull Context context, @Nullable AttributeSet attrs) {
@@ -38,7 +38,7 @@ public class FeedsView extends FrameLayout {
             int background = a.getResourceId(R.styleable.FeedsView_kc_feedsview_item_background, R.drawable.bg_blue_stroke_20);
             int nameAppearance = a.getResourceId(R.styleable.FeedsView_kc_feedsview_name_appearance, R.style.KitcodH2OnLight01);
             binding.tvCreateLabel.setTextAppearance(context, nameAppearance);
-            binding.constraintLayout.setBackgroundResource(background);
+            binding.cvCreatepost.setBackgroundResource(background);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -48,8 +48,12 @@ public class FeedsView extends FrameLayout {
         return binding.rvGroups;
     }
 
+    public RecyclerView getFeedsView() {
+        return binding.rvFeeds;
+    }
+
     public ConstraintLayout getCreatePostView() {
-        return binding.constraintLayout;
+        return binding.cvCreatepost;
     }
 
 }

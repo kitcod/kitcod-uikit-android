@@ -55,4 +55,9 @@ public class GroupHomeView extends FrameLayout {
         return binding.button3.getTitleTextView();
     }
 
+    public KcGroupHomeViewBinding getBinding() {
+        return binding;
+    }
+
+
 }

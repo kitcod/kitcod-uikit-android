@@ -4,7 +4,7 @@ import com.kitcod.android.activities.KcGroupHomeActivity
 import com.kitcod.android.fragments.GroupHomeFragment
 
 class GroupHomeActivity : KcGroupHomeActivity() {
-    override fun groupHomeFragment(): GroupHomeFragment {
+    override fun groupHomeFragment(stringExtra: String): GroupHomeFragment? {
         return GroupHomeFragment.Builder()
             .setUseHeader(true)
             .setUseHeaderRightButton(false)

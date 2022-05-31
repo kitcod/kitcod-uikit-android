@@ -1,0 +1,1527 @@
+{
+  "uuid": "26d9d99f-8eec-44af-a86e-b6135f7ffe94",
+  "createdTS": "2018-08-20T08:22:18.000+0000",
+  "updatedTS": "2020-08-25T12:36:02.255+0000",
+  "createdBy": "5b7a7a3a9f247b0f9ef37595",
+  "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+  "version": 3,
+  "id": "5b7a7a3a9f247b0f9ef37595",
+  "media": {
+    "proImg": {
+      "uuid": "7a30b180-2415-4042-b531-c02cf7337184",
+      "id": "5ca461d596658adb0b94f60e",
+      "resourceType": "USER",
+      "resourceId": "5b7a7a3a9f247b0f9ef37595",
+      "type": "UserProfilePic",
+      "contentType": "jpg",
+      "resizedMediaList": [
+        {
+          "type": "thumbnail",
+          "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/56e16f1d-5abe-48fa-8b6b-20cdc6d6e03e.jpg"
+        },
+        {
+          "type": "resized",
+          "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/56e16f1d-5abe-48fa-8b6b-20cdc6d6e03e.jpg"
+        }
+      ],
+      "active": true
+    }
+  },
+  "firstName": "Mehdi",
+  "lastName": "Sunasara",
+  "gender": 1,
+  "yob": 1995,
+  "authProviders": [
+    {
+      "authProvider": "AWSCOGNITO",
+      "authUserId": "92dc06d1-1d09-421b-b8ee-abba137a2479"
+    }
+  ],
+  "homeLocation": {
+    "uuid": "afdbeeb1-e7db-411b-97a0-dcae99771431",
+    "address": {
+      "uuid": "38877b39-c908-44a2-8725-711c25e4d240",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "zipcode": "560102",
+      "active": true
+    },
+    "active": true
+  },
+  "contactPoints": [
+    {
+      "type": "EMAIL",
+      "value": "mehdi@collabu.com"
+    },
+    {
+      "type": "MOBILE",
+      "value": "+917990455569"
+    }
+  ],
+  "premiumUntilTS": "2022-05-12T22:43:12.309+0000",
+  "type": "REGISTERED",
+  "metadata": {
+    "mdChatUser": {
+      "user_id": "usr_5b7a7a3a9f247b0f9ef37595",
+      "nickname": "Mehdi S.",
+      "profile_url": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/56e16f1d-5abe-48fa-8b6b-20cdc6d6e03e.jpg",
+      "phone_number": "",
+      "discovery_keys": [],
+      "metadata": {
+        "homeCountry": "India"
+      },
+      "is_active": true,
+      "has_ever_logged_in": true,
+      "is_online": false,
+      "last_seen_at": 1626232316697,
+      "session_token": {
+        "expires_at": 1627036716155,
+        "session_token": "74ed14a65aedda6ec5bae9affa22d709e79e3a6b"
+      },
+      "updated_ts": "2021-07-16T10:38:36.170+0000",
+      "updated_by": "5b7a7a3a9f247b0f9ef37595",
+      "version": 43
+    }
+  },
+  "registeredTS": "2018-08-20T08:22:18.000+0000",
+  "devices": [
+    {
+      "uuid": "0b1dddca-200f-4db5-9565-b709b94fee69",
+      "osType": "Android",
+      "osVersion": "22",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "5.1.1",
+      "ppEndPointId": "7c497a30-7a5f-47eb-942f-4f732180e301",
+      "adTrackingDisabled": false,
+      "active": true
+    },
+    {
+      "uuid": "f53ceadb-db30-43b2-8ddc-800e62bf0a61",
+      "createdTS": "2019-01-31T07:37:04.306+0000",
+      "updatedTS": "2019-01-31T07:37:04.306+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "iOS",
+      "osVersion": "12.1.2",
+      "deviceType": "iPhone",
+      "deviceMake": "Apple",
+      "deviceAdvertisingId": "C5F3C3C5-F603-4622-B1A5-62928F19E696",
+      "ppEndPointId": "1CD7BE0E-6A23-432F-A4A5-74545539A0AF",
+      "ppDeviceToken": "66fa32072e5b4f1b009e133110947ef25951753e1a7ea08444e144a37c08547c",
+      "adTrackingDisabled": false,
+      "active": true
+    },
+    {
+      "uuid": "9a0f1e7e-3cb9-4ac3-80b0-aee85b1f6587",
+      "createdTS": "2019-02-27T07:29:31.222+0000",
+      "updatedTS": "2019-02-27T07:29:31.222+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "27",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "8.1.0",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "35ea9c7e-1dbf-4fa8-9989-15a1c2e77057",
+      "ppEndPointId": "ae1667c7-d02c-4593-89d2-07a2215cb42b",
+      "adTrackingDisabled": false,
+      "active": true
+    },
+    {
+      "uuid": "0255a591-d35c-4a8a-86fd-bbb51199e9b0",
+      "createdTS": "2019-05-24T10:46:36.048+0000",
+      "updatedTS": "2019-05-24T10:46:36.048+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "27",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "8.1.0",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "ppEndPointId": "3d9694f0-b2eb-41ce-8535-a652d5017000",
+      "adTrackingDisabled": false,
+      "active": true
+    },
+    {
+      "uuid": "cbfe2db3-dd45-40ec-a705-567c8f238481",
+      "createdTS": "2020-01-21T05:17:59.375+0000",
+      "updatedTS": "2020-01-21T05:17:59.375+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "49782b33-5828-4b5f-80a1-f85f1927696b",
+      "active": true
+    },
+    {
+      "uuid": "8b75a152-93a3-45bf-9550-7e6dfd878dfd",
+      "createdTS": "2020-01-23T11:45:44.799+0000",
+      "updatedTS": "2020-01-23T11:45:44.799+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "27",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "8.1.0",
+      "deviceName": "Xiaomi Redmi 5A",
+      "deviceAdvertisingId": "f2f9eae2-6612-4075-a2ac-35cc01cdab56",
+      "ppEndPointId": "097d5d5c-9963-4cd7-8043-d9b0dd4ea103",
+      "active": true
+    },
+    {
+      "uuid": "c5a0c961-c4c5-4076-8719-965051317171",
+      "createdTS": "2020-02-20T06:18:16.217+0000",
+      "updatedTS": "2020-02-20T06:18:16.217+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "29af08df-2056-4ac4-a518-2e7994005a14",
+      "ppEndPointId": "2f959806-c096-4400-aeae-0918b065dc3a",
+      "active": true
+    },
+    {
+      "uuid": "4e4a20d4-3839-43cc-bb7f-7d49f4294046",
+      "createdTS": "2020-10-24T03:38:21.896+0000",
+      "updatedTS": "2020-10-24T03:38:21.896+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "39ccd8a9-52b8-4d72-827e-8851698433b6",
+      "active": true
+    },
+    {
+      "uuid": "347ab0e1-55de-4a72-a658-150076cb4379",
+      "createdTS": "2020-11-09T11:22:30.539+0000",
+      "updatedTS": "2020-11-09T11:22:30.539+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "e99e3a37-f98e-49ba-a1b7-f92bab5c2137",
+      "active": true
+    },
+    {
+      "uuid": "ec3f1af2-e185-4b01-910b-7b0c25463ada",
+      "createdTS": "2020-11-12T17:47:05.801+0000",
+      "updatedTS": "2020-11-12T17:47:05.801+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "1f551ac9-2794-4153-83f5-6615dc56af98",
+      "active": true
+    },
+    {
+      "uuid": "60c88200-28b9-45d1-9628-de52daf49059",
+      "createdTS": "2020-11-19T03:30:27.697+0000",
+      "updatedTS": "2020-11-19T03:30:27.697+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "02ccfdf7-b3e2-4cd9-b21a-b3efaca58dd3",
+      "active": true
+    },
+    {
+      "uuid": "22e9183a-f36c-4c90-86a6-a7b636e531cf",
+      "createdTS": "2020-11-28T04:50:56.158+0000",
+      "updatedTS": "2020-11-28T04:50:56.158+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "f49e07fe-db75-4c9e-a7e8-f0b195c6bf9b",
+      "active": true
+    },
+    {
+      "uuid": "d89f685e-16ff-42f8-a371-854cc8aa6497",
+      "createdTS": "2020-11-30T08:43:32.533+0000",
+      "updatedTS": "2020-11-30T08:43:32.533+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "7f940a37-1301-4073-8ae6-b162e8750dc1",
+      "active": true
+    },
+    {
+      "uuid": "dd8e544c-a8a0-43cf-98e1-1dc2c809373b",
+      "createdTS": "2020-11-30T09:03:37.462+0000",
+      "updatedTS": "2020-11-30T09:03:37.462+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "1b57345d-9916-4d17-af1c-96a44c16b65b",
+      "active": true
+    },
+    {
+      "uuid": "417bd942-7200-494e-8faf-ec5555b4daf3",
+      "createdTS": "2020-12-24T13:45:49.254+0000",
+      "updatedTS": "2020-12-24T13:45:49.254+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "a6e60a8b-f0c5-4b65-b90d-2c0acc9ac983",
+      "active": true
+    },
+    {
+      "uuid": "d778170d-9aa0-433c-abfc-b01ed1d23764",
+      "createdTS": "2021-01-09T05:50:26.405+0000",
+      "updatedTS": "2021-01-09T05:50:26.405+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "e7f7ad91-21b1-471e-84a4-dd69bfd9948e",
+      "active": true
+    },
+    {
+      "uuid": "9f6168c0-4582-4431-a5f6-5a04f4646965",
+      "createdTS": "2021-01-09T12:02:12.869+0000",
+      "updatedTS": "2021-01-09T12:02:12.869+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "d90551b6-5227-4963-9959-2d7ed3300c47",
+      "active": true
+    },
+    {
+      "uuid": "07f6c0af-dc69-4816-9de2-a8179c5f1d68",
+      "createdTS": "2021-01-16T06:58:40.384+0000",
+      "updatedTS": "2021-01-16T06:58:40.384+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "ba4c7ef0-6234-4f16-aaec-1a3493eb3a86",
+      "active": true
+    },
+    {
+      "uuid": "4b97362e-2e40-4892-bca8-a7bbe4c4a9f9",
+      "createdTS": "2021-01-16T07:02:03.165+0000",
+      "updatedTS": "2021-01-16T07:02:03.165+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "e1bc8022-e46b-42a5-8706-d0253819a28e",
+      "active": true
+    },
+    {
+      "uuid": "1c96941c-e38c-4bb6-a67a-21f72cc15e9c",
+      "createdTS": "2021-01-16T11:55:48.865+0000",
+      "updatedTS": "2021-01-16T11:55:48.865+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "8848b203-fba6-40f2-bb22-c7a36a0bf16e",
+      "active": true
+    },
+    {
+      "uuid": "2b84f453-f198-4ba4-ac23-e97fef6f63a2",
+      "createdTS": "2021-01-16T12:02:45.993+0000",
+      "updatedTS": "2021-01-16T12:02:45.993+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "b402ea17-e3e1-4db2-abd6-10f5c5e954d9",
+      "active": true
+    },
+    {
+      "uuid": "2bdc4243-63cb-41e2-94ad-399b6206e745",
+      "createdTS": "2021-01-16T12:08:10.297+0000",
+      "updatedTS": "2021-01-16T12:08:10.297+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "3782212d-6798-42ea-91b2-66daf45a49cd",
+      "active": true
+    },
+    {
+      "uuid": "fd8c8e90-3654-4084-9795-a1dedc5ae1ef",
+      "createdTS": "2021-01-16T13:44:47.372+0000",
+      "updatedTS": "2021-01-16T13:44:47.372+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "c07809f1-42cd-4a0e-9965-6233b1bcbf20",
+      "active": true
+    },
+    {
+      "uuid": "3c10c47b-6b80-400d-a891-6d2fe8114e57",
+      "createdTS": "2021-01-16T13:49:55.045+0000",
+      "updatedTS": "2021-01-16T13:49:55.045+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "ca63468b-aa8e-4bfa-b659-6a4fe705829b",
+      "active": true
+    },
+    {
+      "uuid": "0b49f880-9e0c-4347-9696-9c7f37387533",
+      "createdTS": "2021-02-18T14:35:05.767+0000",
+      "updatedTS": "2021-02-18T14:35:05.767+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "3f5d2da0-4698-485b-a755-bd9854748ce3",
+      "active": true
+    },
+    {
+      "uuid": "efe86b22-6285-4b3e-8a0d-fa0cfb2e499a",
+      "createdTS": "2021-02-23T05:29:56.674+0000",
+      "updatedTS": "2021-02-23T05:29:56.674+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "e911905f-4ebc-4b9a-ab41-8aaf00a7c817",
+      "active": true
+    },
+    {
+      "uuid": "8d297ac2-1547-41e6-aa61-349dcc50c79b",
+      "createdTS": "2021-03-09T08:07:29.240+0000",
+      "updatedTS": "2021-03-09T08:07:29.240+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "24d7b8c7-d10b-4c99-bee8-46e4c5feba72",
+      "active": true
+    },
+    {
+      "uuid": "db0ad529-2376-4a18-a022-5e7757ae3d8d",
+      "createdTS": "2021-03-09T08:44:51.685+0000",
+      "updatedTS": "2021-03-09T08:44:51.685+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "90ca23d1-05b5-46dd-a498-26bab89102cb",
+      "active": true
+    },
+    {
+      "uuid": "7532f15f-b6c2-482c-8ce7-2e7d95dec01f",
+      "createdTS": "2021-04-11T02:27:59.838+0000",
+      "updatedTS": "2021-04-11T02:27:59.838+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "9d8ea901-cede-43e2-938d-9bb2601bfcb6",
+      "active": true
+    },
+    {
+      "uuid": "ff335509-7030-4e81-9606-dff11debb7d4",
+      "createdTS": "2021-04-11T04:45:16.915+0000",
+      "updatedTS": "2021-04-11T04:45:16.915+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "c7680150-f917-418d-b323-c3ef635a1a5b",
+      "active": true
+    },
+    {
+      "uuid": "6d0396ff-40ea-45dc-aa1b-c759a7aba7fc",
+      "createdTS": "2021-04-11T05:03:56.872+0000",
+      "updatedTS": "2021-04-11T05:03:56.872+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "147ee815-c860-4721-a0dc-9a30cf0da5f2",
+      "active": true
+    },
+    {
+      "uuid": "a39439c4-3418-4fbc-93c9-577c505bbb07",
+      "createdTS": "2021-04-11T06:19:09.470+0000",
+      "updatedTS": "2021-04-11T06:19:09.470+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "79e73572-1414-4614-81c8-e011d163325f",
+      "active": true
+    },
+    {
+      "uuid": "88a0fad5-549f-433b-a27d-687f13c02c5e",
+      "createdTS": "2021-04-12T15:48:14.647+0000",
+      "updatedTS": "2021-04-12T15:48:14.647+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "c9618908-18f4-4869-8a6a-09def9f59aca",
+      "active": true
+    },
+    {
+      "uuid": "b57c2a73-cebb-43f2-8e06-c7d3694cd86e",
+      "createdTS": "2021-04-21T07:38:13.116+0000",
+      "updatedTS": "2021-04-21T07:38:13.116+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "235f99c2-d800-47f1-997b-da142f61cf15",
+      "active": true
+    },
+    {
+      "uuid": "0fc036d2-3ab1-4dca-959a-8867adbc27df",
+      "createdTS": "2021-04-23T07:06:10.539+0000",
+      "updatedTS": "2021-04-23T07:06:10.539+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "3f88ef10-bcbf-4e28-ab89-1fe0e55e2959",
+      "active": true
+    },
+    {
+      "uuid": "69940272-9591-49ee-abca-79042aa4ba1f",
+      "createdTS": "2021-04-27T10:49:27.753+0000",
+      "updatedTS": "2021-04-27T10:49:27.753+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "a4f5c73f-8dfc-4737-9914-383084bf2639",
+      "active": true
+    },
+    {
+      "uuid": "d32a25a9-adf8-41df-b071-cf4f822b4764",
+      "createdTS": "2021-04-29T08:48:54.937+0000",
+      "updatedTS": "2021-04-29T08:48:54.937+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "35550ce7-eb3e-4e87-a3f6-4ec6891ca719",
+      "active": true
+    },
+    {
+      "uuid": "30634f7d-c2e0-4886-ba60-890212c6c9e8",
+      "createdTS": "2021-05-08T07:49:34.894+0000",
+      "updatedTS": "2021-05-08T07:49:34.894+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "15eadbf2-7576-4c62-a255-09dc44af53a7",
+      "active": true
+    },
+    {
+      "uuid": "60a43eb5-0466-4cf4-b3db-a852ffe32277",
+      "createdTS": "2021-05-08T10:08:49.353+0000",
+      "updatedTS": "2021-05-08T10:08:49.353+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "ppEndPointId": "df878244-9e3e-4f5a-b0de-d3b0960174e1",
+      "active": true
+    },
+    {
+      "uuid": "77ffc408-2c74-4b36-8563-50b13f7fdf89",
+      "createdTS": "2021-05-11T09:35:12.755+0000",
+      "updatedTS": "2021-05-11T09:35:12.755+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "b3c9e96c-2d7b-4698-a5bd-579485b89ab7",
+      "active": true
+    },
+    {
+      "uuid": "bda87712-69ce-45eb-8778-bd876c6f0d93",
+      "createdTS": "2021-05-12T10:49:30.675+0000",
+      "updatedTS": "2021-05-12T10:49:30.675+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "05a16587-412e-4437-8e0b-5f686c910eac",
+      "active": true
+    },
+    {
+      "uuid": "44302c17-7dc4-4419-8db1-739b6132c437",
+      "createdTS": "2021-05-30T03:52:08.627+0000",
+      "updatedTS": "2021-05-30T03:52:08.627+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "ppEndPointId": "b70a8172-e4d4-4a38-8b21-df96b918f338",
+      "active": true
+    },
+    {
+      "uuid": "72271a82-81ea-4281-9953-a6875eae648a",
+      "createdTS": "2021-06-09T14:49:31.280+0000",
+      "updatedTS": "2021-06-09T14:49:31.280+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "41230fbe-c425-49ce-9ef4-7d35251d5053",
+      "active": true
+    },
+    {
+      "uuid": "fcfdda9b-18e2-430c-8516-64ddffa42530",
+      "createdTS": "2021-08-05T04:46:09.357+0000",
+      "updatedTS": "2021-08-05T04:46:09.357+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "83b330da-182b-4e5a-a97f-c3e533f43933",
+      "active": true
+    },
+    {
+      "uuid": "cf8a9e4b-2206-49c4-a5d0-6bcbd717e1e6",
+      "createdTS": "2021-09-25T02:28:39.911+0000",
+      "updatedTS": "2021-09-25T02:28:39.911+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "Xiaomi",
+      "deviceVersion": "9",
+      "deviceName": "Xiaomi Redmi 6 Pro",
+      "deviceAdvertisingId": "09ca4978-67ae-4efb-8460-3aa33084739b",
+      "ppEndPointId": "4c79533f-0383-4de9-aab5-c8f20f0d1ce1",
+      "active": true
+    },
+    {
+      "uuid": "7dda7264-e8f5-4810-bfff-e456bea20fa2",
+      "createdTS": "2022-04-26T06:26:31.248+0000",
+      "updatedTS": "2022-04-26T06:26:31.248+0000",
+      "createdBy": "5b7a7a3a9f247b0f9ef37595",
+      "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+      "osType": "Android",
+      "osVersion": "28",
+      "deviceType": "PHONE",
+      "deviceMake": "motorola",
+      "deviceVersion": "9",
+      "deviceName": "motorola moto g(6)",
+      "deviceAdvertisingId": "53e11ab4-36e1-479c-9de3-f9464cfeb144",
+      "ppEndPointId": "d7c5d814-d546-4457-93ff-e49fb6d335b9",
+      "active": true
+    }
+  ],
+  "userCommunities": [
+    {
+      "uuid": "5fe428d6-1b00-449a-941d-6043ad7e4798",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5bc447519f247b5778b024ec",
+      "status": "APPROVED",
+      "userCommunityRoles": [
+        {
+          "uuid": "6d013558-61e8-42f8-bbde-324f923aee1e",
+          "role": "ADMINISTRATOR"
+        }
+      ],
+      "community": {
+        "uuid": "19a6a535-5d46-4be8-8acd-25f89923068b",
+        "createdTS": "2018-10-15T07:52:49.875+0000",
+        "updatedTS": "2020-11-06T15:36:49.565+0000",
+        "createdBy": "5bc443e19f247b587e26954e",
+        "updatedBy": "5c39442f9f247b54dc21aae6",
+        "version": 8,
+        "id": "5bc447519f247b5778b024ec",
+        "accountId": 1512141,
+        "name": "Testing Team",
+        "description": "Small team with a Big Dream. This is internal Testing Team of CollabDeen, so unless you work for CollabDeen your Join Request will not be accepted.",
+        "sect": "Digital Islamic Technology",
+        "handle": "collabdeen-testing-team-2018-10",
+        "communityType": "COMMUNITY_CENTER",
+        "location": {
+          "uuid": "24c3460c-a2ca-40db-8eae-0fa9a94acb29",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              77.63586328125005,
+              12.91226250000002
+            ],
+            "latitude": "12.91226250000002",
+            "longitude": "77.63586328125005"
+          },
+          "address": {
+            "uuid": "49e39870-13de-4023-ba8b-d98bc2f40df1",
+            "addressLine1": "16, 2nd Floor, 9th Main Road, Opposite to Cold Stone Ice Cream, 17th Cross Road, Sector 7, HSR Layout, Bengaluru, Karnataka 560102, India",
+            "displayAddressLine": "16, 2nd Floor, 9th Main Road, Opposite to Cold Stone Ice Cream, 17th Cross Road, Sector 7, HSR Layout, Bengaluru, Karnataka 560102, India",
+            "city": "Bengaluru",
+            "country": "Singapore",
+            "zipcode": "560102",
+            "active": true
+          },
+          "gplaceId": "A",
+          "active": true
+        },
+        "webSiteUrl": "www.collabdeen.com",
+        "links": {
+          "invite": "https://api.collabdeen.com/community-api/communities/i/CollabDeen2018-10-15T07:52:49:873Z"
+        },
+        "operatingSchedule": {
+          "weeklyOperations": {
+            "startDayOfWeek": "TUESDAY",
+            "endDayOfWeek": "THURSDAY",
+            "operatingShifts": [
+              {
+                "name": "Time",
+                "opens": "04:32 PM",
+                "closes": "05:32 PM"
+              }
+            ]
+          },
+          "daywiseOperations": null
+        },
+        "contactPoints": [
+          {
+            "type": "EMAIL",
+            "value": "collabdeen@c.com"
+          },
+          {
+            "type": "MOBILE",
+            "value": "+91 8089347452"
+          }
+        ],
+        "facilities": [
+          {
+            "uuid": "f3c9f1a6-9989-4471-a0b6-ce40ffc71fad",
+            "description": "Information Corner",
+            "type": "PRAYER_HALL",
+            "active": true
+          }
+        ],
+        "status": "ACTIVE",
+        "contentVisibilityType": "PRIVATE",
+        "settings": [
+          {
+            "uuid": "6bcc3595-80c9-4759-9e0f-1607657d2a1f",
+            "createdBy": "5c5cfbdd9f247b65d961aa14",
+            "updatedBy": "5c5cfbdd9f247b65d961aa14",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "6c30bf66-7942-4ce2-9ae6-15ea74a40eeb",
+            "createdTS": "2020-10-07T19:11:44.015+0000",
+            "updatedTS": "2020-10-07T19:11:44.015+0000",
+            "createdBy": "5c39442f9f247b54dc21aae6",
+            "updatedBy": "5c39442f9f247b54dc21aae6",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "97d0dffe-dd4e-4522-aa70-a0ae2f58201e",
+            "id": "5dedf8b7cf53f56a6105d538",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5bc447519f247b5778b024ec",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:56295ccd-0082-40e7-9eb5-937378d0e91c/09d39e07-2c90-4414-a25c-18d2c8032ed9.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:56295ccd-0082-40e7-9eb5-937378d0e91c/09d39e07-2c90-4414-a25c-18d2c8032ed9.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "ba60b4d5-28d7-4be9-b30c-76ae657c159d",
+            "id": "5bc44772dd3fa3bb166ff4d9",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5bc447519f247b5778b024ec",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpeg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:960c9f4c-6be0-46c1-9b31-fb0a6f680f5e/083caf10-9b1d-404c-9db7-bc892d678ce2.jpeg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:960c9f4c-6be0-46c1-9b31-fb0a6f680f5e/083caf10-9b1d-404c-9db7-bc892d678ce2.jpeg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "eligibility": {},
+        "hidden": true,
+        "business": false,
+        "verified": true,
+        "premium": true,
+        "active": true
+      },
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "98d13df9-0d79-4f9f-b9c6-71f4d3e10be7",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ca453199f247b541d611e2a",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "3384a427-1f88-4726-b6af-98e8e619ced6",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ca5a2fb9f247b078f26e1d0",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "af9690fd-1dd1-4b4e-848c-7fe65a08f67f",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ca48a0b9f247b078f26e1cc",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "09e723df-2bca-408e-81a6-d1eb9c670d20",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ca4887c9f247b078f26e1ca",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "4bdd5202-ffda-4261-ae3f-2fa2d74add7f",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ca489a79f247b078f26e1cb",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "35b352c9-93b7-425b-b866-1b19214cb5ef",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cb025439f247b078f26e1e9",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "061bfe88-bb11-49ac-a248-aea5e1529329",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cca8ba29f247b6c387534d9",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "8be9cfb5-6091-4328-b32b-559dc62913e7",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cce65e79f247b6c387534f3",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "5bb74a96-966e-4d64-81e2-e1073e00567b",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cbea64c9f247b078f26e200",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "a77de235-525a-4c60-9612-bd10bd5b9ed3",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cdb4f589f247b6c38753555",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "5d2f29d1-fc34-4283-a5e0-99a014251314",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cdd5a2c9f247b6c38753564",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "2a250297-b376-4c80-bb22-47b60ed252eb",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cde16c19f247b6c38753568",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "0830b399-ecde-443c-bc41-bd63467b2ac7",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ce4167a9f247b6c38753591",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "f8673bae-b1d3-4ae0-9760-8bb4c1152fba",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cdbc0ce9f247b6c38753557",
+      "status": "APPROVED",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "02c7e4bc-f388-4769-93d8-98258c458d42",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cfcde0a9f247b7262075679",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "7efc47d8-19b2-4a08-a7a3-c3bdfda550dd",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5cfdf9119f247b726207567a",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "f0d76826-6e90-4933-b600-0a2908d8d7e1",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5d5e1acb9f247b5f884aa347",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "52244dda-b46c-4ca0-89a2-56fcb3c0a88c",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5de51dcc31cbd60447ff79d6",
+      "status": "FOLLOWING",
+      "userCommunityRoles": [
+        {
+          "uuid": "b0ceb590-f999-412b-bc1f-93049176d5c5",
+          "role": "ADMINISTRATOR",
+          "owner": true
+        }
+      ],
+      "community": {
+        "uuid": "b6c4aadc-f0c0-4ead-9b6a-4927ad3a0aa7",
+        "createdTS": "2019-12-02T14:21:00.593+0000",
+        "updatedTS": "2021-05-12T10:50:49.542+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 10,
+        "id": "5de51dcc31cbd60447ff79d6",
+        "accountId": 1512459,
+        "name": "Jaffery Channel",
+        "description": "Asalamun alaykum , All Momin and Momenat\nHoly Prohet(saw) said :- \"One who dies without recognising the Imam(as) of his time, will die the death of Ignorance.\"\nWe the followers of Masoomen(a.s.) were pagans century ago and salute to our forefathers who acted on the above tradition and showed us the true light of guidance by then establisihing Shia Ithna Ashari Momin Jamaat - Kanodar.\nTo show our love and solidarity with Ahle Bait (a.s.) we have Shabeeh of three Rauza's in our village Kanodar situated near Palanpur taluka, Banaskanta District-Gujarat.\nThe three Rauza's were constructed at Hussain Tekri - Kanodar of the great matyrs of Karbala due to which Islam is still alive i.e.\n1.) Our third Imam-e-Mazloom - Hussain(a.s.),\n2.) The flag bearer of Karbala Hazrat Abul Fazlil Abbas(as.) and\n3.) Janab-e-Zainab(sa) :- Ummul Masaeb who esablished the tradition of Majalis.\nThus, keeping in view the sacrifice of the beloved masoomeen, Anjuman-e-Aza-e-Hussain(a.s.) was formed to commerate the sacrifice of Karbala and show solidarity to Ahle Bait(as) and especially to Janab-e-Zehra(sa).\nA full fledged four days programme are held after Chehlum every year at Hussain Tekri after Chehlum of Imam Hussain(as).\nThe tomb of Imam-e-Hussain(as) similar to that of Karbala has been inaugurated on 23rd. Safar 1434 A.H. (6th. Jan 2013) further showing our love to Imam of our time Imam-e-Mahdi(atfs).\nWe also have Madresa to teach children of our village the traditions and teachings of Masomeen(as).\nIn the present world of technology, we have launched this website to spread the word of Islam to the world and especially to Momin brothers and sisters of our village. We have launched streaming facility for all those who are away from village and to be part of the programmes held in village, especially the four day Chehlum programme for which community members across the world come to village and pay homage to Ahle Bait(as).\nThe webiste www.jafferykanodar.com also has majalis of different Aalims and Zakirs and has Nauhas and Marsiyas recited by different famous poets across the world.\nWe pray to Allah(ta) that help us continue to serve the Imam of our time(atfs) that pleases him and pray that he gives us strength to keep our hearts united to work for Imam-e-Asr(atfs) and include us among those who are escribed for the tradition of Holy Masomeen(as).\n\"One who dies with the love of Ahle Bait(as), dies the death of martyr.\"",
+        "sect": "Shia",
+        "handle": "JafferyChannel",
+        "communityType": "COMMUNITY_CENTER",
+        "location": {
+          "uuid": "024c6c7a-fdf6-45c7-a908-8ba4ff56e9b5",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              72.3932043,
+              24.0890321
+            ],
+            "latitude": "24.0890321",
+            "longitude": "72.3932043"
+          },
+          "address": {
+            "uuid": "e46aa0a3-4630-4b26-a20b-45a603e109e2",
+            "addressLine1": "Kanoodar, Gujarat 385520, India",
+            "displayAddressLine": "Kanoodar, Gujarat 385520, India",
+            "city": "Kanoodar",
+            "country": "India",
+            "zipcode": "385520",
+            "active": true
+          },
+          "gplaceId": "ChIJ9dL2f7DtXDkRIEFqxGKR3UI",
+          "active": true
+        },
+        "contactPoints": [],
+        "facilities": [
+          {
+            "uuid": "6cde9bb2-6c27-43d7-87ce-da6fbc4889c6",
+            "description": "Information Corner",
+            "type": "PRAYER_HALL",
+            "active": true
+          },
+          {
+            "uuid": "0d368342-3267-46ad-bfeb-234e49616010",
+            "description": "Library",
+            "type": "PRAYER_HALL",
+            "active": true
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "rangeMembersCount": 5000,
+        "contentVisibilityType": "PUBLIC",
+        "settings": [
+          {
+            "uuid": "7dfc5970-9d92-4e20-acc6-3ac0fbb017fb",
+            "version": 1,
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "5ad9d819-70ab-4a03-8cfa-d224e8ad7a8f",
+            "createdTS": "2021-04-11T05:20:51.534+0000",
+            "updatedTS": "2021-04-11T05:20:51.534+0000",
+            "createdBy": "5bf39dec9f247b2e587c573b",
+            "updatedBy": "5bf39dec9f247b2e587c573b",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "1baa49d4-c342-4fca-9073-cc45eb4f4118",
+            "id": "5de787edcf53f56a619d96c0",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5de51dcc31cbd60447ff79d6",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/9466008e-ba41-42a1-bb6f-2abbe27c7304.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/9466008e-ba41-42a1-bb6f-2abbe27c7304.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "6b442d89-c92b-4c24-b396-1b22544847d4",
+            "id": "5de52833cf53f56a617731a2",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5de51dcc31cbd60447ff79d6",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/6315c50e-2a12-430f-b0f2-3e505519ac73.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/6315c50e-2a12-430f-b0f2-3e505519ac73.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "tags": [
+          {
+            "uuid": "955a7f2d-956a-44d1-9f7c-73dc737d83da",
+            "name": "TV-Shia",
+            "slug": "tv-shia",
+            "auto": false,
+            "replicate": false,
+            "active": true
+          }
+        ],
+        "eligibility": {},
+        "hidden": true,
+        "business": false,
+        "verified": true,
+        "premium": false,
+        "active": true
+      },
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "7c58b057-06fd-444a-aa1c-64f524415b71",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5d47ca199f247b5f884aa33b",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "911c2647-b0af-47eb-9758-3bd409c4589d",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5e91e9d8b26c32236fe88f92",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "e1f40445-6894-4199-8d53-78639662f0cf",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ca55cd89f247b078f26e1cf",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "5ff72c49-c760-4da8-b69b-6e91c5f71303",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5f0d7e11feec1a54f7d20662",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "524e0472-35fb-4ffa-8962-fd23476d5f9c",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5f433347eb0ae97050d94d13",
+      "status": "APPROVED",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "4eec73a2-d8fc-4653-8988-c2b7061d8b98",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5f450375eb0ae97050d94d36",
+      "status": "FOLLOWING",
+      "userCommunityRoles": [
+        {
+          "uuid": "955a475c-b43a-44f1-9324-219d037c5652",
+          "role": "MODERATOR"
+        }
+      ],
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "f28bd1bf-4395-45df-b989-3862d9639134",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5f240f4a9bbf453c4e156844",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "ea08fb2f-be5d-47c2-a8c6-48431bc7b958",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "601ee39aac77e1646a92b6f1",
+      "status": "APPROVED",
+      "userCommunityRoles": [
+        {
+          "uuid": "6d08fa3a-3b8a-415e-8d55-428381bffd93",
+          "role": "ADMINISTRATOR"
+        }
+      ],
+      "community": {
+        "uuid": "b566f461-ed8a-48b2-a2ed-acfa8b65d81a",
+        "createdTS": "2021-02-06T18:44:42.761+0000",
+        "updatedTS": "2021-02-09T19:55:03.024+0000",
+        "createdBy": "5cbb1dc49f247b076c6751c6",
+        "updatedBy": "5c39442f9f247b54dc21aae6",
+        "version": 5,
+        "id": "601ee39aac77e1646a92b6f1",
+        "accountId": 1512748,
+        "name": "Global Kanodar Jamaat",
+        "description": "Shia Ithna Ashri Momin Jamat, located at Kanodar (Ta:-Palanpur,Dist-Banas Kantha, North Gujarat, on Ahmedabad Delhi High Way), which is a famous place for the Azadari Programme held on the 22nd of Safar every year at Husain Tekri, Kanodar.\n\nThe Azadari Programme is organized by Anjumane Aza-e-Husain, Kanodar est. since 1964. There are three holy shrines (Shabih) 1.Hazarat Imam Husain (a.s) 2.Hazarat Abbas (a.s) 3.Sani-e-Zahra Janabe Zainab (a.s), a Mosque (Masjid), rooms for Zai'rin and a big shade for Majlis-e-Aja at Husain Takeri Campus.",
+        "sect": "Muslim",
+        "handle": "GlobalKanodarJamaat",
+        "communityType": "COMMUNITY_CENTER",
+        "location": {
+          "uuid": "c6b6871e-4158-4ca0-9219-ac0c4d67fb9c",
+          "version": 0,
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              72.39347,
+              24.089358
+            ],
+            "latitude": "24.089358",
+            "longitude": "72.393470"
+          },
+          "address": {
+            "uuid": "574eaca8-c4f6-4211-ada6-25283b487732",
+            "version": 0,
+            "addressLine1": "Kuvi Vas, Main Bazar Area, Kanoodar, Gujarat 385520, India",
+            "displayAddressLine": "Kuvi Vas, Main Bazar Area, Kanoodar, Gujarat 385520, India",
+            "city": "Banaskantha",
+            "state": "Gujarat",
+            "country": "India",
+            "zipcode": "385520",
+            "active": true
+          },
+          "gplaceId": "ChIJ3wnrDg_tXDkRvTUQS0pRbmw",
+          "active": false
+        },
+        "contactPoints": [],
+        "facilities": [
+          {
+            "uuid": "3e0f507c-b51b-4000-b4ee-ec053caad4b5",
+            "description": "Information Corner",
+            "type": "PRAYER_HALL",
+            "active": true
+          },
+          {
+            "uuid": "b8e6b07e-ba03-4bf8-9527-2f49aeb49f4a",
+            "description": "Social services",
+            "type": "PRAYER_HALL",
+            "active": true
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "rangeMembersCount": 5000,
+        "contentVisibilityType": "PRIVATE",
+        "settings": [
+          {
+            "uuid": "71111bbc-eb0d-4eb5-87f7-b768373bf0b3",
+            "createdTS": "2021-02-06T18:44:42.764+0000",
+            "updatedTS": "2021-02-06T18:44:42.764+0000",
+            "createdBy": "5cbb1dc49f247b076c6751c6",
+            "updatedBy": "5cbb1dc49f247b076c6751c6",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "18508de6-04ef-4eee-a991-151cd9ffd5d1",
+            "createdTS": "2021-02-07T07:12:50.452+0000",
+            "updatedTS": "2021-02-07T07:12:50.452+0000",
+            "createdBy": "5c39442f9f247b54dc21aae6",
+            "updatedBy": "5c39442f9f247b54dc21aae6",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "3f1dbcde-89e9-4e57-aafb-bbd6f0d7d32d",
+            "id": "601f9b409b3d3402eac9d8fc",
+            "resourceType": "COMMUNITY",
+            "resourceId": "601ee39aac77e1646a92b6f1",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/a6fcf5ac-5e36-4ef6-864b-50c176347441.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/a6fcf5ac-5e36-4ef6-864b-50c176347441.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "fc1c8402-e768-4b0b-9904-04692b313309",
+            "id": "601f971f9b3d3402eac9a30f",
+            "resourceType": "COMMUNITY",
+            "resourceId": "601ee39aac77e1646a92b6f1",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/cab2743a-8b01-4b42-be37-4eb5daa478ea.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2fe60f41-860d-46e8-b1fd-76d8e0c37489/cab2743a-8b01-4b42-be37-4eb5daa478ea.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "tags": [],
+        "eligibility": {},
+        "hidden": false,
+        "business": false,
+        "verified": true,
+        "premium": true,
+        "active": true
+      },
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "5bf080c7-a779-40e9-a3c4-103dde1ecd6d",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "6065a072e8024d60f9383e33",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "c6ae219e-f722-4af1-b126-6e976b2023f7",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5ccce44b9f247b6c387534ec",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "a1e576d7-e439-44a2-83a9-1827a0d36d21",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "6095639036ed6c6a067f1b3c",
+      "status": "FOLLOWING",
+      "eligibility": {},
+      "businessCommunity": false
+    }
+  ],
+  "userCommunitiesNegative": [
+    {
+      "uuid": "5a00add0-c2bc-459d-b165-de14017ca3ec",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5bc447519f247b5778b024ec",
+      "status": "REMOVED",
+      "eligibility": {},
+      "businessCommunity": false
+    },
+    {
+      "uuid": "0e09b8bd-beff-4e04-9267-f7980d151783",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5d5cdb079f247b5f884aa346",
+      "status": "REMOVED",
+      "eligibility": {},
+      "businessCommunity": true
+    },
+    {
+      "uuid": "5f27a42f-0cba-4d3c-bba0-e1e0c5a2ba4c",
+      "userId": "5b7a7a3a9f247b0f9ef37595",
+      "communityId": "5e78532c7ea7b376dd3108d9",
+      "status": "REMOVED",
+      "metadata": {
+        "mdGroupChannelUrl": "com_5e78532c7ea7b376dd3108d9__usr_5b7a7a3a9f247b0f9ef37595"
+      },
+      "eligibility": {},
+      "businessCommunity": false
+    }
+  ],
+  "policyAcceptances": [
+    {
+      "policyType": "PRIVACY",
+      "language": "eng",
+      "policyDocVersion": "CD_20200225_POL_PR",
+      "acceptedTS": "2020-03-18T06:40:26.494+0000",
+      "ipAddress": "61.12.38.70",
+      "latest": true
+    }
+  ],
+  "active": true
+}

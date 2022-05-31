@@ -1,0 +1,844 @@
+{
+  "_embedded": {
+    "communityList": [
+      {
+        "uuid": "fac66bef-a089-4870-b2e7-4fd52dfa3e94",
+        "createdTS": "2020-07-13T15:37:10.201+0000",
+        "updatedTS": "2020-08-01T15:54:38.812+0000",
+        "createdBy": "5b9a17ab9f247b0f9ef375a0",
+        "updatedBy": "5bf39dec9f247b2e587c573b",
+        "version": 6,
+        "id": "5f0c7fa6feec1a54f7d20620",
+        "accountId": 1512555,
+        "name": "Azon Travel",
+        "description": "Azon Travel is a Halal tourism agency aiming at catering to the faith based needs of Muslim travellers around the world and introducing Islamic treasures of Uzbekistan to the whole Ummah.",
+        "handle": "AzonTravel",
+        "communityType": "BUSINESS_BRAND",
+        "location": {
+          "uuid": "919299fc-4126-4735-be8d-dd3772156453",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              69.2147426,
+              41.29352949999999
+            ],
+            "latitude": "41.29352949999999",
+            "longitude": "69.2147426"
+          },
+          "address": {
+            "uuid": "42c92638-1e47-46d4-893a-28291c01fc98",
+            "addressLine1": "Tashkent 100096, Uzbekistan",
+            "displayAddressLine": "Tashkent 100096, Uzbekistan",
+            "city": "Тошкент",
+            "country": "Uzbekistan",
+            "zipcode": "100096",
+            "active": true
+          },
+          "gplaceId": "ChIJh6xz6zSKrjgRHgQlz73BbcU",
+          "active": true
+        },
+        "webSiteUrl": "http://azontravel.uz",
+        "contactPoints": [
+          {
+            "type": "EMAIL",
+            "value": "info@azontravel.uz"
+          },
+          {
+            "type": "MOBILE",
+            "value": "+998955141515"
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "contentVisibilityType": "PUBLIC",
+        "businessCategory": "Halal Travel & Tourism",
+        "settings": [
+          {
+            "uuid": "547d53ce-a4e1-4ec4-a9fc-b59483f2396f",
+            "createdTS": "2020-07-13T15:37:10.206+0000",
+            "updatedTS": "2020-07-13T15:37:10.206+0000",
+            "createdBy": "5b9a17ab9f247b0f9ef375a0",
+            "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "b9d65ac6-f5af-4070-b5f8-3317ea092c14",
+            "createdTS": "2020-08-01T15:54:38.812+0000",
+            "updatedTS": "2020-08-01T15:54:38.812+0000",
+            "createdBy": "5bf39dec9f247b2e587c573b",
+            "updatedBy": "5bf39dec9f247b2e587c573b",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "86481a4b-911d-4171-9e74-0c7017d404b8",
+            "id": "5f0d6ede2f15fdd5106aa52e",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f0c7fa6feec1a54f7d20620",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/cb3283c7-f86f-45c1-996c-26aa6df5f496.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/cb3283c7-f86f-45c1-996c-26aa6df5f496.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "e631d76b-2d11-4c43-8e36-32580bb92f23",
+            "id": "5f0d710e2f15fdd5106ac9f0",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f0c7fa6feec1a54f7d20620",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d8b33a02-e4dd-468d-b3ed-c4652639d1c8.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d8b33a02-e4dd-468d-b3ed-c4652639d1c8.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "socialConnections": [
+          {
+            "url": "http://azontravel.uz"
+          },
+          {
+            "url": "https://instagram.com/azontravel?igshid=9er977j6hpgj"
+          }
+        ],
+        "tags": [
+          {
+            "uuid": "d9d4e573-718e-4945-853a-e2b94f64b147",
+            "name": "iHalalExpo",
+            "slug": "ihe-2020",
+            "auto": true,
+            "replicate": true,
+            "active": true
+          }
+        ],
+        "metadata": {
+          "mdGroupChannels": [
+            {
+              "name": "Azon Travel | Mohd A.",
+              "cover_url": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d8b33a02-e4dd-468d-b3ed-c4652639d1c8.jpg",
+              "channel_url": "com_5f0c7fa6feec1a54f7d20620__usr_5b741fc79f247b0f9ef3756e",
+              "custom_type": "usr2com",
+              "is_distinct": false,
+              "is_public": false,
+              "is_ephemeral": false,
+              "data": "",
+              "is_created": true,
+              "is_discoverable": false,
+              "is_super": false,
+              "freeze": false,
+              "member_count": 3,
+              "joined_member_count": 3,
+              "max_length_message": 5000,
+              "created_at": 1596685321,
+              "operators": [
+                {
+                  "user_id": "usr_5b9a17ab9f247b0f9ef375a0",
+                  "nickname": "Shirin N.",
+                  "profile_url": "https://collabu-prod-resized.s3.ap-southeast-1.amazonaws.com/resized/cropped1180718495399944334.jpg",
+                  "metadata": {},
+                  "is_active": true,
+                  "is_online": false,
+                  "last_seen_at": 0
+                },
+                {
+                  "user_id": "usr_5f01f290d4eca47fe8201d5e",
+                  "nickname": "Noor M.",
+                  "profile_url": "https://static-dv.collabdeen.com/avtaar/user_default_profile_pic_1.png",
+                  "metadata": {},
+                  "is_active": true,
+                  "is_online": false,
+                  "last_seen_at": 0
+                }
+              ],
+              "members": [
+                {
+                  "user_id": "usr_5f01f290d4eca47fe8201d5e",
+                  "nickname": "Noor M.",
+                  "profile_url": "https://static-dv.collabdeen.com/avtaar/user_default_profile_pic_1.png",
+                  "metadata": {
+                    "homeCountry": "India"
+                  },
+                  "is_active": true,
+                  "is_online": false,
+                  "last_seen_at": 1596674160437
+                },
+                {
+                  "user_id": "usr_5b9a17ab9f247b0f9ef375a0",
+                  "nickname": "Shirin N.",
+                  "profile_url": "https://collabu-prod-resized.s3.ap-southeast-1.amazonaws.com/resized/cropped1180718495399944334.jpg",
+                  "metadata": {
+                    "homeCountry": "Singapore"
+                  },
+                  "is_active": true,
+                  "is_online": false,
+                  "last_seen_at": 1596652899895
+                },
+                {
+                  "user_id": "usr_5b741fc79f247b0f9ef3756e",
+                  "nickname": "Mohd A.",
+                  "profile_url": "https://static-dv.collabdeen.com/avtaar/user_default_profile_pic_1.png",
+                  "metadata": {
+                    "homeCountry": "Singapore"
+                  },
+                  "is_active": true,
+                  "is_online": true,
+                  "last_seen_at": 0
+                }
+              ],
+              "uuid": "d6d33b25-050d-4707-b491-698b88404627",
+              "created_ts": "2020-08-06T03:42:01.354+0000",
+              "updated_ts": "2020-08-06T03:42:01.354+0000",
+              "created_by": "5b741fc79f247b0f9ef3756e",
+              "updated_by": "5b741fc79f247b0f9ef3756e",
+              "community_id": "5f0c7fa6feec1a54f7d20620"
+            }
+          ]
+        },
+        "eligibility": {},
+        "registered": false,
+        "business": true,
+        "premium": true,
+        "active": true
+      },
+      {
+        "uuid": "b05d43b9-b88d-448c-8feb-1e03f4cd8280",
+        "createdTS": "2020-07-16T07:51:31.550+0000",
+        "updatedTS": "2020-08-01T15:53:31.801+0000",
+        "createdBy": "5b9a17ab9f247b0f9ef375a0",
+        "updatedBy": "5bf39dec9f247b2e587c573b",
+        "version": 4,
+        "id": "5f100703feec1a54f7d206e9",
+        "accountId": 1512574,
+        "name": "Caravan Travel",
+        "description": "Karwanhajj Group USA groups are guided by knowledgable scholars and travel experts to help you overcome this challenging journey of your life.",
+        "handle": "CaravanTravel",
+        "communityType": "BUSINESS_BRAND",
+        "location": {
+          "uuid": "9401c446-b992-48f8-8935-6392129cba0d",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              -74.4056612,
+              40.0583238
+            ],
+            "latitude": "40.0583238",
+            "longitude": "-74.4056612"
+          },
+          "address": {
+            "uuid": "48a07980-6e76-4dec-a80b-9935fe5f8c5c",
+            "addressLine1": "New Jersey, USA",
+            "displayAddressLine": "New Jersey, USA",
+            "city": "Jackson Township",
+            "country": "United States",
+            "zipcode": "08527",
+            "active": true
+          },
+          "gplaceId": "ChIJn0AAnpX7wIkRjW0_-Ad70iw",
+          "active": true
+        },
+        "webSiteUrl": "www.caravanhajj.com",
+        "contactPoints": [
+          {
+            "type": "EMAIL",
+            "value": "caravanhajj@hotmail.com"
+          },
+          {
+            "type": "MOBILE",
+            "value": "+732-225-4050"
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "contentVisibilityType": "PUBLIC",
+        "businessCategory": "Halal Travel & Tourism",
+        "settings": [
+          {
+            "uuid": "d688c345-8e1b-41e2-b807-394b39353589",
+            "createdTS": "2020-07-16T07:51:31.550+0000",
+            "updatedTS": "2020-07-16T07:51:31.550+0000",
+            "createdBy": "5b9a17ab9f247b0f9ef375a0",
+            "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "efded4ff-179d-4dbf-9244-ff46f32654b8",
+            "createdTS": "2020-08-01T15:53:31.802+0000",
+            "updatedTS": "2020-08-01T15:53:31.802+0000",
+            "createdBy": "5bf39dec9f247b2e587c573b",
+            "updatedBy": "5bf39dec9f247b2e587c573b",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "183efea5-9a0e-430c-b3d6-ff8ca1e41404",
+            "id": "5f2a691c3a68d6f1a623acd0",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f100703feec1a54f7d206e9",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/bfbab715-9c3f-4517-9897-4b1dd9b522fe.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/bfbab715-9c3f-4517-9897-4b1dd9b522fe.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "c987bea0-cd95-4b04-8cfc-54a4cb5e1959",
+            "id": "5f2a69103a68d6f1a623abee",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f100703feec1a54f7d206e9",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d51d0503-8223-4ba0-93d9-98a4700455f8.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d51d0503-8223-4ba0-93d9-98a4700455f8.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "socialConnections": [
+          {
+            "url": "http://www.caravanhajj.com/"
+          }
+        ],
+        "tags": [
+          {
+            "uuid": "a911032e-4296-4af3-a573-b99f5e0b5477",
+            "name": "iHalalExpo",
+            "slug": "ihe-2020",
+            "auto": true,
+            "replicate": true,
+            "active": true
+          }
+        ],
+        "eligibility": {},
+        "registered": false,
+        "business": true,
+        "premium": true,
+        "active": true
+      },
+      {
+        "uuid": "05b76429-bb6f-4b1e-b174-1e55f24cec67",
+        "createdTS": "2020-11-26T09:39:23.757+0000",
+        "updatedTS": "2020-11-29T10:09:31.631+0000",
+        "createdBy": "5b9a17ab9f247b0f9ef375a0",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 8,
+        "id": "5fbf77cbf84ffe0119312740",
+        "accountId": 1512716,
+        "name": "Have Halal, Will Travel",
+        "description": "Have Halal, Will Travel (HHWT) is the largest travel and lifestyle platform for Muslims in Asia, with a reach just shy of 10 million monthly through our media platforms. We enable Muslims to explore the world without compromising their faith. We do this through engaging content such as halal food guides and in-depth itineraries for Muslim travellers.\n\nHHWT works with world-leading brands such as Visa International, Singapore Tourism Board, Korea Tourism Organization, Tourism New Zealand, KLM, Scoot and AirAsia to help them tap on this fast-growing travel segment. \n\n \n\nThrough our work, we hope to foster peace and understanding between people of different backgrounds. Travel has become one of the great forces of peace, breaking down stereotypes and biases people may have. We work towards this vision in all aspects of our business.",
+        "handle": "HaveHalal,WillTravel",
+        "communityType": "BUSINESS_BRAND",
+        "location": {
+          "uuid": "6e0681c5-77b2-45df-bd2b-97bbbe3495e8",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              103.8587379,
+              1.302662
+            ],
+            "latitude": "1.302662",
+            "longitude": "103.8587379"
+          },
+          "address": {
+            "uuid": "dcbe34d5-be9a-41c0-a25a-325f5e54924e",
+            "addressLine1": "721 North Bridge Rd, Singapore 198689",
+            "displayAddressLine": "721 North Bridge Rd, Singapore 198689",
+            "city": "Singapore",
+            "country": "Singapore",
+            "zipcode": "198689",
+            "active": true
+          },
+          "gplaceId": "ChIJU2Pz0LAZ2jERQgZIKn89S_U",
+          "active": true
+        },
+        "webSiteUrl": "https://www.havehalalwilltravel.com/",
+        "contactPoints": [
+          {
+            "type": "EMAIL",
+            "value": "editorial@havehalalwilltravel.com"
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "contentVisibilityType": "PUBLIC",
+        "businessCategory": "Halal Travel & Tourism",
+        "settings": [
+          {
+            "uuid": "035b8847-c471-4b66-8361-7866882e5804",
+            "createdTS": "2020-11-26T09:39:23.782+0000",
+            "updatedTS": "2020-11-26T09:39:23.782+0000",
+            "createdBy": "5b9a17ab9f247b0f9ef375a0",
+            "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "47bce86b-9acf-4f10-b9c6-b24da0b71289",
+            "createdTS": "2020-11-29T10:09:30.196+0000",
+            "updatedTS": "2020-11-29T10:09:30.196+0000",
+            "createdBy": "5b741fc79f247b0f9ef3756e",
+            "updatedBy": "5b741fc79f247b0f9ef3756e",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "661a0c5e-4f23-4566-9856-645a81936869",
+            "id": "5fbf78d95eb217b8e789c8de",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5fbf77cbf84ffe0119312740",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/3bfb37a4-6bcf-4cb4-aa77-e767608e1a84.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/3bfb37a4-6bcf-4cb4-aa77-e767608e1a84.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "5c9a75b8-bfd9-4091-810f-08c83bf15482",
+            "id": "5fbf78345eb217b8e789bfbf",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5fbf77cbf84ffe0119312740",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/dd960042-5f93-4547-9ddc-e33f2ea9d438.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/dd960042-5f93-4547-9ddc-e33f2ea9d438.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "socialConnections": [
+          {
+            "url": "https://www.instagram.com/havehalalwilltravel/"
+          },
+          {
+            "url": "https://m.facebook.com/havehalalwilltravel"
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCQDXfBKpyo7dmiuAy7UcxFA"
+          }
+        ],
+        "tags": [
+          {
+            "uuid": "11fa36ee-d401-4539-ad9e-9a4a8d71f8fa",
+            "name": "Halal in Asia",
+            "slug": "hia-2020",
+            "auto": false,
+            "replicate": true,
+            "active": true
+          }
+        ],
+        "eligibility": {},
+        "registered": true,
+        "verified": true,
+        "business": true,
+        "premium": true,
+        "active": true
+      },
+      {
+        "uuid": "81c47783-ae75-413d-9dca-d9fc76b8f324",
+        "createdTS": "2020-07-13T16:29:07.561+0000",
+        "updatedTS": "2020-08-01T15:54:13.422+0000",
+        "createdBy": "5b9a17ab9f247b0f9ef375a0",
+        "updatedBy": "5bf39dec9f247b2e587c573b",
+        "version": 7,
+        "id": "5f0c8bd3feec1a54f7d20638",
+        "accountId": 1512558,
+        "name": "Mashaer Travel",
+        "description": "We are a USA based Hajj & Umrah Company. WE have two companies that are sister companies. The name of our sister company is Caravan Travel.",
+        "handle": "MASHAERTRAVEL",
+        "communityType": "BUSINESS_BRAND",
+        "location": {
+          "uuid": "3fbc6ab5-833f-456f-93d2-8857b3553feb",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              -74.30143989999999,
+              40.5251689
+            ],
+            "latitude": "40.5251689",
+            "longitude": "-74.30143989999999"
+          },
+          "address": {
+            "uuid": "0222dc41-3005-4111-a4f0-46505b1e2501",
+            "addressLine1": "259 New Brunswick Ave, Fords, NJ 08863, USA",
+            "displayAddressLine": "259 New Brunswick Ave, Fords, NJ 08863, USA",
+            "city": "Woodbridge Township",
+            "country": "United States",
+            "zipcode": "08863",
+            "active": true
+          },
+          "gplaceId": "ChIJj61Oyvm1w4kRjePIKAzCOxQ",
+          "active": true
+        },
+        "webSiteUrl": "www.mashaertravel.com",
+        "contactPoints": [
+          {
+            "type": "EMAIL",
+            "value": "mashaertravelinc@gmail.com"
+          },
+          {
+            "type": "MOBILE",
+            "value": "+732-707-7861"
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "contentVisibilityType": "PUBLIC",
+        "businessCategory": "Halal Travel & Tourism",
+        "settings": [
+          {
+            "uuid": "547d53ce-a4e1-4ec4-a9fc-b59483f2396f",
+            "createdTS": "2020-07-13T16:29:07.561+0000",
+            "updatedTS": "2020-07-13T16:29:07.561+0000",
+            "createdBy": "5b9a17ab9f247b0f9ef375a0",
+            "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "294cf9cb-f3ed-45fb-af62-1238814404d3",
+            "createdTS": "2020-08-01T15:54:13.422+0000",
+            "updatedTS": "2020-08-01T15:54:13.422+0000",
+            "createdBy": "5bf39dec9f247b2e587c573b",
+            "updatedBy": "5bf39dec9f247b2e587c573b",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "11fd06df-47c0-4aa8-a240-2ce6cc8a7965",
+            "id": "5f0d75e32f15fdd5106b1a79",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f0c8bd3feec1a54f7d20638",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d87ca79f-ec86-4f44-a71d-f02811ee8925.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/d87ca79f-ec86-4f44-a71d-f02811ee8925.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "18e1257f-bb18-4dae-b7a5-a1be3c4f869b",
+            "id": "5f0d78e52f15fdd5106b4cf4",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f0c8bd3feec1a54f7d20638",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/bdcb827b-131f-4019-a1cd-cfd05b08c94b.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/bdcb827b-131f-4019-a1cd-cfd05b08c94b.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "socialConnections": [
+          {
+            "url": "www.mashaertravel.com"
+          },
+          {
+            "url": "https://instagram.com/mashaertravel?igshid=1n39pu1s1cefm"
+          }
+        ],
+        "tags": [
+          {
+            "uuid": "f7dead8d-ef23-4f11-b334-bf96b90286d2",
+            "name": "iHalalExpo",
+            "slug": "ihe-2020",
+            "auto": true,
+            "replicate": true,
+            "active": true
+          }
+        ],
+        "eligibility": {},
+        "registered": false,
+        "business": true,
+        "premium": true,
+        "active": true
+      },
+      {
+        "uuid": "f44aa706-0108-4ab8-b3b2-2fdb8feecac4",
+        "createdTS": "2020-10-16T09:08:28.737+0000",
+        "updatedTS": "2020-10-16T10:47:37.341+0000",
+        "createdBy": "5b9a17ab9f247b0f9ef375a0",
+        "updatedBy": "5b741fc79f247b0f9ef3756e",
+        "version": 5,
+        "id": "5f89630cd24c050577e296fd",
+        "accountId": 1512695,
+        "name": "Nur and Duha Travels",
+        "description": "At Nur & Duha Travels, we offer Halal & Muslim Friendly services and Tourism products for Muslim travelers from all over the world who are willing to visit Spain, Portugal and Morocco.",
+        "handle": "NurandDuhaTravels",
+        "communityType": "BUSINESS_BRAND",
+        "location": {
+          "uuid": "a80e4377-ca17-45b4-933b-77edfc2467f6",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              -3.7037902,
+              40.4167754
+            ],
+            "latitude": "40.4167754",
+            "longitude": "-3.7037902"
+          },
+          "address": {
+            "uuid": "c9d64b9b-7588-4ace-9c07-6307b11e2f30",
+            "addressLine1": "Madrid, Spain",
+            "displayAddressLine": "Madrid, Spain",
+            "city": "Madrid",
+            "country": "Spain",
+            "active": true
+          },
+          "gplaceId": "ChIJgTwKgJcpQg0RaSKMYcHeNsQ",
+          "active": true
+        },
+        "webSiteUrl": "www.nurandduha.com",
+        "contactPoints": [
+          {
+            "type": "EMAIL",
+            "value": "info@nurandduha.com"
+          },
+          {
+            "type": "MOBILE",
+            "value": "+620225571"
+          }
+        ],
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "contentVisibilityType": "PUBLIC",
+        "businessCategory": "Halal Travel & Tourism",
+        "settings": [
+          {
+            "uuid": "c9eaa977-7672-4bac-8178-fa2b0e7505e4",
+            "createdTS": "2020-10-16T09:08:28.737+0000",
+            "updatedTS": "2020-10-16T09:08:28.737+0000",
+            "createdBy": "5b9a17ab9f247b0f9ef375a0",
+            "updatedBy": "5b9a17ab9f247b0f9ef375a0",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          },
+          {
+            "uuid": "e24b005c-dc3e-475b-864d-d9e15bf4f447",
+            "createdTS": "2020-10-16T10:47:26.765+0000",
+            "updatedTS": "2020-10-16T10:47:26.765+0000",
+            "createdBy": "5b741fc79f247b0f9ef3756e",
+            "updatedBy": "5b741fc79f247b0f9ef3756e",
+            "key": "COMM_CHAT_USR2COM_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "proImg": {
+            "uuid": "0e010316-858b-4433-abfd-410cc12c7a33",
+            "id": "5f8965b35eb217b8e7d59dbb",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f89630cd24c050577e296fd",
+            "type": "CommunityProfilePic",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/abc1e17b-f919-472e-9eb7-8772c79ff3c2.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/abc1e17b-f919-472e-9eb7-8772c79ff3c2.jpg"
+              }
+            ],
+            "active": true
+          },
+          "covImg": {
+            "uuid": "4e819da9-15e3-4dba-ad85-84693e73cfdf",
+            "id": "5f89652d5eb217b8e7d5964a",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5f89630cd24c050577e296fd",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/3c402c7f-deb5-4542-9e55-9f61bce89062.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:008a826b-a681-462a-8c0d-dc37de5af1f7/3c402c7f-deb5-4542-9e55-9f61bce89062.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "socialConnections": [
+          {
+            "url": "https://twitter.com/nurandduha/"
+          },
+          {
+            "url": "https://www.linkedin.com/nurandduha/?_l=en_US"
+          },
+          {
+            "url": "https://plus.google.com/nurandduha/"
+          }
+        ],
+        "eligibility": {},
+        "registered": false,
+        "business": true,
+        "premium": false,
+        "active": true
+      },
+      {
+        "uuid": "68af7309-5e96-4ee9-bca9-c0abc0ed47a1",
+        "createdTS": "2020-04-18T06:32:24.677+0000",
+        "updatedTS": "2020-04-18T06:32:24.677+0000",
+        "createdBy": "5e99964ce626d469e1099d9b",
+        "updatedBy": "5e99964ce626d469e1099d9b",
+        "version": 1,
+        "id": "5e9a9ef8b26c32236fe88fd4",
+        "accountId": 1512498,
+        "name": "TRAVEL OF INDIA",
+        "handle": "TRAVELOFINDIA",
+        "communityType": "BUSINESS_BRAND",
+        "location": {
+          "uuid": "c7e2eaec-07cb-43b2-bff0-ab71812f83c8",
+          "geoCoordinates": {
+            "type": "Point",
+            "coordinates": [
+              77.595401,
+              13.024932
+            ],
+            "latitude": "13.024932",
+            "longitude": "77.595401"
+          },
+          "address": {
+            "uuid": "e964108d-908a-4755-ae6a-799c7c542b9b",
+            "addressLine1": "India",
+            "city": "Bengaluru",
+            "country": "India",
+            "zipcode": "560032",
+            "active": true
+          },
+          "gplaceId": "ChIJq_wOuboXrjsRyr3xYezh07Q",
+          "active": true
+        },
+        "status": "ACTIVE",
+        "creationSourceType": "USER_CREATED",
+        "contentVisibilityType": "PUBLIC",
+        "businessCategory": "Travel, Tourism and Hospitality",
+        "settings": [
+          {
+            "uuid": "7e03cbf8-3208-4c88-936a-3a18e74e3dfa",
+            "createdTS": "2020-04-18T06:32:24.683+0000",
+            "updatedTS": "2020-04-18T06:32:24.683+0000",
+            "createdBy": "5e99964ce626d469e1099d9b",
+            "updatedBy": "5e99964ce626d469e1099d9b",
+            "key": "COMM_COMMENTS_B",
+            "value": "true",
+            "active": true
+          }
+        ],
+        "media": {
+          "covImg": {
+            "uuid": "6e2a4a96-1c50-4bec-88bb-d9ccb3c8d503",
+            "id": "5e9a9fd4934c5ead0041c486",
+            "resourceType": "COMMUNITY",
+            "resourceId": "5e9a9ef8b26c32236fe88fd4",
+            "type": "CommunityCoverPhoto",
+            "contentType": "jpg",
+            "resizedMediaList": [
+              {
+                "type": "thumbnail",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:6b3565e8-550b-4430-a238-51603bb5336b/d4ce0b9a-f1dd-465f-b8b6-6c3eeb11776f.jpg"
+              },
+              {
+                "type": "resized",
+                "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:6b3565e8-550b-4430-a238-51603bb5336b/d4ce0b9a-f1dd-465f-b8b6-6c3eeb11776f.jpg"
+              }
+            ],
+            "active": true
+          }
+        },
+        "eligibility": {},
+        "business": true,
+        "active": true
+      }
+    ]
+  },
+  "page": {
+    "size": 25,
+    "totalElements": 6,
+    "totalPages": 1,
+    "number": 0
+  }
+}

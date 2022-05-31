@@ -13,6 +13,38 @@
         <item name="kc_createpost_style">@style/Widget.KitCod.CreatePost</item>
         <item name="kc_bottomsheetdialog_style">@style/Widget.KitCod.PostTypeDialog</item>
         <item name="kc_group_home_style">@style/Widget.KitCod.GroupHome</item>
+        <item name="kc_poll_style">@style/Widget.KitCod.Polls</item>
+        <item name="kc_comment_style">@style/Widget.KitCod.Comment</item>
+        <item name="kc_groups_list_style">@style/Widget.KitCod.GroupList</item>
+        <item name="kc_group_feed_style">@style/Widget.KitCod.GroupListFeed</item>
+    </style>
+
+    <style name="Widget.KitCod.GroupListFeed">
+        <item name="kc_groupslistfeed_tv_name_appearance">@style/KitcodDarkMed14</item>
+    </style>
+
+    <style name="Widget.KitCod.GroupList">
+        <item name="kc_groupslist_tv_name_appearance">@style/KitcodH2OnLight01</item>
+        <item name="kc_groupslist_tv_button_appearance">@style/KitcodButtonWhiteMed16</item>
+        <item name="kc_groupslist_tv_button_tint">@color/primary_300</item>
+    </style>
+
+    <style name="Widget.KitCod.Comment">
+        <item name="kc_comment_tv_name">@style/KitcodDarkMed14</item>
+        <item name="kc_comment_tv_id">@style/KitcodCaption2OnLight02</item>
+        <item name="kc_comment_tv_timepost">@style/KitcodCaption2OnLight02</item>
+        <item name="kc_comment_tv_comment">@style/KitcodDarkReg14</item>
+        <item name="kc_comment_tv_reply">@style/KitcodBlueNormal14</item>
+        <item name="kc_comment_tv_view_all_reply">@style/KitcodBlueNormal14</item>
+    </style>
+
+    <style name="Widget.KitCod.Polls">
+        <item name="kc_polls_option_appearance">@style/KitcodDarkNormal16</item>
+        <item name="kc_polls_option_percentage_appearance">@style/KitcodDarkMed</item>
+        <item name="kc_polls_option_voted_text_appearance">@style/KitcodDarkNormal16</item>
+        <item name="kc_polls_votes_appearance">@style/KitcodLightReg14</item>
+        <item name="kc_polls_option_bg_appearance">@drawable/bg_border_radius_5</item>
+        <item name="kc_polls_progress_bg_appearance">@drawable/polls_progress_bar</item>
     </style>
 
     <style name="Widget.KitCod.GroupHome">

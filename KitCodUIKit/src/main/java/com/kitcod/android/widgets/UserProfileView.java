@@ -53,4 +53,9 @@ public class UserProfileView extends FrameLayout {
         return binding.btnFollow.getTitleTextView();
     }
 
+    public KcProfileviewBinding getBinding() {
+        return binding;
+    }
+
+
 }

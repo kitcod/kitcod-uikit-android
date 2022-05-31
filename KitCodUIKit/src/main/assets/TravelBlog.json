@@ -1,0 +1,262 @@
+{
+  "_embedded": {
+    "postList": [
+      {
+        "uuid": "e638c4d2-d965-48e9-9e5e-50dea5466fb6",
+        "createdTS": "2022-05-30T03:15:50.526+0000",
+        "updatedTS": "2022-05-30T03:15:50.526+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "629436e6125ce0310c2b790a",
+        "title": "Dal lake",
+        "contentHTML": "<p>Amid the serene valleys, mountains, glistering lakes, the picturesque beauty of kashmir is perfect for romance with your love.</p><br>",
+        "contentMarkdown": "Amid the serene valleys, mountains, glistering lakes, the picturesque beauty of kashmir is perfect for romance with your love.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-05-30T03:15:50.526+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 10,
+            "VIEW": 1,
+            "LIKEOPTION5": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "e1827915-585d-464f-b847-6806419928db",
+              "id": "629436e942bc001997f8e58b",
+              "resourceType": "POST",
+              "resourceId": "629436e6125ce0310c2b790a",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/65e7915f-2b39-4082-b69e-71e27137776d.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/65e7915f-2b39-4082-b69e-71e27137776d.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "585ba7aa-aab9-4d36-a560-aa74470b8d05",
+        "createdTS": "2022-05-30T03:14:36.227+0000",
+        "updatedTS": "2022-05-30T03:14:36.227+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "6294369c125ce0310c2b7909",
+        "title": "Lonely Planet Greece",
+        "contentHTML": "<p>Experience the best of Greece with Lonely Planet.</p><br>",
+        "contentMarkdown": "Experience the best of Greece with Lonely Planet.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-05-30T03:14:36.227+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 1,
+            "VIEWTOT": 3,
+            "VIEW": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "docs": [
+            {
+              "uuid": "51d4868f-6efe-499d-b8b0-f1b19dcd53df",
+              "id": "6294369f42bc001997f8e58a",
+              "resourceType": "POST",
+              "resourceId": "6294369c125ce0310c2b7909",
+              "type": "CommunityDocument",
+              "mediaUrl": "https://content.collabdeen.com/public/doc/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/20220530-084432/57432e09dfcf4.pdf",
+              "contentType": "pdf",
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "9abfac0b-e2f4-409a-95ae-30e6c716b1f1",
+        "createdTS": "2022-05-20T04:07:24.355+0000",
+        "updatedTS": "2022-05-20T04:07:24.355+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "628713fc125ce0310c2b7903",
+        "title": "Blue Mosque",
+        "contentHTML": "<p>Breath-taking Architecture<br>A functioning mosque, its six towers and mesmerizing architecture has made it an extremely popular among tourists visiting Istanbul.</p><br>",
+        "contentMarkdown": "Breath-taking Architecture\nA functioning mosque, its six towers and mesmerizing architecture has made it an extremely popular among tourists visiting Istanbul.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-05-20T04:07:24.355+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "LIKEOPTION1": 2,
+            "VIEWTOT": 11,
+            "VIEW": 1
+          },
+          "userInteractions": [
+            {
+              "uuid": "69f97f22-470d-4a3d-b734-a621033e3001",
+              "createdTS": "2022-05-25T08:40:45.588+0000",
+              "updatedTS": "2022-05-25T08:40:45.588+0000",
+              "version": 1,
+              "id": "628deb8da55f052310800402",
+              "interactionType": "LIKEOPTION1",
+              "resourceType": "POST",
+              "resourceId": "628713fc125ce0310c2b7903",
+              "userId": "5b7a7a3a9f247b0f9ef37595",
+              "count": 1,
+              "active": true
+            }
+          ]
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "472e9436-d906-4aad-8440-5c0fe5ab4908",
+              "id": "628713fe42bc001997f8e583",
+              "resourceType": "POST",
+              "resourceId": "628713fc125ce0310c2b7903",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/78cbb60c-4962-47eb-9f35-12f2f9903d3d.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/78cbb60c-4962-47eb-9f35-12f2f9903d3d.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "c68b62a9-8a17-4a3a-b403-0611ebf29c06",
+        "createdTS": "2022-05-20T04:06:44.965+0000",
+        "updatedTS": "2022-05-20T04:06:44.965+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "628713d4125ce0310c2b7902",
+        "title": "kasol",
+        "contentHTML": "<p>The hill-hamlet of Kasol stands at over 1,580 meters above sea level, in Himachal Pradesh, and flaunts raw natural beauty with lush conifer forests, snow-capped Himalayan mountains and winding rivers.</p><br>",
+        "contentMarkdown": "The hill-hamlet of Kasol stands at over 1,580 meters above sea level, in Himachal Pradesh, and flaunts raw natural beauty with lush conifer forests, snow-capped Himalayan mountains and winding rivers.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-05-20T04:06:44.965+0000",
+        "interactionSummary": {
+          "interactionCounts": {
+            "VIEWTOT": 5,
+            "VIEW": 1
+          }
+        },
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "14eb981b-70fd-4f02-a2a1-49ee5b6c0978",
+              "id": "628713d842bc001997f8e582",
+              "resourceType": "POST",
+              "resourceId": "628713d4125ce0310c2b7902",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/3cfc2d71-91e5-4ded-bbda-f273ce76764a.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/3cfc2d71-91e5-4ded-bbda-f273ce76764a.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      },
+      {
+        "uuid": "ffcad36e-96ef-40dc-9927-ade79120daf1",
+        "createdTS": "2022-05-20T04:05:50.072+0000",
+        "updatedTS": "2022-05-20T04:05:50.072+0000",
+        "createdBy": "5b7a7a3a9f247b0f9ef37595",
+        "updatedBy": "5b7a7a3a9f247b0f9ef37595",
+        "version": 1,
+        "id": "6287139e125ce0310c2b7901",
+        "title": "Bali",
+        "contentHTML": "<p>An exotic tropical destination that flaunts scenic beaches and mountains, Bali is deep-rooted in culture and tradition, which adds to the charm of this scenic island.</p><br>",
+        "contentMarkdown": "An exotic tropical destination that flaunts scenic beaches and mountains, Bali is deep-rooted in culture and tradition, which adds to the charm of this scenic island.",
+        "postType": "ANNOUNCEMENT",
+        "communityId": "5bc447519f247b5778b024ec",
+        "publishedTS": "2022-05-20T04:05:50.072+0000",
+        "communityContentVisibility": "PRIVATE",
+        "media": {
+          "imgs": [
+            {
+              "uuid": "c328d0d1-4efd-4a76-88e4-cad3db57e9b6",
+              "id": "628713a242bc001997f8e581",
+              "resourceType": "POST",
+              "resourceId": "6287139e125ce0310c2b7901",
+              "displayRank": 1,
+              "type": "CommunityPic",
+              "contentType": "jpg",
+              "resizedMediaList": [
+                {
+                  "type": "thumbnail",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/tn/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/14cacf29-b914-456c-b5f3-364b191dd55f.jpg"
+                },
+                {
+                  "type": "resized",
+                  "mediaUrl": "https://content.collabdeen.com/img/rs/md/ap-southeast-1:2b2a9945-87ca-4217-a3ac-df1eb6f3e8bb/14cacf29-b914-456c-b5f3-364b191dd55f.jpg"
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        "businessCommunity": false,
+        "active": true
+      }
+    ]
+  },
+  "_links": {
+    "next": {
+      "href": "http://api-sg.collabdeen.com/post-api/posts?page=1&size=25&business=false"
+    },
+    "last": {
+      "href": "http://api-sg.collabdeen.com/post-api/posts?page=32&size=25&business=false"
+    }
+  },
+  "page": {
+    "size": 25,
+    "totalElements": 802,
+    "totalPages": 33,
+    "number": 0
+  }
+}

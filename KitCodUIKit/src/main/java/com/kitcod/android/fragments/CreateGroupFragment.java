@@ -71,7 +71,7 @@ public class CreateGroupFragment extends BaseFragment {
         Bundle args = getArguments();
         boolean useHeader = false;
         boolean useHeaderLeftButton = true;
-        boolean useHeaderRightButton = true;
+        boolean useHeaderRightButton = false;
         int headerLeftButtonIconResId = R.drawable.icon_arrow_left;
         int headerRightButtonIconResId = R.drawable.icon_info;
         ColorStateList headerLeftButtonIconTint = null;
@@ -79,7 +79,7 @@ public class CreateGroupFragment extends BaseFragment {
         if (args != null) {
             useHeader = args.getBoolean(StringSet.KEY_USE_HEADER, false);
             useHeaderLeftButton = args.getBoolean(StringSet.KEY_USE_HEADER_LEFT_BUTTON, true);
-            useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, true);
+            useHeaderRightButton = args.getBoolean(StringSet.KEY_USE_HEADER_RIGHT_BUTTON, false);
             headerLeftButtonIconResId = args.getInt(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_RES_ID, R.drawable.icon_arrow_left);
             headerRightButtonIconResId = args.getInt(StringSet.KEY_HEADER_RIGHT_BUTTON_ICON_RES_ID, R.drawable.icon_info);
             headerLeftButtonIconTint = args.getParcelable(StringSet.KEY_HEADER_LEFT_BUTTON_ICON_TINT);
@@ -96,6 +96,8 @@ public class CreateGroupFragment extends BaseFragment {
         }
         if (headerTitle != null) {
             binding.chvChannelHeader.getTitleTextView().setText(headerTitle);
+        } else {
+            binding.chvChannelHeader.getTitleTextView().setText("Create");
         }
         binding.createGroupView.getTitleTextView().setOnClickListener(new View.OnClickListener() {
             @Override

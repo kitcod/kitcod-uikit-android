@@ -13,7 +13,18 @@
         <item name="kc_radio_button_style">@style/Widget.KitCod.radio.Custom</item>
         <item name="kc_feedview_style">@style/Widget.KitCod.Feedsview.Custom</item>
         <item name="kc_bottomsheetdialog_style">@style/Widget.KitCod.PostTypeDialog.Custom</item>
+        <item name="kc_feedview_preview_style">@style/Widget.KitCod.FeedsPreview.Custom</item>
+        <item name="kc_poll_style">@style/Widget.KitCod.Polls.Custom</item>
+        <item name="kc_groups_list_style">@style/Widget.KitCod.GroupList.Custom</item>
     </style>
+
+
+    <style name="Widget.KitCod.GroupList.Custom">
+        <item name="kc_groupslist_tv_name_appearance">@style/KitcodH2OnLight01</item>
+        <item name="kc_groupslist_tv_button_appearance">@style/KitcodButtonWhiteMed16</item>
+        <item name="kc_groupslist_tv_button_tint">@color/primary_500</item>
+    </style>
+
 
     <style name="Widget.KitCod.PostTypeDialog.Custom">
         <item name="kc_post_type_dialog_icon_tint">@color/colorPrimary</item>
@@ -21,6 +32,24 @@
         <item name="kc_feedsview_name_appearance">@style/KitcodH2OnLight01</item>-->
     </style>
 
+    <style name="Widget.KitCod.FeedsPreview.Custom">
+        <item name="kc_member_preview_name_appearance">@style/KitcodDarkMed16</item>
+        <item name="kc_member_preview_groupname_appearance">@style/KitcodBlueNormal14</item>
+        <item name="kc_member_preview_datetime_appearence">@style/KitcodCaption2OnLight02</item>
+        <item name="kc_member_preview_content_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_member_preview_like_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_member_preview_comment_appearence">@style/KitcodDarkNormal16</item>
+        <item name="kc_member_preview_share_appearence">@style/KitcodDarkNormal16</item>
+    </style>
+
+    <style name="Widget.KitCod.Polls.Custom">
+        <item name="kc_polls_option_appearance">@style/KitcodDarkNormal16</item>
+        <item name="kc_polls_option_bg_appearance">@drawable/button_contained</item>
+        <item name="kc_polls_option_percentage_appearance">@style/KitcodDarkMed</item>
+        <item name="kc_polls_option_voted_text_appearance">@style/KitcodDarkNormal16</item>
+        <item name="kc_polls_votes_appearance">@style/KitcodLightReg14</item>
+
+    </style>
 
     <style name="Widget.KitCod.Feedsview.Custom">
         <!--<item name="kc_feedsview_item_background">@drawable/bg_blue_stroke_20</item>
